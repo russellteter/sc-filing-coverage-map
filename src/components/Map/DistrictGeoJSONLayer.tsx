@@ -33,10 +33,12 @@ export interface DistrictGeoJSONLayerProps {
   onDistrictHover?: (districtNumber: number | null) => void;
   /** Filter to specific districts (numbers) */
   filteredDistricts?: Set<number>;
-  /** Active lens for multi-lens visualization (default: 'incumbents') */
+  /** Active lens for multi-lens visualization (default: 'dem-filing') */
   activeLens?: LensId;
   /** Opportunity data for opportunity lens */
   opportunityData?: Record<string, OpportunityData>;
+  /** When true, highlight only gap districts (no Dem filed) */
+  gapsOnly?: boolean;
 }
 
 /**
@@ -56,6 +58,7 @@ export default function DistrictGeoJSONLayer({
   filteredDistricts,
   activeLens = DEFAULT_LENS,
   opportunityData,
+  gapsOnly = false,
 }: DistrictGeoJSONLayerProps) {
   const [geoJsonData, setGeoJsonData] = useState<FeatureCollection | null>(null);
   const [leafletComponents, setLeafletComponents] = useState<Awaited<ReturnType<typeof importLeaflet>>>(null);
@@ -158,7 +161,7 @@ export default function DistrictGeoJSONLayer({
       const districtData = candidatesData?.[chamber]?.[String(districtNum)];
       const electionHistory = electionsData?.[chamber]?.[String(districtNum)];
       const oppData = opportunityData?.[String(districtNum)];
-      fillColor = getDistrictFillColorWithLens(districtData, electionHistory, oppData, activeLens, true);
+      fillColor = getDistrictFillColorWithLens(districtData, electionHistory, oppData, activeLens, true, gapsOnly);
     }
 
     return {

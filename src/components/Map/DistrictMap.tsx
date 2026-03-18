@@ -25,10 +25,12 @@ interface DistrictMapProps {
   republicanDataMode?: 'none' | 'incumbents' | 'challengers' | 'all';
   /** State code for multi-state support (default: 'sc') */
   stateCode?: string;
-  /** Active lens for multi-lens visualization (default: 'incumbents') */
+  /** Active lens for multi-lens visualization (default: 'dem-filing') */
   activeLens?: LensId;
   /** Opportunity data for opportunity lens */
   opportunityData?: Record<string, OpportunityData>;
+  /** When true, highlight only gap districts (no Dem filed) */
+  gapsOnly?: boolean;
 }
 
 /**
@@ -54,6 +56,7 @@ export default function DistrictMap({
   stateCode = 'sc',
   activeLens = DEFAULT_LENS,
   opportunityData,
+  gapsOnly = false,
 }: DistrictMapProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const [rawSvgContent, setRawSvgContent] = useState<string>('');
@@ -148,7 +151,7 @@ export default function DistrictMap({
       const districtData = candidatesData[chamber][String(districtNum)];
       const electionHistory = electionsData?.[chamber]?.[String(districtNum)];
       const oppData = opportunityData?.[String(districtNum)];
-      const color = getDistrictFillColorWithLens(districtData, electionHistory, oppData, activeLens, false);
+      const color = getDistrictFillColorWithLens(districtData, electionHistory, oppData, activeLens, false, gapsOnly);
       const category = getDistrictCategory(districtData, electionHistory, oppData, activeLens);
       const statusLabel = getCategoryLabel(category, activeLens);
 
@@ -163,10 +166,6 @@ export default function DistrictMap({
       }
       if (justSelected === districtNum) {
         classes.push('just-selected');
-      }
-      // Priority pulse for HOT opportunity districts (v3.4)
-      if (oppData?.tier === 'HOT' && activeLens === 'opportunity') {
-        classes.push('high-priority');
       }
 
       // Calculate ripple delay for lens transition choreography (v3.3)
@@ -208,7 +207,7 @@ export default function DistrictMap({
     });
 
     return new XMLSerializer().serializeToString(svg);
-  }, [rawSvgContent, chamber, candidatesData, electionsData, selectedDistrict, filteredDistricts, justSelected, activeLens, opportunityData, stateCode]);
+  }, [rawSvgContent, chamber, candidatesData, electionsData, selectedDistrict, filteredDistricts, justSelected, activeLens, opportunityData, stateCode, gapsOnly]);
 
   // Handle click events via event delegation (more efficient than per-path listeners)
   const handleClick = useCallback((e: React.MouseEvent) => {

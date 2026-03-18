@@ -5,10 +5,6 @@ import { useState, useRef, useEffect } from 'react';
 export interface FilterState {
   party: string[];
   hasCandidate: 'all' | 'yes' | 'no';
-  contested: 'all' | 'yes' | 'no';
-  opportunity: string[];
-  showRepublicanData: boolean;
-  republicanDataMode: 'none' | 'incumbents' | 'challengers' | 'all';
 }
 
 interface FilterPanelProps {
@@ -21,10 +17,6 @@ interface FilterPanelProps {
 export const defaultFilters: FilterState = {
   party: [],
   hasCandidate: 'all',
-  contested: 'all',
-  opportunity: [],
-  showRepublicanData: false,
-  republicanDataMode: 'none',
 };
 
 // Dropdown component for filter groups
@@ -147,8 +139,6 @@ export default function FilterPanel({
   className = '',
   variant = 'horizontal',
 }: FilterPanelProps) {
-  const [showMore, setShowMore] = useState(false);
-
   const partyOptions = [
     { value: 'Democratic', label: 'Democrats', color: 'var(--party-dem)' },
     { value: 'Republican', label: 'Republicans', color: 'var(--party-rep)' },
@@ -161,19 +151,6 @@ export default function FilterPanel({
     { value: 'no', label: 'No Candidates' },
   ];
 
-  const raceOptions = [
-    { value: 'all', label: 'All Races' },
-    { value: 'yes', label: 'Contested' },
-    { value: 'no', label: 'Uncontested' },
-  ];
-
-  const opportunityOptions = [
-    { value: 'HIGH_OPPORTUNITY', label: 'High Opportunity', color: '#059669' },
-    { value: 'EMERGING', label: 'Emerging', color: '#0891B2' },
-    { value: 'needsCandidate', label: 'Needs Candidate', color: '#F59E0B' },
-    { value: 'DEFENSIVE', label: 'Defensive', color: '#3676eb' },
-  ];
-
   const toggleParty = (party: string) => {
     const newParties = filters.party.includes(party)
       ? filters.party.filter((p) => p !== party)
@@ -181,19 +158,7 @@ export default function FilterPanel({
     onFilterChange({ ...filters, party: newParties });
   };
 
-  const toggleOpportunity = (opportunity: string) => {
-    const newOpportunities = filters.opportunity.includes(opportunity)
-      ? filters.opportunity.filter((o) => o !== opportunity)
-      : [...filters.opportunity, opportunity];
-    onFilterChange({ ...filters, opportunity: newOpportunities });
-  };
-
-  const activeFilterCount =
-    filters.party.length +
-    (filters.hasCandidate !== 'all' ? 1 : 0) +
-    (filters.contested !== 'all' ? 1 : 0) +
-    filters.opportunity.length +
-    (filters.showRepublicanData ? 1 : 0);
+  const activeFilterCount = filters.party.length + (filters.hasCandidate !== 'all' ? 1 : 0);
 
   const clearFilters = () => {
     onFilterChange(defaultFilters);
@@ -243,129 +208,6 @@ export default function FilterPanel({
           options={statusOptions}
           onChange={(value) => onFilterChange({ ...filters, hasCandidate: value as 'all' | 'yes' | 'no' })}
         />
-
-        {/* Opportunity Filter */}
-        <FilterDropdown
-          label="OPPORTUNITY"
-          options={opportunityOptions}
-          multiSelect
-          selectedValues={filters.opportunity}
-          onChange={toggleOpportunity}
-        />
-
-        {/* More button for additional filters */}
-        <div className="relative">
-          <button
-            type="button"
-            onClick={() => setShowMore(!showMore)}
-            className={`flex items-center gap-1 px-3 py-1.5 border rounded-md text-sm cursor-pointer transition-colors filter-more ${
-              showMore
-                ? 'bg-blue-50 border-blue-600 text-blue-700 filter-more-active'
-                : 'bg-transparent border-slate-200 text-slate-500 hover:bg-slate-50 hover:border-slate-300'
-            }`}
-            aria-expanded={showMore}
-          >
-            More
-            <svg
-              className={`w-4 h-4 transition-transform ${showMore ? 'rotate-180' : ''}`}
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-            </svg>
-          </button>
-
-          {showMore && (
-            <div className="absolute top-full right-0 mt-1 min-w-[280px] bg-white border border-slate-200 rounded-lg shadow-lg z-50 p-4 filter-more-panel">
-              {/* Race Type */}
-              <div className="mb-4 filter-more-section">
-                <div className="text-xs font-semibold uppercase tracking-wide text-slate-500 mb-2 filter-more-label">Race Type</div>
-                <div className="flex flex-wrap gap-2">
-                  {raceOptions.map((option) => {
-                    const isSelected = filters.contested === option.value;
-                    return (
-                      <button
-                        key={option.value}
-                        type="button"
-                        onClick={() => onFilterChange({ ...filters, contested: option.value as 'all' | 'yes' | 'no' })}
-                        className={`px-3 py-1.5 border rounded-full text-xs cursor-pointer transition-colors filter-chip ${
-                          isSelected
-                            ? 'bg-blue-600 border-blue-600 text-white filter-chip-selected'
-                            : 'bg-white border-slate-200 text-slate-700 hover:bg-slate-50 hover:border-slate-300'
-                        }`}
-                        aria-pressed={isSelected}
-                      >
-                        {option.label}
-                      </button>
-                    );
-                  })}
-                </div>
-              </div>
-
-              {/* Republican Data Toggle */}
-              <div className="filter-more-section">
-                <div className="text-xs font-semibold uppercase tracking-wide text-slate-500 mb-2 filter-more-label">Opposition Data</div>
-                <label className="flex items-center gap-3 cursor-pointer">
-                  <button
-                    type="button"
-                    role="switch"
-                    aria-checked={filters.showRepublicanData}
-                    onClick={() => {
-                      const newShowRepublican = !filters.showRepublicanData;
-                      onFilterChange({
-                        ...filters,
-                        showRepublicanData: newShowRepublican,
-                        republicanDataMode: newShowRepublican ? 'all' : 'none',
-                      });
-                    }}
-                    className="relative w-11 h-6 rounded-full border-0 cursor-pointer transition-colors filter-toggle"
-                    style={{
-                      background: filters.showRepublicanData ? '#DC2626' : '#E2E8F0',
-                    }}
-                  >
-                    <span
-                      className="absolute top-0.5 w-5 h-5 bg-white rounded-full shadow transition-transform filter-toggle-knob"
-                      style={{
-                        transform: filters.showRepublicanData ? 'translateX(20px)' : 'translateX(2px)',
-                      }}
-                    />
-                  </button>
-                  <span className="text-sm" style={{ color: filters.showRepublicanData ? '#DC2626' : '#64748B' }}>
-                    Show Republican Data
-                  </span>
-                </label>
-
-                {filters.showRepublicanData && (
-                  <div className="mt-2 flex flex-wrap gap-2">
-                    {[
-                      { value: 'incumbents', label: 'Incumbents' },
-                      { value: 'challengers', label: 'Challengers' },
-                      { value: 'all', label: 'All' },
-                    ].map((option) => {
-                      const isSelected = filters.republicanDataMode === option.value;
-                      return (
-                        <button
-                          key={option.value}
-                          type="button"
-                          onClick={() => onFilterChange({ ...filters, republicanDataMode: option.value as 'incumbents' | 'challengers' | 'all' })}
-                          className={`px-3 py-1.5 border rounded-full text-xs cursor-pointer transition-colors filter-chip ${
-                            isSelected
-                              ? 'bg-red-600 border-red-600 text-white filter-chip-selected-red'
-                              : 'bg-white border-slate-200 text-slate-700 hover:bg-slate-50 hover:border-slate-300'
-                          }`}
-                          aria-pressed={isSelected}
-                        >
-                          {option.label}
-                        </button>
-                      );
-                    })}
-                  </div>
-                )}
-              </div>
-            </div>
-          )}
-        </div>
       </div>
     );
   }

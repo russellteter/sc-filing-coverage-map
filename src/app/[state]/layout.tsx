@@ -27,13 +27,13 @@ export async function generateMetadata({ params }: StateLayoutProps): Promise<Me
 
   if (!config) {
     return {
-      title: 'State Not Found | State Election Intel Hub',
+      title: 'State Not Found | SC House Filing Coverage Map',
     };
   }
 
   return {
-    title: `${config.name} | State Election Intel Hub`,
-    description: `Election intelligence for ${config.name} - voter guide, opportunity scoring, and mobilization tools for Democratic campaigns`,
+    title: `${config.name} | SC House Filing Coverage Map`,
+    description: `${config.name} House candidate filing coverage map`,
   };
 }
 
