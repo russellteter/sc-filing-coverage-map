@@ -221,11 +221,20 @@ export function getDistrictFillColorWithLens(
   electionHistory: DistrictElectionHistory | undefined,
   opportunityData: OpportunityData | undefined,
   lensId: LensId = 'dem-filing',
-  useSolidColors = false
+  useSolidColors = false,
+  gapsOnly = false
 ): string {
   const category = getDistrictCategory(district, electionHistory, opportunityData, lensId);
 
-  return LENS_COLORS['dem-filing'][category as DemFilingCategory] ?? LENS_COLORS['dem-filing'].UNFILED;
+  // Gaps-only mode: highlight unfiled districts, fade everything else
+  if (gapsOnly) {
+    const hasDem = category === 'DEM_FILED' || category === 'DEM_PRIMARY' || category === 'BOTH_PARTIES';
+    return hasDem ? '#E2E8F0' : '#EA580C'; // faded gray vs orange attention
+  }
+
+  // Default simplified view: blue for any Dem filed, white for no Dem
+  const hasDem = category === 'DEM_FILED' || category === 'DEM_PRIMARY' || category === 'BOTH_PARTIES';
+  return hasDem ? '#1E40AF' : '#F1F5F9';
 }
 
 /**

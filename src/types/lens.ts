@@ -67,24 +67,9 @@ export const LENS_DEFINITIONS: Record<LensId, LensDefinition> = {
         description: 'At least one Democratic candidate has filed',
       },
       {
-        color: '#0F2980',
-        label: 'Dem Primary',
-        description: 'Two or more Democratic candidates (primary)',
-      },
-      {
-        color: '#991B1B',
-        label: 'Rep Only',
-        description: 'Republican filed, no Democratic candidate',
-      },
-      {
-        color: '#7C3AED',
-        label: 'Both Parties',
-        description: 'Both Democratic and Republican candidates filed',
-      },
-      {
-        color: '#E2E8F0',
-        label: 'Unfiled',
-        description: 'No candidates have filed in this district',
+        color: '#FFFFFF',
+        label: 'No Dem Filed',
+        description: 'No Democratic candidate has filed in this district',
       },
     ],
     footnote: 'Filing status from VREMS ballot filing data',

@@ -1,10 +1,8 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useMemo } from 'react';
 import type { LensId } from '@/types/lens';
 import { LENS_DEFINITIONS, DEFAULT_LENS } from '@/types/lens';
-
-const LEGEND_PINNED_KEY = 'legendPinned';
 
 interface LegendProps {
   /** Active lens - determines which legend items to show */
@@ -13,36 +11,15 @@ interface LegendProps {
 }
 
 /**
- * Legend component (v3.2) - Integrated instrument bezel design
+ * Legend component (v3.3) - Always-visible top-edge legend
  *
  * Design principles:
- * - Integrated into map container's bottom edge (not floating)
+ * - Integrated into map container's top edge
  * - Horizontal flow with subtle dividers
- * - Slides up from container edge on hover
- * - Pinnable: click to keep visible
+ * - Always visible (no hover/pin behavior)
  * - Glassmorphic surface continuous with map frame
  */
 export default function Legend({ activeLens = DEFAULT_LENS, className = '' }: LegendProps) {
-  // Pinned state: when true, legend stays visible even without hover
-  // Initialize from localStorage using lazy initializer (avoids useEffect setState issue)
-  const [isPinned, setIsPinned] = useState(() => {
-    if (typeof window === 'undefined') return false;
-    return localStorage.getItem(LEGEND_PINNED_KEY) === 'true';
-  });
-
-  // Toggle pinned state and save to localStorage
-  const handleTogglePin = () => {
-    const newState = !isPinned;
-    setIsPinned(newState);
-    if (typeof window !== 'undefined') {
-      if (newState) {
-        localStorage.setItem(LEGEND_PINNED_KEY, 'true');
-      } else {
-        localStorage.removeItem(LEGEND_PINNED_KEY);
-      }
-    }
-  };
-
   // Get legend items from the active lens definition
   const { legendItems, label: lensLabel } = useMemo(() => {
     const lens = LENS_DEFINITIONS[activeLens];
@@ -54,48 +31,10 @@ export default function Legend({ activeLens = DEFAULT_LENS, className = '' }: Le
 
   return (
     <div
-      className={`map-legend-integrated ${isPinned ? 'legend-pinned' : ''} ${className}`}
+      className={`map-legend-integrated ${className}`}
       role="region"
       aria-label={`${lensLabel} legend`}
     >
-      {/* Pin toggle button */}
-      <button
-        type="button"
-        className="legend-pin-btn"
-        onClick={handleTogglePin}
-        aria-pressed={isPinned}
-        aria-label={isPinned ? 'Unpin legend' : 'Pin legend open'}
-        title={isPinned ? 'Click to auto-hide' : 'Click to keep visible'}
-      >
-        <svg
-          className={`legend-pin-icon ${isPinned ? 'legend-pin-active' : ''}`}
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-          width="14"
-          height="14"
-        >
-          {isPinned ? (
-            // Filled pin icon when pinned
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"
-              fill="currentColor"
-            />
-          ) : (
-            // Outline pin icon when not pinned
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"
-            />
-          )}
-        </svg>
-      </button>
-
       {/* Lens label (compact) */}
       <span className="legend-lens-label">{lensLabel}</span>
 
@@ -114,7 +53,10 @@ export default function Legend({ activeLens = DEFAULT_LENS, className = '' }: Le
             ) : (
               <span
                 className="legend-swatch-inline"
-                style={{ backgroundColor: item.color }}
+                style={{
+                  backgroundColor: item.color,
+                  border: item.color === '#FFFFFF' ? '1px solid #CBD5E1' : undefined,
+                }}
                 aria-hidden="true"
               />
             )}

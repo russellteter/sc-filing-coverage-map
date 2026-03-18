@@ -42,6 +42,8 @@ export interface NavigableDistrictMapProps {
   activeLens?: LensId;
   /** Opportunity data for opportunity lens */
   opportunityData?: Record<string, OpportunityData>;
+  /** When true, highlight only gap districts (no Dem filed) */
+  gapsOnly?: boolean;
 }
 
 /**
@@ -69,6 +71,7 @@ export default function NavigableDistrictMap({
   className,
   activeLens = DEFAULT_LENS,
   opportunityData,
+  gapsOnly = false,
 }: NavigableDistrictMapProps) {
   const router = useRouter();
   const searchParams = useSearchParams();
@@ -153,6 +156,7 @@ export default function NavigableDistrictMap({
         className="h-full cursor-pointer"
         activeLens={activeLens}
         opportunityData={opportunityData}
+        gapsOnly={gapsOnly}
       />
 
       {/* Share button - top right corner */}
