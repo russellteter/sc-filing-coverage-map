@@ -38,7 +38,7 @@ export interface NavigableDistrictMapProps {
   showModeToggle?: boolean;
   /** Additional className */
   className?: string;
-  /** Active lens for multi-lens visualization (default: 'incumbents') */
+  /** Active lens for multi-lens visualization (default: 'dem-filing') */
   activeLens?: LensId;
   /** Opportunity data for opportunity lens */
   opportunityData?: Record<string, OpportunityData>;

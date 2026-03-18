@@ -27,22 +27,6 @@ export function encodeFilterState(filters: FilterState): string {
     params.set('hasCandidate', filters.hasCandidate);
   }
 
-  // Contested filter
-  if (filters.contested !== 'all') {
-    params.set('contested', filters.contested);
-  }
-
-  // Opportunity tiers
-  if (filters.opportunity.length > 0) {
-    params.set('opportunity', filters.opportunity.join(','));
-  }
-
-  // Republican data toggle
-  if (filters.showRepublicanData) {
-    params.set('showRepublican', 'true');
-    params.set('republicanMode', filters.republicanDataMode);
-  }
-
   return params.toString();
 }
 
@@ -67,28 +51,6 @@ export function decodeFilterState(queryString: string): Partial<FilterState> {
   const hasCandidateParam = params.get('hasCandidate');
   if (hasCandidateParam && (hasCandidateParam === 'yes' || hasCandidateParam === 'no')) {
     filters.hasCandidate = hasCandidateParam;
-  }
-
-  // Contested filter
-  const contestedParam = params.get('contested');
-  if (contestedParam && (contestedParam === 'yes' || contestedParam === 'no')) {
-    filters.contested = contestedParam;
-  }
-
-  // Opportunity tiers
-  const opportunityParam = params.get('opportunity');
-  if (opportunityParam) {
-    filters.opportunity = opportunityParam.split(',').filter(Boolean);
-  }
-
-  // Republican data toggle
-  const showRepublicanParam = params.get('showRepublican');
-  if (showRepublicanParam === 'true') {
-    filters.showRepublicanData = true;
-    const republicanModeParam = params.get('republicanMode');
-    if (republicanModeParam === 'incumbents' || republicanModeParam === 'challengers' || republicanModeParam === 'all') {
-      filters.republicanDataMode = republicanModeParam;
-    }
   }
 
   return filters;

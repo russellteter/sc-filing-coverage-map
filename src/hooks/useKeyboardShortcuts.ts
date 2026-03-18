@@ -15,8 +15,8 @@ interface KeyboardShortcutsOptions {
   enabled?: boolean;
 }
 
-// Lens order for number key mapping (1-4)
-const LENS_ORDER: LensId[] = ['incumbents', 'dem-filing', 'opportunity', 'battleground'];
+// Lens order for number key mapping
+const LENS_ORDER: LensId[] = ['dem-filing'];
 
 export function useKeyboardShortcuts({
   onToggleChamber,
@@ -154,10 +154,7 @@ export function useKeyboardShortcuts({
       { key: 'Escape', description: 'Clear selection' },
       { key: 'J / ↓ / ←', description: 'Previous district' },
       { key: 'K / ↑ / →', description: 'Next district' },
-      { key: '1', description: 'Incumbents lens' },
-      { key: '2', description: 'Dem Filing lens' },
-      { key: '3', description: 'Opportunity lens' },
-      { key: '4', description: 'Battleground lens' },
+      { key: '1', description: 'Dem Filing lens' },
       { key: '?', description: 'Show shortcuts' },
     ],
   };
