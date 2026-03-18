@@ -1,0 +1,104 @@
+{
+  "lastUpdated": "2026-01-13T00:00:00Z",
+  "races": [
+    {
+      "office": "Governor",
+      "description": "Chief executive of South Carolina, responsible for enforcing state laws and managing state agencies",
+      "incumbent": {
+        "name": "Henry McMaster",
+        "party": "Republican",
+        "canRunAgain": false
+      },
+      "candidates": [],
+      "termYears": 4
+    },
+    {
+      "office": "Lieutenant Governor",
+      "description": "Presides over the SC Senate and succeeds the Governor if unable to serve",
+      "incumbent": {
+        "name": "Pamela Evette",
+        "party": "Republican",
+        "canRunAgain": true
+      },
+      "candidates": [],
+      "termYears": 4
+    },
+    {
+      "office": "Attorney General",
+      "description": "Chief legal officer of South Carolina, represents the state in legal matters",
+      "incumbent": {
+        "name": "Alan Wilson",
+        "party": "Republican",
+        "canRunAgain": false
+      },
+      "candidates": [],
+      "termYears": 4
+    },
+    {
+      "office": "Secretary of State",
+      "description": "Oversees business filings, trademarks, and official state records",
+      "incumbent": {
+        "name": "Mark Hammond",
+        "party": "Republican",
+        "canRunAgain": false
+      },
+      "candidates": [],
+      "termYears": 4
+    },
+    {
+      "office": "State Treasurer",
+      "description": "Manages state funds, investments, and unclaimed property",
+      "incumbent": {
+        "name": "Curtis Loftis",
+        "party": "Republican",
+        "canRunAgain": false
+      },
+      "candidates": [],
+      "termYears": 4
+    },
+    {
+      "office": "Comptroller General",
+      "description": "Chief accountant and fiscal watchdog for the state",
+      "incumbent": {
+        "name": "Richard Eckstrom",
+        "party": "Republican",
+        "canRunAgain": false
+      },
+      "candidates": [],
+      "termYears": 4
+    },
+    {
+      "office": "Superintendent of Education",
+      "description": "Leads the SC Department of Education and oversees public K-12 schools",
+      "incumbent": {
+        "name": "Ellen Weaver",
+        "party": "Republican",
+        "canRunAgain": true
+      },
+      "candidates": [],
+      "termYears": 4
+    },
+    {
+      "office": "Adjutant General",
+      "description": "Commands the SC National Guard and oversees emergency management",
+      "incumbent": {
+        "name": "Van McCarty",
+        "party": "Republican",
+        "canRunAgain": true
+      },
+      "candidates": [],
+      "termYears": 4
+    },
+    {
+      "office": "Commissioner of Agriculture",
+      "description": "Promotes and regulates South Carolina agriculture industry",
+      "incumbent": {
+        "name": "Hugh Weathers",
+        "party": "Republican",
+        "canRunAgain": false
+      },
+      "candidates": [],
+      "termYears": 4
+    }
+  ]
+}

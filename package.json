@@ -1,0 +1,50 @@
+{
+  "name": "sc-filing-coverage-map",
+  "version": "1.0.0",
+  "description": "SC Filing Coverage Map - VREMS ballot filing coverage tracker by party and district",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:e2e": "playwright test",
+    "test:e2e:ui": "playwright test --ui",
+    "refresh-data": "bash scripts/refresh-data.sh"
+  },
+  "dependencies": {
+    "@geoapify/geocoder-autocomplete": "^3.0.1",
+    "@turf/boolean-point-in-polygon": "^7.3.1",
+    "@turf/helpers": "^7.3.1",
+    "html-to-image": "^1.11.13",
+    "leaflet": "^1.9.4",
+    "next": "16.1.1",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-leaflet": "^5.0.0"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.11.0",
+    "@playwright/test": "^1.57.0",
+    "@tailwindcss/postcss": "^4",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.1",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/jest": "^30.0.0",
+    "@types/leaflet": "^1.9.21",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "dotenv": "^17.2.3",
+    "eslint": "^9",
+    "eslint-config-next": "16.1.1",
+    "jest": "^30.2.0",
+    "jest-environment-jsdom": "^30.2.0",
+    "tailwindcss": "^4",
+    "ts-jest": "^29.4.6",
+    "typescript": "^5"
+  }
+}

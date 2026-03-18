@@ -1,0 +1,113 @@
+{
+  "lastUpdated": "2026-01-13T00:00:00Z",
+  "year": 2026,
+  "state": "South Carolina",
+  "dates": [
+    {
+      "id": "registration-deadline-primary",
+      "date": "2026-05-08",
+      "title": "Voter Registration Deadline (Primary)",
+      "description": "Last day to register to vote in the June primary election",
+      "type": "deadline",
+      "category": "registration",
+      "important": true
+    },
+    {
+      "id": "filing-period-start",
+      "date": "2026-03-16",
+      "title": "Candidate Filing Period Opens",
+      "description": "First day candidates can file to run for office",
+      "type": "period-start",
+      "category": "filing",
+      "important": false
+    },
+    {
+      "id": "filing-period-end",
+      "date": "2026-03-30",
+      "title": "Candidate Filing Period Closes",
+      "description": "Last day for candidates to file for office",
+      "type": "deadline",
+      "category": "filing",
+      "important": true
+    },
+    {
+      "id": "absentee-primary-start",
+      "date": "2026-05-11",
+      "title": "Absentee Voting Begins (Primary)",
+      "description": "First day to vote absentee in person for the primary",
+      "type": "period-start",
+      "category": "voting",
+      "important": false
+    },
+    {
+      "id": "primary-election",
+      "date": "2026-06-09",
+      "title": "Primary Election Day",
+      "description": "South Carolina statewide primary election",
+      "type": "election",
+      "category": "election",
+      "important": true
+    },
+    {
+      "id": "runoff-election",
+      "date": "2026-06-23",
+      "title": "Primary Runoff Election",
+      "description": "Runoff election for races where no candidate received majority",
+      "type": "election",
+      "category": "election",
+      "important": true
+    },
+    {
+      "id": "registration-deadline-general",
+      "date": "2026-10-02",
+      "title": "Voter Registration Deadline (General)",
+      "description": "Last day to register to vote in the November general election",
+      "type": "deadline",
+      "category": "registration",
+      "important": true
+    },
+    {
+      "id": "absentee-general-start",
+      "date": "2026-10-05",
+      "title": "Absentee Voting Begins (General)",
+      "description": "First day to vote absentee in person for the general election",
+      "type": "period-start",
+      "category": "voting",
+      "important": false
+    },
+    {
+      "id": "absentee-request-deadline",
+      "date": "2026-10-30",
+      "title": "Absentee Ballot Request Deadline",
+      "description": "Last day to request an absentee ballot by mail",
+      "type": "deadline",
+      "category": "voting",
+      "important": true
+    },
+    {
+      "id": "general-election",
+      "date": "2026-11-03",
+      "title": "General Election Day",
+      "description": "South Carolina general election - polls open 7am to 7pm",
+      "type": "election",
+      "category": "election",
+      "important": true
+    }
+  ],
+  "resources": {
+    "voterRegistration": {
+      "checkStatus": "https://info.scvotes.sc.gov/eng/voterinquiry/VoterInformationRequest.aspx",
+      "register": "https://info.scvotes.sc.gov/eng/ovr/start.aspx",
+      "requirements": "https://scvotes.gov/voters/register-to-vote/"
+    },
+    "pollingPlace": {
+      "lookup": "https://info.scvotes.sc.gov/eng/voterinquiry/VoterInformationRequest.aspx",
+      "sampleBallot": "https://info.scvotes.sc.gov/eng/voterinquiry/VoterInformationRequest.aspx"
+    },
+    "absenteeVoting": {
+      "info": "https://scvotes.gov/voters/absentee-voting/",
+      "requestForm": "https://scvotes.gov/voters/absentee-voting/"
+    },
+    "countyOffices": "https://scvotes.gov/voters/county-election-offices/"
+  }
+}

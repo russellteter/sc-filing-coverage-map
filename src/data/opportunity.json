@@ -1,0 +1,4427 @@
+{
+  "lastUpdated": "2026-01-13T11:11:21.808776Z",
+  "house": {
+    "1": {
+      "districtNumber": 1,
+      "opportunityScore": 40,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0.5,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 100.0,
+        "trendChange": -0.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "2": {
+      "districtNumber": 2,
+      "opportunityScore": 40,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0.5,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 100.0,
+        "trendChange": -0.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "3": {
+      "districtNumber": 3,
+      "opportunityScore": 43,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.1,
+        "marginTrend": 0.54,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 30.1,
+        "trendChange": 2.6,
+        "competitivenessScore": 10
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": true,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "4": {
+      "districtNumber": 4,
+      "opportunityScore": 40,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0.5,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 100.0,
+        "trendChange": -0.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "5": {
+      "districtNumber": 5,
+      "opportunityScore": 40,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0.5,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 100.0,
+        "trendChange": -0.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "6": {
+      "districtNumber": 6,
+      "opportunityScore": 52,
+      "tier": "EMERGING",
+      "tierLabel": "Emerging",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 1,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 49.0,
+        "trendChange": 51.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": true,
+        "openSeat": true,
+        "trendingDem": true,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Priority candidate recruitment target"
+    },
+    "7": {
+      "districtNumber": 7,
+      "opportunityScore": 29,
+      "tier": "NON_COMPETITIVE",
+      "tierLabel": "Non-Competitive",
+      "factors": {
+        "competitiveness": 0.1,
+        "marginTrend": 0.01,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 63.1,
+        "trendChange": -29.4,
+        "competitivenessScore": 10
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Low priority - minimal resources"
+    },
+    "8": {
+      "districtNumber": 8,
+      "opportunityScore": 36,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.1,
+        "marginTrend": 0.3,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 61.9,
+        "trendChange": -12.2,
+        "competitivenessScore": 10
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "9": {
+      "districtNumber": 9,
+      "opportunityScore": 40,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0.5,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 48.2,
+        "trendChange": -0.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "10": {
+      "districtNumber": 10,
+      "opportunityScore": 40,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0.5,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 100.0,
+        "trendChange": -0.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "11": {
+      "districtNumber": 11,
+      "opportunityScore": 40,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0.5,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 100.0,
+        "trendChange": -0.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "12": {
+      "districtNumber": 12,
+      "opportunityScore": 89,
+      "tier": "HIGH_OPPORTUNITY",
+      "tierLabel": "High Opportunity",
+      "factors": {
+        "competitiveness": 0.9,
+        "marginTrend": 0.73,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 9.5,
+        "trendChange": 13.6,
+        "competitivenessScore": 90
+      },
+      "flags": {
+        "needsCandidate": true,
+        "openSeat": true,
+        "trendingDem": true,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "URGENT: Recruit Democratic candidate immediately"
+    },
+    "13": {
+      "districtNumber": 13,
+      "opportunityScore": 39,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.1,
+        "marginTrend": 0.4,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 47.4,
+        "trendChange": -6.2,
+        "competitivenessScore": 10
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "14": {
+      "districtNumber": 14,
+      "opportunityScore": 40,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0.5,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 41.2,
+        "trendChange": -0.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "15": {
+      "districtNumber": 15,
+      "opportunityScore": 60,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive",
+      "factors": {
+        "competitiveness": 0.8,
+        "marginTrend": 0.37,
+        "incumbency": 0.5,
+        "candidatePresence": 1.0,
+        "openSeatBonus": false
+      },
+      "metrics": {
+        "avgMargin": 9.7,
+        "trendChange": -7.8,
+        "competitivenessScore": 80
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": false,
+        "trendingDem": false,
+        "defensive": true,
+        "hasDemocrat": true
+      },
+      "recommendation": "Protect seat - ensure strong candidate and resources"
+    },
+    "16": {
+      "districtNumber": 16,
+      "opportunityScore": 40,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0.5,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 100.0,
+        "trendChange": -0.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "17": {
+      "districtNumber": 17,
+      "opportunityScore": 40,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0.5,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 100.0,
+        "trendChange": -0.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "18": {
+      "districtNumber": 18,
+      "opportunityScore": 29,
+      "tier": "NON_COMPETITIVE",
+      "tierLabel": "Non-Competitive",
+      "factors": {
+        "competitiveness": 0.1,
+        "marginTrend": 0,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 50.7,
+        "trendChange": -52.2,
+        "competitivenessScore": 10
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Low priority - minimal resources"
+    },
+    "19": {
+      "districtNumber": 19,
+      "opportunityScore": 27,
+      "tier": "NON_COMPETITIVE",
+      "tierLabel": "Non-Competitive",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 22.2,
+        "trendChange": -77.8,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Low priority - minimal resources"
+    },
+    "20": {
+      "districtNumber": 20,
+      "opportunityScore": 41,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.1,
+        "marginTrend": 0.48,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 35.9,
+        "trendChange": -1.4,
+        "competitivenessScore": 10
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "21": {
+      "districtNumber": 21,
+      "opportunityScore": 40,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0.5,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 100.0,
+        "trendChange": -0.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "22": {
+      "districtNumber": 22,
+      "opportunityScore": 48,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.2,
+        "marginTrend": 0.62,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 23.7,
+        "trendChange": 7.0,
+        "competitivenessScore": 20
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": true,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "23": {
+      "districtNumber": 23,
+      "opportunityScore": 62,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 1,
+        "incumbency": 1.0,
+        "candidatePresence": 1.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 60.8,
+        "trendChange": 39.2,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": true,
+        "defensive": true,
+        "hasDemocrat": true
+      },
+      "recommendation": "Protect seat - ensure strong candidate and resources"
+    },
+    "24": {
+      "districtNumber": 24,
+      "opportunityScore": 52,
+      "tier": "EMERGING",
+      "tierLabel": "Emerging",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 1,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 21.0,
+        "trendChange": 79.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": true,
+        "openSeat": true,
+        "trendingDem": true,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Priority candidate recruitment target"
+    },
+    "25": {
+      "districtNumber": 25,
+      "opportunityScore": 60,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive",
+      "factors": {
+        "competitiveness": 0.1,
+        "marginTrend": 0.72,
+        "incumbency": 1.0,
+        "candidatePresence": 1.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 30.9,
+        "trendChange": 13.5,
+        "competitivenessScore": 10
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": true,
+        "defensive": true,
+        "hasDemocrat": true
+      },
+      "recommendation": "Protect seat - ensure strong candidate and resources"
+    },
+    "26": {
+      "districtNumber": 26,
+      "opportunityScore": 43,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.2,
+        "marginTrend": 0.41,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 24.1,
+        "trendChange": -5.4,
+        "competitivenessScore": 20
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "27": {
+      "districtNumber": 27,
+      "opportunityScore": 58,
+      "tier": "EMERGING",
+      "tierLabel": "Emerging",
+      "factors": {
+        "competitiveness": 0.2,
+        "marginTrend": 1,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 20.0,
+        "trendChange": 80.0,
+        "competitivenessScore": 20
+      },
+      "flags": {
+        "needsCandidate": true,
+        "openSeat": true,
+        "trendingDem": true,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Priority candidate recruitment target"
+    },
+    "28": {
+      "districtNumber": 28,
+      "opportunityScore": 42,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.1,
+        "marginTrend": 0.51,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 32.1,
+        "trendChange": 0.4,
+        "competitivenessScore": 10
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "29": {
+      "districtNumber": 29,
+      "opportunityScore": 40,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0.5,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 100.0,
+        "trendChange": -0.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "30": {
+      "districtNumber": 30,
+      "opportunityScore": 52,
+      "tier": "EMERGING",
+      "tierLabel": "Emerging",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 1,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 58.8,
+        "trendChange": 41.2,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": true,
+        "openSeat": true,
+        "trendingDem": true,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Priority candidate recruitment target"
+    },
+    "31": {
+      "districtNumber": 31,
+      "opportunityScore": 60,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0.5,
+        "incumbency": 0.5,
+        "candidatePresence": 1.0,
+        "openSeatBonus": false
+      },
+      "metrics": {
+        "avgMargin": 100.0,
+        "trendChange": -0.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": false,
+        "trendingDem": false,
+        "defensive": true,
+        "hasDemocrat": true
+      },
+      "recommendation": "Protect seat - ensure strong candidate and resources"
+    },
+    "32": {
+      "districtNumber": 32,
+      "opportunityScore": 40,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0.5,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 100.0,
+        "trendChange": -0.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "33": {
+      "districtNumber": 33,
+      "opportunityScore": 54,
+      "tier": "EMERGING",
+      "tierLabel": "Emerging",
+      "factors": {
+        "competitiveness": 0.1,
+        "marginTrend": 1,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 61.2,
+        "trendChange": 34.4,
+        "competitivenessScore": 10
+      },
+      "flags": {
+        "needsCandidate": true,
+        "openSeat": true,
+        "trendingDem": true,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Priority candidate recruitment target"
+    },
+    "34": {
+      "districtNumber": 34,
+      "opportunityScore": 40,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0.5,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 100.0,
+        "trendChange": -0.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "35": {
+      "districtNumber": 35,
+      "opportunityScore": 27,
+      "tier": "NON_COMPETITIVE",
+      "tierLabel": "Non-Competitive",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 36.2,
+        "trendChange": -63.8,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Low priority - minimal resources"
+    },
+    "36": {
+      "districtNumber": 36,
+      "opportunityScore": 40,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0.5,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 100.0,
+        "trendChange": -0.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "37": {
+      "districtNumber": 37,
+      "opportunityScore": 40,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0.5,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 100.0,
+        "trendChange": -0.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "38": {
+      "districtNumber": 38,
+      "opportunityScore": 52,
+      "tier": "EMERGING",
+      "tierLabel": "Emerging",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 1,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 63.6,
+        "trendChange": 36.4,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": true,
+        "openSeat": true,
+        "trendingDem": true,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Priority candidate recruitment target"
+    },
+    "39": {
+      "districtNumber": 39,
+      "opportunityScore": 40,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0.5,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 100.0,
+        "trendChange": -0.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "40": {
+      "districtNumber": 40,
+      "opportunityScore": 40,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0.5,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 100.0,
+        "trendChange": -0.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "41": {
+      "districtNumber": 41,
+      "opportunityScore": 60,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive",
+      "factors": {
+        "competitiveness": 0.2,
+        "marginTrend": 0,
+        "incumbency": 1.0,
+        "candidatePresence": 1.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 22.3,
+        "trendChange": -70.2,
+        "competitivenessScore": 20
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": true,
+        "hasDemocrat": true
+      },
+      "recommendation": "Protect seat - ensure strong candidate and resources"
+    },
+    "42": {
+      "districtNumber": 42,
+      "opportunityScore": 52,
+      "tier": "EMERGING",
+      "tierLabel": "Emerging",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 1,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 36.2,
+        "trendChange": 63.8,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": true,
+        "openSeat": true,
+        "trendingDem": true,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Priority candidate recruitment target"
+    },
+    "43": {
+      "districtNumber": 43,
+      "opportunityScore": 27,
+      "tier": "NON_COMPETITIVE",
+      "tierLabel": "Non-Competitive",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 36.6,
+        "trendChange": -63.4,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Low priority - minimal resources"
+    },
+    "44": {
+      "districtNumber": 44,
+      "opportunityScore": 59,
+      "tier": "EMERGING",
+      "tierLabel": "Emerging",
+      "factors": {
+        "competitiveness": 0.4,
+        "marginTrend": 0.31,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 19.9,
+        "trendChange": -11.4,
+        "competitivenessScore": 40
+      },
+      "flags": {
+        "needsCandidate": true,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Priority candidate recruitment target"
+    },
+    "45": {
+      "districtNumber": 45,
+      "opportunityScore": 41,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.1,
+        "marginTrend": 0.48,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 30.4,
+        "trendChange": -1.0,
+        "competitivenessScore": 10
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "46": {
+      "districtNumber": 46,
+      "opportunityScore": 58,
+      "tier": "EMERGING",
+      "tierLabel": "Emerging",
+      "factors": {
+        "competitiveness": 0.2,
+        "marginTrend": 1,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 19.8,
+        "trendChange": 80.2,
+        "competitivenessScore": 20
+      },
+      "flags": {
+        "needsCandidate": true,
+        "openSeat": true,
+        "trendingDem": true,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Priority candidate recruitment target"
+    },
+    "47": {
+      "districtNumber": 47,
+      "opportunityScore": 27,
+      "tier": "NON_COMPETITIVE",
+      "tierLabel": "Non-Competitive",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 46.8,
+        "trendChange": -53.2,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Low priority - minimal resources"
+    },
+    "48": {
+      "districtNumber": 48,
+      "opportunityScore": 33,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.2,
+        "marginTrend": 0,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 28.3,
+        "trendChange": -78.2,
+        "competitivenessScore": 20
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "49": {
+      "districtNumber": 49,
+      "opportunityScore": 60,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive",
+      "factors": {
+        "competitiveness": 0.2,
+        "marginTrend": 0,
+        "incumbency": 1.0,
+        "candidatePresence": 1.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 28.9,
+        "trendChange": -72.1,
+        "competitivenessScore": 20
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": true,
+        "hasDemocrat": true
+      },
+      "recommendation": "Protect seat - ensure strong candidate and resources"
+    },
+    "50": {
+      "districtNumber": 50,
+      "opportunityScore": 60,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive",
+      "factors": {
+        "competitiveness": 0.2,
+        "marginTrend": 0.5,
+        "incumbency": 1.0,
+        "candidatePresence": 1.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 20.0,
+        "trendChange": -0.0,
+        "competitivenessScore": 20
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": true,
+        "hasDemocrat": true
+      },
+      "recommendation": "Protect seat - ensure strong candidate and resources"
+    },
+    "51": {
+      "districtNumber": 51,
+      "opportunityScore": 60,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0.5,
+        "incumbency": 0.5,
+        "candidatePresence": 1.0,
+        "openSeatBonus": false
+      },
+      "metrics": {
+        "avgMargin": 100.0,
+        "trendChange": -0.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": false,
+        "trendingDem": false,
+        "defensive": true,
+        "hasDemocrat": true
+      },
+      "recommendation": "Protect seat - ensure strong candidate and resources"
+    },
+    "52": {
+      "districtNumber": 52,
+      "opportunityScore": 65,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive",
+      "factors": {
+        "competitiveness": 0.5,
+        "marginTrend": 0,
+        "incumbency": 1.0,
+        "candidatePresence": 1.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 16.6,
+        "trendChange": -96.8,
+        "competitivenessScore": 50
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": true,
+        "hasDemocrat": true
+      },
+      "recommendation": "Protect seat - ensure strong candidate and resources"
+    },
+    "53": {
+      "districtNumber": 53,
+      "opportunityScore": 52,
+      "tier": "EMERGING",
+      "tierLabel": "Emerging",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 1,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 47.6,
+        "trendChange": 52.4,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": true,
+        "openSeat": true,
+        "trendingDem": true,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Priority candidate recruitment target"
+    },
+    "54": {
+      "districtNumber": 54,
+      "opportunityScore": 92,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive",
+      "factors": {
+        "competitiveness": 0.8,
+        "marginTrend": 0.61,
+        "incumbency": 1.0,
+        "candidatePresence": 1.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 6.5,
+        "trendChange": 6.6,
+        "competitivenessScore": 80
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": true,
+        "defensive": true,
+        "hasDemocrat": true
+      },
+      "recommendation": "Protect seat - ensure strong candidate and resources"
+    },
+    "55": {
+      "districtNumber": 55,
+      "opportunityScore": 60,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive",
+      "factors": {
+        "competitiveness": 0.75,
+        "marginTrend": 0.5,
+        "incumbency": 0.5,
+        "candidatePresence": 1.0,
+        "openSeatBonus": false
+      },
+      "metrics": {
+        "avgMargin": 3.3,
+        "trendChange": -0.0,
+        "competitivenessScore": 75
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": false,
+        "trendingDem": false,
+        "defensive": true,
+        "hasDemocrat": true
+      },
+      "recommendation": "Protect seat - ensure strong candidate and resources"
+    },
+    "56": {
+      "districtNumber": 56,
+      "opportunityScore": 27,
+      "tier": "NON_COMPETITIVE",
+      "tierLabel": "Non-Competitive",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 31.0,
+        "trendChange": -69.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Low priority - minimal resources"
+    },
+    "57": {
+      "districtNumber": 57,
+      "opportunityScore": 60,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive",
+      "factors": {
+        "competitiveness": 0.2,
+        "marginTrend": 1,
+        "incumbency": 0.5,
+        "candidatePresence": 1.0,
+        "openSeatBonus": false
+      },
+      "metrics": {
+        "avgMargin": 17.6,
+        "trendChange": 82.4,
+        "competitivenessScore": 20
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": false,
+        "trendingDem": true,
+        "defensive": true,
+        "hasDemocrat": true
+      },
+      "recommendation": "Protect seat - ensure strong candidate and resources"
+    },
+    "58": {
+      "districtNumber": 58,
+      "opportunityScore": 40,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0.5,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 100.0,
+        "trendChange": -0.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "59": {
+      "districtNumber": 59,
+      "opportunityScore": 60,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0.5,
+        "incumbency": 0.5,
+        "candidatePresence": 1.0,
+        "openSeatBonus": false
+      },
+      "metrics": {
+        "avgMargin": 100.0,
+        "trendChange": -0.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": false,
+        "trendingDem": false,
+        "defensive": true,
+        "hasDemocrat": true
+      },
+      "recommendation": "Protect seat - ensure strong candidate and resources"
+    },
+    "60": {
+      "districtNumber": 60,
+      "opportunityScore": 27,
+      "tier": "NON_COMPETITIVE",
+      "tierLabel": "Non-Competitive",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 22.8,
+        "trendChange": -77.2,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Low priority - minimal resources"
+    },
+    "61": {
+      "districtNumber": 61,
+      "opportunityScore": 40,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0.5,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 38.6,
+        "trendChange": -0.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "62": {
+      "districtNumber": 62,
+      "opportunityScore": 60,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0.5,
+        "incumbency": 1.0,
+        "candidatePresence": 1.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 100.0,
+        "trendChange": -0.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": true,
+        "hasDemocrat": true
+      },
+      "recommendation": "Protect seat - ensure strong candidate and resources"
+    },
+    "63": {
+      "districtNumber": 63,
+      "opportunityScore": 40,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.1,
+        "marginTrend": 0.44,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 33.3,
+        "trendChange": -3.4,
+        "competitivenessScore": 10
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "64": {
+      "districtNumber": 64,
+      "opportunityScore": 74,
+      "tier": "HIGH_OPPORTUNITY",
+      "tierLabel": "High Opportunity",
+      "factors": {
+        "competitiveness": 0.7,
+        "marginTrend": 0.45,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 10.3,
+        "trendChange": -2.8,
+        "competitivenessScore": 70
+      },
+      "flags": {
+        "needsCandidate": true,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "URGENT: Recruit Democratic candidate immediately"
+    },
+    "65": {
+      "districtNumber": 65,
+      "opportunityScore": 40,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0.5,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 100.0,
+        "trendChange": -0.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "66": {
+      "districtNumber": 66,
+      "opportunityScore": 37,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.3,
+        "marginTrend": 0,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 27.8,
+        "trendChange": -60.0,
+        "competitivenessScore": 30
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "67": {
+      "districtNumber": 67,
+      "opportunityScore": 40,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0.5,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 100.0,
+        "trendChange": -0.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "68": {
+      "districtNumber": 68,
+      "opportunityScore": 29,
+      "tier": "NON_COMPETITIVE",
+      "tierLabel": "Non-Competitive",
+      "factors": {
+        "competitiveness": 0.1,
+        "marginTrend": 0,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 57.0,
+        "trendChange": -30.0,
+        "competitivenessScore": 10
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Low priority - minimal resources"
+    },
+    "69": {
+      "districtNumber": 69,
+      "opportunityScore": 52,
+      "tier": "EMERGING",
+      "tierLabel": "Emerging",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 1,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 63.8,
+        "trendChange": 36.2,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": true,
+        "openSeat": true,
+        "trendingDem": true,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Priority candidate recruitment target"
+    },
+    "70": {
+      "districtNumber": 70,
+      "opportunityScore": 60,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0.5,
+        "incumbency": 1.0,
+        "candidatePresence": 1.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 56.6,
+        "trendChange": -0.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": true,
+        "hasDemocrat": true
+      },
+      "recommendation": "Protect seat - ensure strong candidate and resources"
+    },
+    "71": {
+      "districtNumber": 71,
+      "opportunityScore": 27,
+      "tier": "NON_COMPETITIVE",
+      "tierLabel": "Non-Competitive",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 32.3,
+        "trendChange": -67.7,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Low priority - minimal resources"
+    },
+    "72": {
+      "districtNumber": 72,
+      "opportunityScore": 60,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0.5,
+        "incumbency": 0.5,
+        "candidatePresence": 1.0,
+        "openSeatBonus": false
+      },
+      "metrics": {
+        "avgMargin": 100.0,
+        "trendChange": -0.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": false,
+        "trendingDem": false,
+        "defensive": true,
+        "hasDemocrat": true
+      },
+      "recommendation": "Protect seat - ensure strong candidate and resources"
+    },
+    "73": {
+      "districtNumber": 73,
+      "opportunityScore": 60,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0,
+        "incumbency": 0.5,
+        "candidatePresence": 1.0,
+        "openSeatBonus": false
+      },
+      "metrics": {
+        "avgMargin": 56.4,
+        "trendChange": -43.6,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": false,
+        "trendingDem": false,
+        "defensive": true,
+        "hasDemocrat": true
+      },
+      "recommendation": "Protect seat - ensure strong candidate and resources"
+    },
+    "74": {
+      "districtNumber": 74,
+      "opportunityScore": 60,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0,
+        "incumbency": 0.5,
+        "candidatePresence": 1.0,
+        "openSeatBonus": false
+      },
+      "metrics": {
+        "avgMargin": 66.0,
+        "trendChange": -34.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": false,
+        "trendingDem": false,
+        "defensive": true,
+        "hasDemocrat": true
+      },
+      "recommendation": "Protect seat - ensure strong candidate and resources"
+    },
+    "75": {
+      "districtNumber": 75,
+      "opportunityScore": 68,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive",
+      "factors": {
+        "competitiveness": 1.0,
+        "marginTrend": 0.41,
+        "incumbency": 0.5,
+        "candidatePresence": 1.0,
+        "openSeatBonus": false
+      },
+      "metrics": {
+        "avgMargin": 3.2,
+        "trendChange": -5.2,
+        "competitivenessScore": 100
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": false,
+        "trendingDem": false,
+        "defensive": true,
+        "hasDemocrat": true
+      },
+      "recommendation": "Protect seat - ensure strong candidate and resources"
+    },
+    "76": {
+      "districtNumber": 76,
+      "opportunityScore": 60,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0.76,
+        "incumbency": 0.5,
+        "candidatePresence": 1.0,
+        "openSeatBonus": false
+      },
+      "metrics": {
+        "avgMargin": 84.6,
+        "trendChange": 15.4,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": false,
+        "trendingDem": true,
+        "defensive": true,
+        "hasDemocrat": true
+      },
+      "recommendation": "Protect seat - ensure strong candidate and resources"
+    },
+    "77": {
+      "districtNumber": 77,
+      "opportunityScore": 60,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive",
+      "factors": {
+        "competitiveness": 0.1,
+        "marginTrend": 0,
+        "incumbency": 1.0,
+        "candidatePresence": 1.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 54.9,
+        "trendChange": -32.0,
+        "competitivenessScore": 10
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": true,
+        "hasDemocrat": true
+      },
+      "recommendation": "Protect seat - ensure strong candidate and resources"
+    },
+    "78": {
+      "districtNumber": 78,
+      "opportunityScore": 60,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0,
+        "incumbency": 1.0,
+        "candidatePresence": 1.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 32.0,
+        "trendChange": -68.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": true,
+        "hasDemocrat": true
+      },
+      "recommendation": "Protect seat - ensure strong candidate and resources"
+    },
+    "79": {
+      "districtNumber": 79,
+      "opportunityScore": 61,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive",
+      "factors": {
+        "competitiveness": 0.1,
+        "marginTrend": 0.9,
+        "incumbency": 1.0,
+        "candidatePresence": 1.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 58.2,
+        "trendChange": 23.8,
+        "competitivenessScore": 10
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": true,
+        "defensive": true,
+        "hasDemocrat": true
+      },
+      "recommendation": "Protect seat - ensure strong candidate and resources"
+    },
+    "80": {
+      "districtNumber": 80,
+      "opportunityScore": 46,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.3,
+        "marginTrend": 0.34,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 25.7,
+        "trendChange": -9.4,
+        "competitivenessScore": 30
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "81": {
+      "districtNumber": 81,
+      "opportunityScore": 52,
+      "tier": "EMERGING",
+      "tierLabel": "Emerging",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 1,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 36.2,
+        "trendChange": 63.8,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": true,
+        "openSeat": true,
+        "trendingDem": true,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Priority candidate recruitment target"
+    },
+    "82": {
+      "districtNumber": 82,
+      "opportunityScore": 66,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive",
+      "factors": {
+        "competitiveness": 0.6,
+        "marginTrend": 1,
+        "incumbency": 0.5,
+        "candidatePresence": 1.0,
+        "openSeatBonus": false
+      },
+      "metrics": {
+        "avgMargin": 7.8,
+        "trendChange": 92.2,
+        "competitivenessScore": 60
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": false,
+        "trendingDem": true,
+        "defensive": true,
+        "hasDemocrat": true
+      },
+      "recommendation": "Protect seat - ensure strong candidate and resources"
+    },
+    "83": {
+      "districtNumber": 83,
+      "opportunityScore": 29,
+      "tier": "NON_COMPETITIVE",
+      "tierLabel": "Non-Competitive",
+      "factors": {
+        "competitiveness": 0.1,
+        "marginTrend": 0,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 46.2,
+        "trendChange": -59.6,
+        "competitivenessScore": 10
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Low priority - minimal resources"
+    },
+    "84": {
+      "districtNumber": 84,
+      "opportunityScore": 40,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0.5,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 100.0,
+        "trendChange": -0.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "85": {
+      "districtNumber": 85,
+      "opportunityScore": 40,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0.5,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 52.0,
+        "trendChange": -0.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "86": {
+      "districtNumber": 86,
+      "opportunityScore": 40,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0.5,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 100.0,
+        "trendChange": -0.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "87": {
+      "districtNumber": 87,
+      "opportunityScore": 51,
+      "tier": "EMERGING",
+      "tierLabel": "Emerging",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0.97,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 71.8,
+        "trendChange": 28.2,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": true,
+        "openSeat": true,
+        "trendingDem": true,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Priority candidate recruitment target"
+    },
+    "88": {
+      "districtNumber": 88,
+      "opportunityScore": 40,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0.5,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 40.4,
+        "trendChange": -0.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "89": {
+      "districtNumber": 89,
+      "opportunityScore": 52,
+      "tier": "EMERGING",
+      "tierLabel": "Emerging",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 1,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 20.6,
+        "trendChange": 79.4,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": true,
+        "openSeat": true,
+        "trendingDem": true,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Priority candidate recruitment target"
+    },
+    "90": {
+      "districtNumber": 90,
+      "opportunityScore": 73,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive",
+      "factors": {
+        "competitiveness": 0.6,
+        "marginTrend": 0.17,
+        "incumbency": 1.0,
+        "candidatePresence": 1.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 12.7,
+        "trendChange": -19.6,
+        "competitivenessScore": 60
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": true,
+        "hasDemocrat": true
+      },
+      "recommendation": "Protect seat - ensure strong candidate and resources"
+    },
+    "91": {
+      "districtNumber": 91,
+      "opportunityScore": 72,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive",
+      "factors": {
+        "competitiveness": 0.75,
+        "marginTrend": 1,
+        "incumbency": 0.5,
+        "candidatePresence": 1.0,
+        "openSeatBonus": false
+      },
+      "metrics": {
+        "avgMargin": 3.2,
+        "trendChange": 96.8,
+        "competitivenessScore": 75
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": false,
+        "trendingDem": true,
+        "defensive": true,
+        "hasDemocrat": true
+      },
+      "recommendation": "Protect seat - ensure strong candidate and resources"
+    },
+    "92": {
+      "districtNumber": 92,
+      "opportunityScore": 40,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0.5,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 100.0,
+        "trendChange": -0.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "93": {
+      "districtNumber": 93,
+      "opportunityScore": 94,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive",
+      "factors": {
+        "competitiveness": 0.6,
+        "marginTrend": 1,
+        "incumbency": 1.0,
+        "candidatePresence": 1.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 13.4,
+        "trendChange": 94.8,
+        "competitivenessScore": 60
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": true,
+        "defensive": true,
+        "hasDemocrat": true
+      },
+      "recommendation": "Protect seat - ensure strong candidate and resources"
+    },
+    "94": {
+      "districtNumber": 94,
+      "opportunityScore": 33,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.2,
+        "marginTrend": 0,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 24.5,
+        "trendChange": -77.8,
+        "competitivenessScore": 20
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "95": {
+      "districtNumber": 95,
+      "opportunityScore": 60,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive",
+      "factors": {
+        "competitiveness": 0.1,
+        "marginTrend": 0.09,
+        "incumbency": 0.5,
+        "candidatePresence": 1.0,
+        "openSeatBonus": false
+      },
+      "metrics": {
+        "avgMargin": 47.0,
+        "trendChange": -24.4,
+        "competitivenessScore": 10
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": false,
+        "trendingDem": false,
+        "defensive": true,
+        "hasDemocrat": true
+      },
+      "recommendation": "Protect seat - ensure strong candidate and resources"
+    },
+    "96": {
+      "districtNumber": 96,
+      "opportunityScore": 40,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0.5,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 100.0,
+        "trendChange": -0.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "97": {
+      "districtNumber": 97,
+      "opportunityScore": 29,
+      "tier": "NON_COMPETITIVE",
+      "tierLabel": "Non-Competitive",
+      "factors": {
+        "competitiveness": 0.1,
+        "marginTrend": 0,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 30.4,
+        "trendChange": -75.4,
+        "competitivenessScore": 10
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Low priority - minimal resources"
+    },
+    "98": {
+      "districtNumber": 98,
+      "opportunityScore": 84,
+      "tier": "HIGH_OPPORTUNITY",
+      "tierLabel": "High Opportunity",
+      "factors": {
+        "competitiveness": 0.6,
+        "marginTrend": 1,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 14.9,
+        "trendChange": 86.0,
+        "competitivenessScore": 60
+      },
+      "flags": {
+        "needsCandidate": true,
+        "openSeat": true,
+        "trendingDem": true,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "URGENT: Recruit Democratic candidate immediately"
+    },
+    "99": {
+      "districtNumber": 99,
+      "opportunityScore": 27,
+      "tier": "NON_COMPETITIVE",
+      "tierLabel": "Non-Competitive",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 28.6,
+        "trendChange": -71.4,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Low priority - minimal resources"
+    },
+    "100": {
+      "districtNumber": 100,
+      "opportunityScore": 40,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0.5,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 100.0,
+        "trendChange": -0.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "101": {
+      "districtNumber": 101,
+      "opportunityScore": 60,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0.5,
+        "incumbency": 1.0,
+        "candidatePresence": 1.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 100.0,
+        "trendChange": -0.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": true,
+        "hasDemocrat": true
+      },
+      "recommendation": "Protect seat - ensure strong candidate and resources"
+    },
+    "102": {
+      "districtNumber": 102,
+      "opportunityScore": 100,
+      "tier": "HIGH_OPPORTUNITY",
+      "tierLabel": "High Opportunity",
+      "factors": {
+        "competitiveness": 1.0,
+        "marginTrend": 1,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 3.0,
+        "trendChange": 96.2,
+        "competitivenessScore": 100
+      },
+      "flags": {
+        "needsCandidate": true,
+        "openSeat": true,
+        "trendingDem": true,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "URGENT: Recruit Democratic candidate immediately"
+    },
+    "103": {
+      "districtNumber": 103,
+      "opportunityScore": 60,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0.5,
+        "incumbency": 1.0,
+        "candidatePresence": 1.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 100.0,
+        "trendChange": -0.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": true,
+        "hasDemocrat": true
+      },
+      "recommendation": "Protect seat - ensure strong candidate and resources"
+    },
+    "104": {
+      "districtNumber": 104,
+      "opportunityScore": 40,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0.5,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 100.0,
+        "trendChange": -0.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "105": {
+      "districtNumber": 105,
+      "opportunityScore": 40,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0.5,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 100.0,
+        "trendChange": -0.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "106": {
+      "districtNumber": 106,
+      "opportunityScore": 40,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0.5,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 47.6,
+        "trendChange": -0.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "107": {
+      "districtNumber": 107,
+      "opportunityScore": 27,
+      "tier": "NON_COMPETITIVE",
+      "tierLabel": "Non-Competitive",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 32.8,
+        "trendChange": -67.2,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Low priority - minimal resources"
+    },
+    "108": {
+      "districtNumber": 108,
+      "opportunityScore": 40,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0.5,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 100.0,
+        "trendChange": -0.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "109": {
+      "districtNumber": 109,
+      "opportunityScore": 60,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive",
+      "factors": {
+        "competitiveness": 0.1,
+        "marginTrend": 0,
+        "incumbency": 1.0,
+        "candidatePresence": 1.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 58.1,
+        "trendChange": -37.8,
+        "competitivenessScore": 10
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": true,
+        "hasDemocrat": true
+      },
+      "recommendation": "Protect seat - ensure strong candidate and resources"
+    },
+    "110": {
+      "districtNumber": 110,
+      "opportunityScore": 75,
+      "tier": "HIGH_OPPORTUNITY",
+      "tierLabel": "High Opportunity",
+      "factors": {
+        "competitiveness": 0.6,
+        "marginTrend": 0.66,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 13.9,
+        "trendChange": 9.4,
+        "competitivenessScore": 60
+      },
+      "flags": {
+        "needsCandidate": true,
+        "openSeat": true,
+        "trendingDem": true,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "URGENT: Recruit Democratic candidate immediately"
+    },
+    "111": {
+      "districtNumber": 111,
+      "opportunityScore": 60,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive",
+      "factors": {
+        "competitiveness": 0.1,
+        "marginTrend": 0.37,
+        "incumbency": 1.0,
+        "candidatePresence": 1.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 62.4,
+        "trendChange": -8.0,
+        "competitivenessScore": 10
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": true,
+        "hasDemocrat": true
+      },
+      "recommendation": "Protect seat - ensure strong candidate and resources"
+    },
+    "112": {
+      "districtNumber": 112,
+      "opportunityScore": 60,
+      "tier": "EMERGING",
+      "tierLabel": "Emerging",
+      "factors": {
+        "competitiveness": 0.4,
+        "marginTrend": 0.38,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 18.5,
+        "trendChange": -7.2,
+        "competitivenessScore": 40
+      },
+      "flags": {
+        "needsCandidate": true,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Priority candidate recruitment target"
+    },
+    "113": {
+      "districtNumber": 113,
+      "opportunityScore": 60,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0.5,
+        "incumbency": 1.0,
+        "candidatePresence": 1.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 100.0,
+        "trendChange": -0.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": true,
+        "hasDemocrat": true
+      },
+      "recommendation": "Protect seat - ensure strong candidate and resources"
+    },
+    "114": {
+      "districtNumber": 114,
+      "opportunityScore": 58,
+      "tier": "EMERGING",
+      "tierLabel": "Emerging",
+      "factors": {
+        "competitiveness": 0.4,
+        "marginTrend": 0.28,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 16.4,
+        "trendChange": -13.5,
+        "competitivenessScore": 40
+      },
+      "flags": {
+        "needsCandidate": true,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Priority candidate recruitment target"
+    },
+    "115": {
+      "districtNumber": 115,
+      "opportunityScore": 85,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive",
+      "factors": {
+        "competitiveness": 0.95,
+        "marginTrend": 0.46,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 4.3,
+        "trendChange": -2.2,
+        "competitivenessScore": 95
+      },
+      "flags": {
+        "needsCandidate": true,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": true,
+        "hasDemocrat": false
+      },
+      "recommendation": "Protect seat - ensure strong candidate and resources"
+    },
+    "116": {
+      "districtNumber": 116,
+      "opportunityScore": 87,
+      "tier": "HIGH_OPPORTUNITY",
+      "tierLabel": "High Opportunity",
+      "factors": {
+        "competitiveness": 1.0,
+        "marginTrend": 0.49,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 2.5,
+        "trendChange": -0.6,
+        "competitivenessScore": 100
+      },
+      "flags": {
+        "needsCandidate": true,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "URGENT: Recruit Democratic candidate immediately"
+    },
+    "117": {
+      "districtNumber": 117,
+      "opportunityScore": 55,
+      "tier": "EMERGING",
+      "tierLabel": "Emerging",
+      "factors": {
+        "competitiveness": 0.5,
+        "marginTrend": 0,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 16.3,
+        "trendChange": -94.6,
+        "competitivenessScore": 50
+      },
+      "flags": {
+        "needsCandidate": true,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Priority candidate recruitment target"
+    },
+    "118": {
+      "districtNumber": 118,
+      "opportunityScore": 43,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.2,
+        "marginTrend": 0.4,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 26.6,
+        "trendChange": -6.0,
+        "competitivenessScore": 20
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "119": {
+      "districtNumber": 119,
+      "opportunityScore": 60,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive",
+      "factors": {
+        "competitiveness": 0.2,
+        "marginTrend": 0.99,
+        "incumbency": 0.5,
+        "candidatePresence": 1.0,
+        "openSeatBonus": false
+      },
+      "metrics": {
+        "avgMargin": 21.8,
+        "trendChange": 29.6,
+        "competitivenessScore": 20
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": false,
+        "trendingDem": true,
+        "defensive": true,
+        "hasDemocrat": true
+      },
+      "recommendation": "Protect seat - ensure strong candidate and resources"
+    },
+    "120": {
+      "districtNumber": 120,
+      "opportunityScore": 52,
+      "tier": "EMERGING",
+      "tierLabel": "Emerging",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 1,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 33.4,
+        "trendChange": 66.6,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": true,
+        "openSeat": true,
+        "trendingDem": true,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Priority candidate recruitment target"
+    },
+    "121": {
+      "districtNumber": 121,
+      "opportunityScore": 78,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive",
+      "factors": {
+        "competitiveness": 0.4,
+        "marginTrend": 0.67,
+        "incumbency": 1.0,
+        "candidatePresence": 1.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 19.2,
+        "trendChange": 10.4,
+        "competitivenessScore": 40
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": true,
+        "defensive": true,
+        "hasDemocrat": true
+      },
+      "recommendation": "Protect seat - ensure strong candidate and resources"
+    },
+    "122": {
+      "districtNumber": 122,
+      "opportunityScore": 86,
+      "tier": "HIGH_OPPORTUNITY",
+      "tierLabel": "High Opportunity",
+      "factors": {
+        "competitiveness": 0.9,
+        "marginTrend": 0.61,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 9.7,
+        "trendChange": 6.8,
+        "competitivenessScore": 90
+      },
+      "flags": {
+        "needsCandidate": true,
+        "openSeat": true,
+        "trendingDem": true,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "URGENT: Recruit Democratic candidate immediately"
+    },
+    "123": {
+      "districtNumber": 123,
+      "opportunityScore": 48,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.2,
+        "marginTrend": 0.59,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 22.4,
+        "trendChange": 5.2,
+        "competitivenessScore": 20
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": true,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "124": {
+      "districtNumber": 124,
+      "opportunityScore": 45,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.2,
+        "marginTrend": 0.5,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 26.3,
+        "trendChange": -0.0,
+        "competitivenessScore": 20
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    }
+  },
+  "senate": {
+    "1": {
+      "districtNumber": 1,
+      "opportunityScore": 40,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0.5,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 100.0,
+        "trendChange": -0.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "2": {
+      "districtNumber": 2,
+      "opportunityScore": 40,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0.5,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 100.0,
+        "trendChange": -0.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "3": {
+      "districtNumber": 3,
+      "opportunityScore": 40,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.1,
+        "marginTrend": 0.45,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 49.6,
+        "trendChange": -2.8,
+        "competitivenessScore": 10
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "4": {
+      "districtNumber": 4,
+      "opportunityScore": 27,
+      "tier": "NON_COMPETITIVE",
+      "tierLabel": "Non-Competitive",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 45.6,
+        "trendChange": -54.4,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Low priority - minimal resources"
+    },
+    "5": {
+      "districtNumber": 5,
+      "opportunityScore": 27,
+      "tier": "NON_COMPETITIVE",
+      "tierLabel": "Non-Competitive",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 52.4,
+        "trendChange": -47.6,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Low priority - minimal resources"
+    },
+    "6": {
+      "districtNumber": 6,
+      "opportunityScore": 27,
+      "tier": "NON_COMPETITIVE",
+      "tierLabel": "Non-Competitive",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 30.4,
+        "trendChange": -69.6,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Low priority - minimal resources"
+    },
+    "7": {
+      "districtNumber": 7,
+      "opportunityScore": 60,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 25.4,
+        "trendChange": -74.6,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": true,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": true,
+        "hasDemocrat": false
+      },
+      "recommendation": "Protect seat - ensure strong candidate and resources"
+    },
+    "8": {
+      "districtNumber": 8,
+      "opportunityScore": 52,
+      "tier": "EMERGING",
+      "tierLabel": "Emerging",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 1,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 26.0,
+        "trendChange": 74.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": true,
+        "openSeat": true,
+        "trendingDem": true,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Priority candidate recruitment target"
+    },
+    "9": {
+      "districtNumber": 9,
+      "opportunityScore": 52,
+      "tier": "EMERGING",
+      "tierLabel": "Emerging",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 1,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 40.6,
+        "trendChange": 59.4,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": true,
+        "openSeat": true,
+        "trendingDem": true,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Priority candidate recruitment target"
+    },
+    "10": {
+      "districtNumber": 10,
+      "opportunityScore": 34,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.2,
+        "marginTrend": 0.06,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 25.2,
+        "trendChange": -26.4,
+        "competitivenessScore": 20
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "11": {
+      "districtNumber": 11,
+      "opportunityScore": 37,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.2,
+        "marginTrend": 0.17,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 20.7,
+        "trendChange": -19.8,
+        "competitivenessScore": 20
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "12": {
+      "districtNumber": 12,
+      "opportunityScore": 46,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.2,
+        "marginTrend": 0.53,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 29.1,
+        "trendChange": 1.8,
+        "competitivenessScore": 20
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "13": {
+      "districtNumber": 13,
+      "opportunityScore": 40,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0.5,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 100.0,
+        "trendChange": -0.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "14": {
+      "districtNumber": 14,
+      "opportunityScore": 27,
+      "tier": "NON_COMPETITIVE",
+      "tierLabel": "Non-Competitive",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 68.4,
+        "trendChange": -31.6,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Low priority - minimal resources"
+    },
+    "15": {
+      "districtNumber": 15,
+      "opportunityScore": 29,
+      "tier": "NON_COMPETITIVE",
+      "tierLabel": "Non-Competitive",
+      "factors": {
+        "competitiveness": 0.1,
+        "marginTrend": 0,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 36.6,
+        "trendChange": -32.4,
+        "competitivenessScore": 10
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Low priority - minimal resources"
+    },
+    "16": {
+      "districtNumber": 16,
+      "opportunityScore": 29,
+      "tier": "NON_COMPETITIVE",
+      "tierLabel": "Non-Competitive",
+      "factors": {
+        "competitiveness": 0.1,
+        "marginTrend": 0,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 42.5,
+        "trendChange": -31.8,
+        "competitivenessScore": 10
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Low priority - minimal resources"
+    },
+    "17": {
+      "districtNumber": 17,
+      "opportunityScore": 89,
+      "tier": "HIGH_OPPORTUNITY",
+      "tierLabel": "High Opportunity",
+      "factors": {
+        "competitiveness": 1.0,
+        "marginTrend": 0.55,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 1.6,
+        "trendChange": 3.2,
+        "competitivenessScore": 100
+      },
+      "flags": {
+        "needsCandidate": true,
+        "openSeat": true,
+        "trendingDem": true,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "URGENT: Recruit Democratic candidate immediately"
+    },
+    "18": {
+      "districtNumber": 18,
+      "opportunityScore": 27,
+      "tier": "NON_COMPETITIVE",
+      "tierLabel": "Non-Competitive",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 44.6,
+        "trendChange": -55.4,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Low priority - minimal resources"
+    },
+    "19": {
+      "districtNumber": 19,
+      "opportunityScore": 60,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0.91,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 75.2,
+        "trendChange": 24.8,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": true,
+        "openSeat": true,
+        "trendingDem": true,
+        "defensive": true,
+        "hasDemocrat": false
+      },
+      "recommendation": "Protect seat - ensure strong candidate and resources"
+    },
+    "20": {
+      "districtNumber": 20,
+      "opportunityScore": 60,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive",
+      "factors": {
+        "competitiveness": 0.2,
+        "marginTrend": 0,
+        "incumbency": 1.0,
+        "candidatePresence": 1.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 27.1,
+        "trendChange": -41.0,
+        "competitivenessScore": 20
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": true,
+        "hasDemocrat": true
+      },
+      "recommendation": "Protect seat - ensure strong candidate and resources"
+    },
+    "21": {
+      "districtNumber": 21,
+      "opportunityScore": 60,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0.5,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 100.0,
+        "trendChange": -0.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": true,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": true,
+        "hasDemocrat": false
+      },
+      "recommendation": "Protect seat - ensure strong candidate and resources"
+    },
+    "22": {
+      "districtNumber": 22,
+      "opportunityScore": 60,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 24.4,
+        "trendChange": -75.6,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": true,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": true,
+        "hasDemocrat": false
+      },
+      "recommendation": "Protect seat - ensure strong candidate and resources"
+    },
+    "23": {
+      "districtNumber": 23,
+      "opportunityScore": 27,
+      "tier": "NON_COMPETITIVE",
+      "tierLabel": "Non-Competitive",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 45.2,
+        "trendChange": -54.8,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Low priority - minimal resources"
+    },
+    "24": {
+      "districtNumber": 24,
+      "opportunityScore": 52,
+      "tier": "EMERGING",
+      "tierLabel": "Emerging",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 1,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 34.0,
+        "trendChange": 66.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": true,
+        "openSeat": true,
+        "trendingDem": true,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Priority candidate recruitment target"
+    },
+    "25": {
+      "districtNumber": 25,
+      "opportunityScore": 27,
+      "tier": "NON_COMPETITIVE",
+      "tierLabel": "Non-Competitive",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 39.2,
+        "trendChange": -60.8,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Low priority - minimal resources"
+    },
+    "26": {
+      "districtNumber": 26,
+      "opportunityScore": 79,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive",
+      "factors": {
+        "competitiveness": 0.8,
+        "marginTrend": 0.49,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 9.4,
+        "trendChange": -0.8,
+        "competitivenessScore": 80
+      },
+      "flags": {
+        "needsCandidate": true,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": true,
+        "hasDemocrat": false
+      },
+      "recommendation": "Protect seat - ensure strong candidate and resources"
+    },
+    "27": {
+      "districtNumber": 27,
+      "opportunityScore": 33,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.2,
+        "marginTrend": 0,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 21.2,
+        "trendChange": -38.4,
+        "competitivenessScore": 20
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "28": {
+      "districtNumber": 28,
+      "opportunityScore": 40,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0.5,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 100.0,
+        "trendChange": -0.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "29": {
+      "districtNumber": 29,
+      "opportunityScore": 90,
+      "tier": "HIGH_OPPORTUNITY",
+      "tierLabel": "High Opportunity",
+      "factors": {
+        "competitiveness": 1.0,
+        "marginTrend": 0.62,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 3.9,
+        "trendChange": 7.0,
+        "competitivenessScore": 100
+      },
+      "flags": {
+        "needsCandidate": true,
+        "openSeat": true,
+        "trendingDem": true,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "URGENT: Recruit Democratic candidate immediately"
+    },
+    "30": {
+      "districtNumber": 30,
+      "opportunityScore": 84,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive",
+      "factors": {
+        "competitiveness": 0.6,
+        "marginTrend": 1,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 9.4,
+        "trendChange": 90.6,
+        "competitivenessScore": 60
+      },
+      "flags": {
+        "needsCandidate": true,
+        "openSeat": true,
+        "trendingDem": true,
+        "defensive": true,
+        "hasDemocrat": false
+      },
+      "recommendation": "Protect seat - ensure strong candidate and resources"
+    },
+    "31": {
+      "districtNumber": 31,
+      "opportunityScore": 52,
+      "tier": "EMERGING",
+      "tierLabel": "Emerging",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 1,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 32.0,
+        "trendChange": 68.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": true,
+        "openSeat": true,
+        "trendingDem": true,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Priority candidate recruitment target"
+    },
+    "32": {
+      "districtNumber": 32,
+      "opportunityScore": 60,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 21.2,
+        "trendChange": -78.8,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": true,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": true,
+        "hasDemocrat": false
+      },
+      "recommendation": "Protect seat - ensure strong candidate and resources"
+    },
+    "33": {
+      "districtNumber": 33,
+      "opportunityScore": 52,
+      "tier": "EMERGING",
+      "tierLabel": "Emerging",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 1,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 37.2,
+        "trendChange": 62.8,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": true,
+        "openSeat": true,
+        "trendingDem": true,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Priority candidate recruitment target"
+    },
+    "34": {
+      "districtNumber": 34,
+      "opportunityScore": 27,
+      "tier": "NON_COMPETITIVE",
+      "tierLabel": "Non-Competitive",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 33.6,
+        "trendChange": -66.4,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Low priority - minimal resources"
+    },
+    "35": {
+      "districtNumber": 35,
+      "opportunityScore": 90,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive",
+      "factors": {
+        "competitiveness": 0.75,
+        "marginTrend": 1,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 4.6,
+        "trendChange": 95.4,
+        "competitivenessScore": 75
+      },
+      "flags": {
+        "needsCandidate": true,
+        "openSeat": true,
+        "trendingDem": true,
+        "defensive": true,
+        "hasDemocrat": false
+      },
+      "recommendation": "Protect seat - ensure strong candidate and resources"
+    },
+    "36": {
+      "districtNumber": 36,
+      "opportunityScore": 89,
+      "tier": "HIGH_OPPORTUNITY",
+      "tierLabel": "High Opportunity",
+      "factors": {
+        "competitiveness": 0.9,
+        "marginTrend": 0.73,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 8.2,
+        "trendChange": 13.6,
+        "competitivenessScore": 90
+      },
+      "flags": {
+        "needsCandidate": true,
+        "openSeat": true,
+        "trendingDem": true,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "URGENT: Recruit Democratic candidate immediately"
+    },
+    "37": {
+      "districtNumber": 37,
+      "opportunityScore": 33,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.2,
+        "marginTrend": 0,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 20.0,
+        "trendChange": -80.0,
+        "competitivenessScore": 20
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "38": {
+      "districtNumber": 38,
+      "opportunityScore": 33,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.2,
+        "marginTrend": 0,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 17.8,
+        "trendChange": -82.2,
+        "competitivenessScore": 20
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    },
+    "39": {
+      "districtNumber": 39,
+      "opportunityScore": 88,
+      "tier": "HIGH_OPPORTUNITY",
+      "tierLabel": "High Opportunity",
+      "factors": {
+        "competitiveness": 0.9,
+        "marginTrend": 0.68,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 7.6,
+        "trendChange": 10.8,
+        "competitivenessScore": 90
+      },
+      "flags": {
+        "needsCandidate": true,
+        "openSeat": true,
+        "trendingDem": true,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "URGENT: Recruit Democratic candidate immediately"
+    },
+    "40": {
+      "districtNumber": 40,
+      "opportunityScore": 84,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive",
+      "factors": {
+        "competitiveness": 0.6,
+        "marginTrend": 1,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 5.2,
+        "trendChange": 94.8,
+        "competitivenessScore": 60
+      },
+      "flags": {
+        "needsCandidate": true,
+        "openSeat": true,
+        "trendingDem": true,
+        "defensive": true,
+        "hasDemocrat": false
+      },
+      "recommendation": "Protect seat - ensure strong candidate and resources"
+    },
+    "41": {
+      "districtNumber": 41,
+      "opportunityScore": 74,
+      "tier": "HIGH_OPPORTUNITY",
+      "tierLabel": "High Opportunity",
+      "factors": {
+        "competitiveness": 0.8,
+        "marginTrend": 0.28,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 8.4,
+        "trendChange": -13.2,
+        "competitivenessScore": 80
+      },
+      "flags": {
+        "needsCandidate": true,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "URGENT: Recruit Democratic candidate immediately"
+    },
+    "42": {
+      "districtNumber": 42,
+      "opportunityScore": 60,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive",
+      "factors": {
+        "competitiveness": 0.05,
+        "marginTrend": 0.5,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 100.0,
+        "trendChange": -0.0,
+        "competitivenessScore": 5
+      },
+      "flags": {
+        "needsCandidate": true,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": true,
+        "hasDemocrat": false
+      },
+      "recommendation": "Protect seat - ensure strong candidate and resources"
+    },
+    "43": {
+      "districtNumber": 43,
+      "opportunityScore": 59,
+      "tier": "EMERGING",
+      "tierLabel": "Emerging",
+      "factors": {
+        "competitiveness": 0.4,
+        "marginTrend": 0.34,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 17.3,
+        "trendChange": -9.8,
+        "competitivenessScore": 40
+      },
+      "flags": {
+        "needsCandidate": true,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Priority candidate recruitment target"
+    },
+    "44": {
+      "districtNumber": 44,
+      "opportunityScore": 61,
+      "tier": "EMERGING",
+      "tierLabel": "Emerging",
+      "factors": {
+        "competitiveness": 0.4,
+        "marginTrend": 0.38,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 17.7,
+        "trendChange": -7.0,
+        "competitivenessScore": 40
+      },
+      "flags": {
+        "needsCandidate": true,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Priority candidate recruitment target"
+    },
+    "45": {
+      "districtNumber": 45,
+      "opportunityScore": 60,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive",
+      "factors": {
+        "competitiveness": 0.2,
+        "marginTrend": 0,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 19.0,
+        "trendChange": -81.0,
+        "competitivenessScore": 20
+      },
+      "flags": {
+        "needsCandidate": true,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": true,
+        "hasDemocrat": false
+      },
+      "recommendation": "Protect seat - ensure strong candidate and resources"
+    },
+    "46": {
+      "districtNumber": 46,
+      "opportunityScore": 40,
+      "tier": "BUILD",
+      "tierLabel": "Build",
+      "factors": {
+        "competitiveness": 0.1,
+        "marginTrend": 0.45,
+        "incumbency": 1.0,
+        "candidatePresence": 0.0,
+        "openSeatBonus": true
+      },
+      "metrics": {
+        "avgMargin": 33.1,
+        "trendChange": -3.0,
+        "competitivenessScore": 10
+      },
+      "flags": {
+        "needsCandidate": false,
+        "openSeat": true,
+        "trendingDem": false,
+        "defensive": false,
+        "hasDemocrat": false
+      },
+      "recommendation": "Long-term investment - party building focus"
+    }
+  }
+}

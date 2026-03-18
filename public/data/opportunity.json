@@ -1,0 +1,3098 @@
+{
+  "lastUpdated": "2026-03-18T11:52:20.372218+00:00",
+  "thresholds": {
+    "HOT": 5,
+    "WARM": 10,
+    "POSSIBLE": 15
+  },
+  "house": {
+    "1": {
+      "districtNumber": 1,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "William R. &quot;Bill&quot; Whitmire",
+        "party": "Republican"
+      }
+    },
+    "2": {
+      "districtNumber": 2,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Adam L. Duncan",
+        "party": "Republican"
+      }
+    },
+    "3": {
+      "districtNumber": 3,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 42,
+      "margin": 28.8,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": true,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Phillip Bowers",
+        "party": "Republican"
+      }
+    },
+    "4": {
+      "districtNumber": 4,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": true,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "David R. Hiott",
+        "party": "Republican"
+      }
+    },
+    "5": {
+      "districtNumber": 5,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Neal A. Collins",
+        "party": "Republican"
+      }
+    },
+    "6": {
+      "districtNumber": 6,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 2,
+      "margin": 49.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "April Cromer",
+        "party": "Republican"
+      }
+    },
+    "7": {
+      "districtNumber": 7,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 81.8,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Thomas Lee Gilreath",
+        "party": "Republican"
+      }
+    },
+    "8": {
+      "districtNumber": 8,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 74.6,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": true,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Donald G. &quot;Don&quot; Chapman",
+        "party": "Republican"
+      }
+    },
+    "9": {
+      "districtNumber": 9,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Richard Blake Sanders",
+        "party": "Republican"
+      }
+    },
+    "10": {
+      "districtNumber": 10,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Thomas Beach",
+        "party": "Republican"
+      }
+    },
+    "11": {
+      "districtNumber": 11,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Craig A. Gagnon",
+        "party": "Republican"
+      }
+    },
+    "12": {
+      "districtNumber": 12,
+      "tier": "HOT",
+      "tierLabel": "Hot Zone (\u22645pt)",
+      "opportunityScore": 91,
+      "margin": 4.6,
+      "flags": {
+        "needsCandidate": true,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Daniel Gibson",
+        "party": "Republican"
+      }
+    },
+    "13": {
+      "districtNumber": 13,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 1,
+      "margin": 49.6,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "John R. McCravy III",
+        "party": "Republican"
+      }
+    },
+    "14": {
+      "districtNumber": 14,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Luke S. Rankin",
+        "party": "Republican"
+      }
+    },
+    "15": {
+      "districtNumber": 15,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive (Dem-held)",
+      "opportunityScore": 50,
+      "margin": 11.6,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": true,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "JA Moore",
+        "party": "Democratic"
+      }
+    },
+    "16": {
+      "districtNumber": 16,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Mark N. Willis",
+        "party": "Republican"
+      }
+    },
+    "17": {
+      "districtNumber": 17,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "James Mikell &quot;Mike&quot; Burns",
+        "party": "Republican"
+      }
+    },
+    "18": {
+      "districtNumber": 18,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "T. Alan Morgan, Jr.",
+        "party": "Republican"
+      }
+    },
+    "19": {
+      "districtNumber": 19,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Patrick B. Haddon",
+        "party": "Republican"
+      }
+    },
+    "20": {
+      "districtNumber": 20,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 27,
+      "margin": 36.6,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Stephen Frank",
+        "party": "Republican"
+      }
+    },
+    "21": {
+      "districtNumber": 21,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": true,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Dianne Mitchell",
+        "party": "Republican"
+      }
+    },
+    "22": {
+      "districtNumber": 22,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 60,
+      "margin": 20.2,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Paul B. Wickensimer",
+        "party": "Republican"
+      }
+    },
+    "23": {
+      "districtNumber": 23,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive (Dem-held)",
+      "opportunityScore": 50,
+      "margin": 60.8,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": true,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Chandra E. Dillard",
+        "party": "Democratic"
+      }
+    },
+    "24": {
+      "districtNumber": 24,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 58,
+      "margin": 21.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Bruce W. Bannister",
+        "party": "Republican"
+      }
+    },
+    "25": {
+      "districtNumber": 25,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive (Dem-held)",
+      "opportunityScore": 50,
+      "margin": 25.6,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": true,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Wendell K. Jones",
+        "party": "Democratic"
+      }
+    },
+    "26": {
+      "districtNumber": 26,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 49,
+      "margin": 25.4,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "David Martin",
+        "party": "Republican"
+      }
+    },
+    "27": {
+      "districtNumber": 27,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 60,
+      "margin": 20.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "David Vaughan",
+        "party": "Republican"
+      }
+    },
+    "28": {
+      "districtNumber": 28,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 40,
+      "margin": 30.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "William C. &quot;Chris&quot; Huff",
+        "party": "Republican"
+      }
+    },
+    "29": {
+      "districtNumber": 29,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Dennis C. Moss",
+        "party": "Republican"
+      }
+    },
+    "30": {
+      "districtNumber": 30,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 58.8,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "M. Brian Lawson",
+        "party": "Republican"
+      }
+    },
+    "31": {
+      "districtNumber": 31,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive (Dem-held)",
+      "opportunityScore": 50,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": true,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Rosalyn D. Henderson-Myers, Ph.D.",
+        "party": "Democratic"
+      }
+    },
+    "32": {
+      "districtNumber": 32,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "W. Scott Montgomery IV",
+        "party": "Republican"
+      }
+    },
+    "33": {
+      "districtNumber": 33,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 12,
+      "margin": 44.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": true,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Travis A. Moore",
+        "party": "Republican"
+      }
+    },
+    "34": {
+      "districtNumber": 34,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Sarita L. Edgerton",
+        "party": "Republican"
+      }
+    },
+    "35": {
+      "districtNumber": 35,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "William M. &quot;Bill&quot; Chumley",
+        "party": "Republican"
+      }
+    },
+    "36": {
+      "districtNumber": 36,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Robert J. &quot;Rob&quot; Harris",
+        "party": "Republican"
+      }
+    },
+    "37": {
+      "districtNumber": 37,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Steven Wayne Long",
+        "party": "Republican"
+      }
+    },
+    "38": {
+      "districtNumber": 38,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 63.6,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Josiah Magnuson",
+        "party": "Republican"
+      }
+    },
+    "39": {
+      "districtNumber": 39,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Cally R. &quot;Cal&quot; Forrest, Jr.",
+        "party": "Republican"
+      }
+    },
+    "40": {
+      "districtNumber": 40,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": true,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Joseph S. &quot;Joe&quot; White",
+        "party": "Republican"
+      }
+    },
+    "41": {
+      "districtNumber": 41,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive (Dem-held)",
+      "opportunityScore": 50,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": true,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Annie E. McDaniel",
+        "party": "Democratic"
+      }
+    },
+    "42": {
+      "districtNumber": 42,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 28,
+      "margin": 36.2,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Leon D. &quot;Doug&quot; Gilliam",
+        "party": "Republican"
+      }
+    },
+    "43": {
+      "districtNumber": 43,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Thomas R. &quot;Randy&quot; Ligon",
+        "party": "Republican"
+      }
+    },
+    "44": {
+      "districtNumber": 44,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 56,
+      "margin": 22.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": true,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "James M. &quot;Mike&quot; Neese",
+        "party": "Republican"
+      }
+    },
+    "45": {
+      "districtNumber": 45,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 42,
+      "margin": 28.8,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Brandon Newton",
+        "party": "Republican"
+      }
+    },
+    "46": {
+      "districtNumber": 46,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 60,
+      "margin": 19.8,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Heath Sessions",
+        "party": "Republican"
+      }
+    },
+    "47": {
+      "districtNumber": 47,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Thomas E. &quot;Tommy&quot; Pope",
+        "party": "Republican"
+      }
+    },
+    "48": {
+      "districtNumber": 48,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Brandon Guffey",
+        "party": "Republican"
+      }
+    },
+    "49": {
+      "districtNumber": 49,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive (Dem-held)",
+      "opportunityScore": 50,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": true,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "John Richard C. King",
+        "party": "Democratic"
+      }
+    },
+    "50": {
+      "districtNumber": 50,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive (Dem-held)",
+      "opportunityScore": 50,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": true,
+        "hasRepublican": false,
+        "isDefensive": true,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Keishan M. Scott",
+        "party": "Democratic"
+      }
+    },
+    "51": {
+      "districtNumber": 51,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive (Dem-held)",
+      "opportunityScore": 50,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": true,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "J. David Weeks",
+        "party": "Democratic"
+      }
+    },
+    "52": {
+      "districtNumber": 52,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive (Dem-held)",
+      "opportunityScore": 50,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": true,
+        "hasRepublican": false,
+        "isDefensive": true,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Jermaine L. Johnson, Sr.",
+        "party": "Democratic"
+      }
+    },
+    "53": {
+      "districtNumber": 53,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 5,
+      "margin": 47.6,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Richard L. &quot;Richie&quot; Yow",
+        "party": "Republican"
+      }
+    },
+    "54": {
+      "districtNumber": 54,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive (Dem-held)",
+      "opportunityScore": 50,
+      "margin": 4.2,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": true,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Jason S. Luck",
+        "party": "Democratic"
+      }
+    },
+    "55": {
+      "districtNumber": 55,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive (Dem-held)",
+      "opportunityScore": 50,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": true,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Jackie E. &quot;Coach&quot; Hayes",
+        "party": "Democratic"
+      }
+    },
+    "56": {
+      "districtNumber": 56,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Timothy A. &quot;Tim&quot; McGinnis",
+        "party": "Republican"
+      }
+    },
+    "57": {
+      "districtNumber": 57,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive (Dem-held)",
+      "opportunityScore": 50,
+      "margin": 17.6,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": true,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Lucas Atkinson",
+        "party": "Democratic"
+      }
+    },
+    "58": {
+      "districtNumber": 58,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Jeffrey E. &quot;Jeff&quot; Johnson",
+        "party": "Republican"
+      }
+    },
+    "59": {
+      "districtNumber": 59,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive (Dem-held)",
+      "opportunityScore": 50,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": true,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Terry Alexander",
+        "party": "Democratic"
+      }
+    },
+    "60": {
+      "districtNumber": 60,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Phillip D. Lowe",
+        "party": "Republican"
+      }
+    },
+    "61": {
+      "districtNumber": 61,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Carla Schuessler",
+        "party": "Republican"
+      }
+    },
+    "62": {
+      "districtNumber": 62,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive (Dem-held)",
+      "opportunityScore": 50,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": true,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Robert Q. Williams",
+        "party": "Democratic"
+      }
+    },
+    "63": {
+      "districtNumber": 63,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 34,
+      "margin": 32.8,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Wallace H. &quot;Jay&quot; Jordan, Jr.",
+        "party": "Republican"
+      }
+    },
+    "64": {
+      "districtNumber": 64,
+      "tier": "POSSIBLE",
+      "tierLabel": "Possible (11-15pt)",
+      "opportunityScore": 77,
+      "margin": 11.6,
+      "flags": {
+        "needsCandidate": true,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Fawn M. Pedalino",
+        "party": "Republican"
+      }
+    },
+    "65": {
+      "districtNumber": 65,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Cody T. Mitchell",
+        "party": "Republican"
+      }
+    },
+    "66": {
+      "districtNumber": 66,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Jackie R. Terribile",
+        "party": "Republican"
+      }
+    },
+    "67": {
+      "districtNumber": 67,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": true,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "G. Murrell Smith, Jr.",
+        "party": "Republican"
+      }
+    },
+    "68": {
+      "districtNumber": 68,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Heather Ammons Crawford",
+        "party": "Republican"
+      }
+    },
+    "69": {
+      "districtNumber": 69,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 63.8,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Chris Wooten",
+        "party": "Republican"
+      }
+    },
+    "70": {
+      "districtNumber": 70,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive (Dem-held)",
+      "opportunityScore": 50,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": true,
+        "hasRepublican": false,
+        "isDefensive": true,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Robert T. Reese",
+        "party": "Democratic"
+      }
+    },
+    "71": {
+      "districtNumber": 71,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Nathan Ballentine",
+        "party": "Republican"
+      }
+    },
+    "72": {
+      "districtNumber": 72,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive (Dem-held)",
+      "opportunityScore": 50,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": true,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Seth Rose",
+        "party": "Democratic"
+      }
+    },
+    "73": {
+      "districtNumber": 73,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive (Dem-held)",
+      "opportunityScore": 50,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": true,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Christopher R. &quot;Chris&quot; Hart",
+        "party": "Democratic"
+      }
+    },
+    "74": {
+      "districtNumber": 74,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive (Dem-held)",
+      "opportunityScore": 50,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": true,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "J. Todd Rutherford",
+        "party": "Democratic"
+      }
+    },
+    "75": {
+      "districtNumber": 75,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive (Dem-held)",
+      "opportunityScore": 50,
+      "margin": 6.6,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": true,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Heather Bauer",
+        "party": "Democratic"
+      }
+    },
+    "76": {
+      "districtNumber": 76,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive (Dem-held)",
+      "opportunityScore": 50,
+      "margin": 84.6,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": true,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Leon Howard",
+        "party": "Democratic"
+      }
+    },
+    "77": {
+      "districtNumber": 77,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive (Dem-held)",
+      "opportunityScore": 50,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": true,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Kambrell H. Garvin",
+        "party": "Democratic"
+      }
+    },
+    "78": {
+      "districtNumber": 78,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive (Dem-held)",
+      "opportunityScore": 50,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": true,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Beth E. Bernstein",
+        "party": "Democratic"
+      }
+    },
+    "79": {
+      "districtNumber": 79,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive (Dem-held)",
+      "opportunityScore": 50,
+      "margin": 50.8,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": true,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Hamilton R. Grant",
+        "party": "Democratic"
+      }
+    },
+    "80": {
+      "districtNumber": 80,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 39,
+      "margin": 30.4,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Kathy Landing",
+        "party": "Republican"
+      }
+    },
+    "81": {
+      "districtNumber": 81,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 28,
+      "margin": 36.2,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Charles V. Hartz",
+        "party": "Republican"
+      }
+    },
+    "82": {
+      "districtNumber": 82,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive (Dem-held)",
+      "opportunityScore": 50,
+      "margin": 7.8,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": true,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "William &quot;Bill&quot; Clyburn",
+        "party": "Democratic"
+      }
+    },
+    "83": {
+      "districtNumber": 83,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "William M. &quot;Bill&quot; Hixon",
+        "party": "Republican"
+      }
+    },
+    "84": {
+      "districtNumber": 84,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Melissa Lackey Oremus",
+        "party": "Republican"
+      }
+    },
+    "85": {
+      "districtNumber": 85,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": true,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "John Gregory &quot;Jay&quot; Kilmartin",
+        "party": "Republican"
+      }
+    },
+    "86": {
+      "districtNumber": 86,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Bill Taylor",
+        "party": "Republican"
+      }
+    },
+    "87": {
+      "districtNumber": 87,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 71.8,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Paula Rawl Calhoon",
+        "party": "Republican"
+      }
+    },
+    "88": {
+      "districtNumber": 88,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": true,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "John Lastinger",
+        "party": "Republican"
+      }
+    },
+    "89": {
+      "districtNumber": 89,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 59,
+      "margin": 20.6,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Micajah P. &quot;Micah&quot; Caskey IV",
+        "party": "Republican"
+      }
+    },
+    "90": {
+      "districtNumber": 90,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive (Dem-held)",
+      "opportunityScore": 50,
+      "margin": 20.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": true,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Justin T. Bamberg",
+        "party": "Democratic"
+      }
+    },
+    "91": {
+      "districtNumber": 91,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive (Dem-held)",
+      "opportunityScore": 50,
+      "margin": 3.2,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": true,
+        "hasRepublican": true,
+        "isDefensive": true,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Lonnie Hosey",
+        "party": "Democratic"
+      }
+    },
+    "92": {
+      "districtNumber": 92,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Brandon L. Cox",
+        "party": "Republican"
+      }
+    },
+    "93": {
+      "districtNumber": 93,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive (Dem-held)",
+      "opportunityScore": 50,
+      "margin": 5.2,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": true,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Jerry N. Govan, Jr.",
+        "party": "Democratic"
+      }
+    },
+    "94": {
+      "districtNumber": 94,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Gil Gatch",
+        "party": "Republican"
+      }
+    },
+    "95": {
+      "districtNumber": 95,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive (Dem-held)",
+      "opportunityScore": 50,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": true,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Gilda Cobb-Hunter",
+        "party": "Democratic"
+      }
+    },
+    "96": {
+      "districtNumber": 96,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Donald Ryan McCabe, Jr.",
+        "party": "Republican"
+      }
+    },
+    "97": {
+      "districtNumber": 97,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Robby Robbins",
+        "party": "Republican"
+      }
+    },
+    "98": {
+      "districtNumber": 98,
+      "tier": "POSSIBLE",
+      "tierLabel": "Possible (11-15pt)",
+      "opportunityScore": 72,
+      "margin": 14.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": true,
+        "hasRepublican": true,
+        "isDefensive": false,
+        "isOpenSeat": true
+      },
+      "incumbent": {
+        "name": "",
+        "party": ""
+      }
+    },
+    "99": {
+      "districtNumber": 99,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": true,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Marvin &quot;Mark&quot; Smith",
+        "party": "Republican"
+      }
+    },
+    "100": {
+      "districtNumber": 100,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Sylleste H. Davis",
+        "party": "Republican"
+      }
+    },
+    "101": {
+      "districtNumber": 101,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive (Dem-held)",
+      "opportunityScore": 50,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": true,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Roger K. Kirby",
+        "party": "Democratic"
+      }
+    },
+    "102": {
+      "districtNumber": 102,
+      "tier": "HOT",
+      "tierLabel": "Hot Zone (\u22645pt)",
+      "opportunityScore": 92,
+      "margin": 3.8,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": true,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Harriet A. Holman",
+        "party": "Republican"
+      }
+    },
+    "103": {
+      "districtNumber": 103,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive (Dem-held)",
+      "opportunityScore": 50,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": true,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Carl L. Anderson",
+        "party": "Democratic"
+      }
+    },
+    "104": {
+      "districtNumber": 104,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": true,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "William H. Bailey",
+        "party": "Republican"
+      }
+    },
+    "105": {
+      "districtNumber": 105,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Kevin Hardee",
+        "party": "Republican"
+      }
+    },
+    "106": {
+      "districtNumber": 106,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Thomas Duval &quot;Val&quot; Guest, Jr.",
+        "party": "Republican"
+      }
+    },
+    "107": {
+      "districtNumber": 107,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Thomas C. &quot;Case&quot; Brittain, Jr.",
+        "party": "Republican"
+      }
+    },
+    "108": {
+      "districtNumber": 108,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": true,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Lee Hewitt",
+        "party": "Republican"
+      }
+    },
+    "109": {
+      "districtNumber": 109,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive (Dem-held)",
+      "opportunityScore": 50,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": true,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Tiffany Spann-Wilder",
+        "party": "Democratic"
+      }
+    },
+    "110": {
+      "districtNumber": 110,
+      "tier": "POSSIBLE",
+      "tierLabel": "Possible (11-15pt)",
+      "opportunityScore": 76,
+      "margin": 12.0,
+      "flags": {
+        "needsCandidate": true,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Thomas F. &quot;Tom&quot; Hartnett, Jr.",
+        "party": "Republican"
+      }
+    },
+    "111": {
+      "districtNumber": 111,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive (Dem-held)",
+      "opportunityScore": 50,
+      "margin": 66.4,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": true,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Wendell G. Gilliard",
+        "party": "Democratic"
+      }
+    },
+    "112": {
+      "districtNumber": 112,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 56,
+      "margin": 22.2,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": true,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Joseph M. &quot;Joe&quot; Bustos",
+        "party": "Republican"
+      }
+    },
+    "113": {
+      "districtNumber": 113,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive (Dem-held)",
+      "opportunityScore": 50,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": true,
+        "hasRepublican": false,
+        "isDefensive": true,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Courtney S. Waters",
+        "party": "Democratic"
+      }
+    },
+    "114": {
+      "districtNumber": 114,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 55,
+      "margin": 22.4,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Gary S. Brewer, Jr.",
+        "party": "Republican"
+      }
+    },
+    "115": {
+      "districtNumber": 115,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive (Dem-held)",
+      "opportunityScore": 50,
+      "margin": 3.8,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": true,
+        "isDefensive": true,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Elizabeth &quot;Spencer&quot; Wetmore",
+        "party": "Democratic"
+      }
+    },
+    "116": {
+      "districtNumber": 116,
+      "tier": "HOT",
+      "tierLabel": "Hot Zone (\u22645pt)",
+      "opportunityScore": 95,
+      "margin": 2.4,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": true,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "James E. Teeple",
+        "party": "Republican"
+      }
+    },
+    "117": {
+      "districtNumber": 117,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Jordan S. Pace",
+        "party": "Republican"
+      }
+    },
+    "118": {
+      "districtNumber": 118,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 41,
+      "margin": 29.6,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "William G. &quot;Bill&quot; Herbkersman",
+        "party": "Republican"
+      }
+    },
+    "119": {
+      "districtNumber": 119,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive (Dem-held)",
+      "opportunityScore": 50,
+      "margin": 10.4,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": true,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Leonidas E. &quot;Leon&quot; Stavrinakis",
+        "party": "Democratic"
+      }
+    },
+    "120": {
+      "districtNumber": 120,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 33,
+      "margin": 33.4,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Wm. Weston J. Newton",
+        "party": "Republican"
+      }
+    },
+    "121": {
+      "districtNumber": 121,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive (Dem-held)",
+      "opportunityScore": 50,
+      "margin": 16.2,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": true,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Michael F. Rivers, Sr.",
+        "party": "Democratic"
+      }
+    },
+    "122": {
+      "districtNumber": 122,
+      "tier": "WARM",
+      "tierLabel": "Warm Zone (6-10pt)",
+      "opportunityScore": 86,
+      "margin": 7.2,
+      "flags": {
+        "needsCandidate": true,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "William &quot;Bill&quot; Hager",
+        "party": "Republican"
+      }
+    },
+    "123": {
+      "districtNumber": 123,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 60,
+      "margin": 19.8,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Jeffrey A. &quot;Jeff&quot; Bradley",
+        "party": "Republican"
+      }
+    },
+    "124": {
+      "districtNumber": 124,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 47,
+      "margin": 26.6,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Shannon S. Erickson",
+        "party": "Republican"
+      }
+    }
+  },
+  "senate": {
+    "1": {
+      "districtNumber": 1,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Thomas C. Alexander",
+        "party": "Republican"
+      }
+    },
+    "2": {
+      "districtNumber": 2,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Rex F. Rice",
+        "party": "Republican"
+      }
+    },
+    "3": {
+      "districtNumber": 3,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 51.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Richard J. Cash",
+        "party": "Republican"
+      }
+    },
+    "4": {
+      "districtNumber": 4,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Michael W. Gambrell",
+        "party": "Republican"
+      }
+    },
+    "5": {
+      "districtNumber": 5,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Thomas D. &quot;Tom&quot; Corbin",
+        "party": "Republican"
+      }
+    },
+    "6": {
+      "districtNumber": 6,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Jason Elliott",
+        "party": "Republican"
+      }
+    },
+    "7": {
+      "districtNumber": 7,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive (Dem-held)",
+      "opportunityScore": 50,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": true,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Karl B. Allen",
+        "party": "Democratic"
+      }
+    },
+    "8": {
+      "districtNumber": 8,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 48,
+      "margin": 26.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Ross Turner",
+        "party": "Republican"
+      }
+    },
+    "9": {
+      "districtNumber": 9,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 19,
+      "margin": 40.6,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Daniel B. &quot;Danny&quot; Verdin III",
+        "party": "Republican"
+      }
+    },
+    "10": {
+      "districtNumber": 10,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 23,
+      "margin": 38.4,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Billy Garrett",
+        "party": "Republican"
+      }
+    },
+    "11": {
+      "districtNumber": 11,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 39,
+      "margin": 30.6,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Josh Kimbrell",
+        "party": "Republican"
+      }
+    },
+    "12": {
+      "districtNumber": 12,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 44,
+      "margin": 28.2,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Lee Bright",
+        "party": "Republican"
+      }
+    },
+    "13": {
+      "districtNumber": 13,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Shane R. Martin",
+        "party": "Republican"
+      }
+    },
+    "14": {
+      "districtNumber": 14,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Harvey S. Peeler, Jr.",
+        "party": "Republican"
+      }
+    },
+    "15": {
+      "districtNumber": 15,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 52.8,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": true,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Wes Climer",
+        "party": "Republican"
+      }
+    },
+    "16": {
+      "districtNumber": 16,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 58.4,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Michael Johnson",
+        "party": "Republican"
+      }
+    },
+    "17": {
+      "districtNumber": 17,
+      "tier": "HOT",
+      "tierLabel": "Hot Zone (\u22645pt)",
+      "opportunityScore": 100,
+      "margin": null,
+      "flags": {
+        "needsCandidate": true,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Everett Stubbs",
+        "party": "Republican"
+      }
+    },
+    "18": {
+      "districtNumber": 18,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Ronnie W. Cromer",
+        "party": "Republican"
+      }
+    },
+    "19": {
+      "districtNumber": 19,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive (Dem-held)",
+      "opportunityScore": 50,
+      "margin": 75.2,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": true,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Tameika Isaac Devine",
+        "party": "Democratic"
+      }
+    },
+    "20": {
+      "districtNumber": 20,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive (Dem-held)",
+      "opportunityScore": 50,
+      "margin": 47.6,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": true,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Ed Sutton",
+        "party": "Democratic"
+      }
+    },
+    "21": {
+      "districtNumber": 21,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive (Dem-held)",
+      "opportunityScore": 50,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": true,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Darrell Jackson",
+        "party": "Democratic"
+      }
+    },
+    "22": {
+      "districtNumber": 22,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive (Dem-held)",
+      "opportunityScore": 50,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": true,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Overture Walker",
+        "party": "Democratic"
+      }
+    },
+    "23": {
+      "districtNumber": 23,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Carlisle Kennedy",
+        "party": "Republican"
+      }
+    },
+    "24": {
+      "districtNumber": 24,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 32,
+      "margin": 34.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Tom Young, Jr.",
+        "party": "Republican"
+      }
+    },
+    "25": {
+      "districtNumber": 25,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "A. Shane Massey",
+        "party": "Republican"
+      }
+    },
+    "26": {
+      "districtNumber": 26,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive (Dem-held)",
+      "opportunityScore": 50,
+      "margin": 9.8,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": true,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Russell L. Ott",
+        "party": "Democratic"
+      }
+    },
+    "27": {
+      "districtNumber": 27,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 19,
+      "margin": 40.4,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Allen Blackmon",
+        "party": "Republican"
+      }
+    },
+    "28": {
+      "districtNumber": 28,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Greg Hembree",
+        "party": "Republican"
+      }
+    },
+    "29": {
+      "districtNumber": 29,
+      "tier": "HOT",
+      "tierLabel": "Hot Zone (\u22645pt)",
+      "opportunityScore": 99,
+      "margin": 0.4,
+      "flags": {
+        "needsCandidate": true,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "JD Chaplin",
+        "party": "Republican"
+      }
+    },
+    "30": {
+      "districtNumber": 30,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive (Dem-held)",
+      "opportunityScore": 50,
+      "margin": 9.4,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": true,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Kent M. Williams",
+        "party": "Democratic"
+      }
+    },
+    "31": {
+      "districtNumber": 31,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 36,
+      "margin": 32.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Mike Reichenbach",
+        "party": "Republican"
+      }
+    },
+    "32": {
+      "districtNumber": 32,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive (Dem-held)",
+      "opportunityScore": 50,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": true,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Ronnie A. Sabb",
+        "party": "Democratic"
+      }
+    },
+    "33": {
+      "districtNumber": 33,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 26,
+      "margin": 37.2,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Luke A. Rankin",
+        "party": "Republican"
+      }
+    },
+    "34": {
+      "districtNumber": 34,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Stephen L. Goldfinch",
+        "party": "Republican"
+      }
+    },
+    "35": {
+      "districtNumber": 35,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive (Dem-held)",
+      "opportunityScore": 50,
+      "margin": 4.6,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": true,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Jeffrey R. Graham",
+        "party": "Democratic"
+      }
+    },
+    "36": {
+      "districtNumber": 36,
+      "tier": "HOT",
+      "tierLabel": "Hot Zone (\u22645pt)",
+      "opportunityScore": 97,
+      "margin": 1.4,
+      "flags": {
+        "needsCandidate": true,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Jeff Zell",
+        "party": "Republican"
+      }
+    },
+    "37": {
+      "districtNumber": 37,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Lawrence K. &quot;Larry&quot; Grooms",
+        "party": "Republican"
+      }
+    },
+    "38": {
+      "districtNumber": 38,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 0,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Sean M. Bennett",
+        "party": "Republican"
+      }
+    },
+    "39": {
+      "districtNumber": 39,
+      "tier": "HOT",
+      "tierLabel": "Hot Zone (\u22645pt)",
+      "opportunityScore": 96,
+      "margin": 2.2,
+      "flags": {
+        "needsCandidate": true,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Tom Fernandez",
+        "party": "Republican"
+      }
+    },
+    "40": {
+      "districtNumber": 40,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive (Dem-held)",
+      "opportunityScore": 50,
+      "margin": 5.2,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": true,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Brad Hutto",
+        "party": "Democratic"
+      }
+    },
+    "41": {
+      "districtNumber": 41,
+      "tier": "POSSIBLE",
+      "tierLabel": "Possible (11-15pt)",
+      "opportunityScore": 70,
+      "margin": 15.0,
+      "flags": {
+        "needsCandidate": true,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Matthew W. &quot;Matt&quot; Leber",
+        "party": "Republican"
+      }
+    },
+    "42": {
+      "districtNumber": 42,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive (Dem-held)",
+      "opportunityScore": 50,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": true,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Deon T. Tedder",
+        "party": "Democratic"
+      }
+    },
+    "43": {
+      "districtNumber": 43,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 56,
+      "margin": 22.2,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "George E. &quot;Chip&quot; Campsen III",
+        "party": "Republican"
+      }
+    },
+    "44": {
+      "districtNumber": 44,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 58,
+      "margin": 21.2,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Brian Adams",
+        "party": "Republican"
+      }
+    },
+    "45": {
+      "districtNumber": 45,
+      "tier": "DEFENSIVE",
+      "tierLabel": "Defensive (Dem-held)",
+      "opportunityScore": 50,
+      "margin": 100.0,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": true,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Margie Bright Matthews",
+        "party": "Democratic"
+      }
+    },
+    "46": {
+      "districtNumber": 46,
+      "tier": "LONG_SHOT",
+      "tierLabel": "Long Shot (>15pt)",
+      "opportunityScore": 31,
+      "margin": 34.6,
+      "flags": {
+        "needsCandidate": false,
+        "hasDemocrat": false,
+        "hasRepublican": false,
+        "isDefensive": false,
+        "isOpenSeat": false
+      },
+      "incumbent": {
+        "name": "Tom Davis",
+        "party": "Republican"
+      }
+    }
+  },
+  "summary": {
+    "house": {
+      "HOT": 3,
+      "WARM": 1,
+      "POSSIBLE": 3,
+      "LONG_SHOT": 81,
+      "DEFENSIVE": 36,
+      "needsCandidate": 4
+    },
+    "senate": {
+      "HOT": 4,
+      "WARM": 0,
+      "POSSIBLE": 1,
+      "LONG_SHOT": 29,
+      "DEFENSIVE": 12,
+      "needsCandidate": 5
+    },
+    "total": {
+      "HOT": 7,
+      "WARM": 1,
+      "POSSIBLE": 4,
+      "LONG_SHOT": 110,
+      "DEFENSIVE": 48,
+      "needsCandidate": 9
+    }
+  }
+}
