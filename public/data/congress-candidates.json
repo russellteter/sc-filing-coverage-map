@@ -1,0 +1,92 @@
+{
+  "lastUpdated": "2026-01-13T00:00:00Z",
+  "house": {
+    "1": {
+      "districtNumber": 1,
+      "incumbent": {
+        "name": "Nancy Mace",
+        "party": "Republican",
+        "since": 2021
+      },
+      "candidates": []
+    },
+    "2": {
+      "districtNumber": 2,
+      "incumbent": {
+        "name": "Joe Wilson",
+        "party": "Republican",
+        "since": 2001
+      },
+      "candidates": []
+    },
+    "3": {
+      "districtNumber": 3,
+      "incumbent": {
+        "name": "Jeff Duncan",
+        "party": "Republican",
+        "since": 2011
+      },
+      "candidates": []
+    },
+    "4": {
+      "districtNumber": 4,
+      "incumbent": {
+        "name": "William Timmons",
+        "party": "Republican",
+        "since": 2019
+      },
+      "candidates": []
+    },
+    "5": {
+      "districtNumber": 5,
+      "incumbent": {
+        "name": "Ralph Norman",
+        "party": "Republican",
+        "since": 2017
+      },
+      "candidates": []
+    },
+    "6": {
+      "districtNumber": 6,
+      "incumbent": {
+        "name": "Jim Clyburn",
+        "party": "Democratic",
+        "since": 1993
+      },
+      "candidates": []
+    },
+    "7": {
+      "districtNumber": 7,
+      "incumbent": {
+        "name": "Russell Fry",
+        "party": "Republican",
+        "since": 2023
+      },
+      "candidates": []
+    }
+  },
+  "senate": {
+    "class2": {
+      "seatClass": 2,
+      "upForElection": false,
+      "incumbent": {
+        "name": "Tim Scott",
+        "party": "Republican",
+        "since": 2013,
+        "termEnds": 2029
+      },
+      "candidates": []
+    },
+    "class3": {
+      "seatClass": 3,
+      "upForElection": true,
+      "incumbent": {
+        "name": "Lindsey Graham",
+        "party": "Republican",
+        "since": 2003,
+        "termEnds": 2027
+      },
+      "candidates": []
+    }
+  }
+}

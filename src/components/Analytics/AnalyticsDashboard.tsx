@@ -1,0 +1,445 @@
+'use client';
+
+import { useState, useCallback, useMemo, Suspense, lazy, Component, type ReactNode } from 'react';
+import AnalyticsTabBar, { MobileAnalyticsTabBar } from './AnalyticsTabBar';
+import AnalyticsMap, { getDefaultLayerConfig } from './AnalyticsMap';
+import ChamberToggle from '@/components/Map/ChamberToggle';
+import Legend from '@/components/Map/Legend';
+import { useAnalyticsUrl, ANALYTICS_TABS } from '@/hooks/useAnalyticsUrl';
+import { useStateContext } from '@/context/StateContext';
+import DemoBadge from '@/components/ui/DemoBadge';
+import type { CandidatesData, ElectionsData, Chamber } from '@/types/schema';
+
+// Dynamic imports for analytics panels
+const ScenarioSimulator = lazy(() => import('@/components/Scenario/ScenarioSimulator'));
+const HistoricalComparison = lazy(() => import('@/components/Historical/HistoricalComparison'));
+const RecruitmentRadar = lazy(() => import('@/components/Recruitment/RecruitmentRadar'));
+const ResourceHeatmap = lazy(() => import('@/components/ResourceHeatmap/ResourceHeatmap'));
+
+// Placeholder components for new features (Phase C)
+const DemographicOverlay = lazy(() => import('./DemographicOverlay'));
+const CrossStateComparison = lazy(() => import('./CrossStateComparison'));
+const EndorsementNetwork = lazy(() => import('./EndorsementNetwork'));
+
+/**
+ * Error Boundary for panel content
+ */
+interface PanelErrorBoundaryProps {
+  children: ReactNode;
+  onReset?: () => void;
+}
+
+interface PanelErrorBoundaryState {
+  hasError: boolean;
+  error: Error | null;
+}
+
+class PanelErrorBoundary extends Component<PanelErrorBoundaryProps, PanelErrorBoundaryState> {
+  constructor(props: PanelErrorBoundaryProps) {
+    super(props);
+    this.state = { hasError: false, error: null };
+  }
+
+  static getDerivedStateFromError(error: Error): PanelErrorBoundaryState {
+    return { hasError: true, error };
+  }
+
+  componentDidCatch(error: Error, errorInfo: React.ErrorInfo): void {
+    console.error('Panel error:', error, errorInfo);
+  }
+
+  render() {
+    if (this.state.hasError) {
+      return (
+        <div className="glass-surface rounded-xl p-6 text-center">
+          <div
+            className="w-12 h-12 mx-auto mb-4 rounded-full flex items-center justify-center"
+            style={{ background: 'var(--color-at-risk-bg)' }}
+          >
+            <svg className="w-6 h-6" fill="none" stroke="var(--color-at-risk)" viewBox="0 0 24 24">
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"
+              />
+            </svg>
+          </div>
+          <p className="font-medium mb-2" style={{ color: 'var(--text-color)' }}>
+            Something went wrong
+          </p>
+          <p className="text-sm mb-4" style={{ color: 'var(--text-muted)' }}>
+            {this.state.error?.message || 'Failed to load panel content'}
+          </p>
+          <button
+            onClick={() => {
+              this.setState({ hasError: false, error: null });
+              this.props.onReset?.();
+            }}
+            className="px-4 py-2 rounded-lg text-sm font-medium"
+            style={{
+              background: 'var(--class-purple)',
+              color: 'white',
+            }}
+          >
+            Try Again
+          </button>
+        </div>
+      );
+    }
+
+    return this.props.children;
+  }
+}
+
+/**
+ * Panel loading skeleton
+ */
+function PanelSkeleton() {
+  return (
+    <div className="animate-pulse space-y-4">
+      <div className="glass-surface rounded-xl p-4">
+        <div className="h-6 bg-gray-200 rounded w-1/2 mb-2" />
+        <div className="h-4 bg-gray-200 rounded w-2/3" />
+      </div>
+      <div className="glass-surface rounded-xl p-4">
+        <div className="grid grid-cols-3 gap-4">
+          {[1, 2, 3].map((i) => (
+            <div key={i} className="h-16 bg-gray-200 rounded" />
+          ))}
+        </div>
+      </div>
+      <div className="glass-surface rounded-xl p-4">
+        <div className="space-y-2">
+          {[1, 2, 3, 4].map((i) => (
+            <div key={i} className="h-12 bg-gray-200 rounded" />
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+interface AnalyticsDashboardProps {
+  /** Candidates data */
+  candidatesData: CandidatesData;
+  /** Elections data */
+  electionsData: ElectionsData | null;
+  /** Additional className */
+  className?: string;
+}
+
+/**
+ * AnalyticsDashboard - Unified Analytics Dashboard Container
+ *
+ * Integrates 7 analytics features into a single tabbed interface:
+ * - Scenario Simulator (Phase 15-01)
+ * - Historical Comparison (Phase 15-02)
+ * - Recruitment Radar (Phase 15-03)
+ * - Resource Heatmap (Phase 15-04)
+ * - Demographic Overlay (Phase 16-01 - new)
+ * - Cross-State Comparison (Phase 16-02 - new)
+ * - Endorsement Network (Phase 16-03 - new)
+ *
+ * Features:
+ * - Tab-based navigation
+ * - URL deep-linking
+ * - Map integration with layer switching
+ * - Mobile responsive with bottom nav
+ * - Dynamic imports for performance
+ */
+export default function AnalyticsDashboard({
+  candidatesData,
+  electionsData,
+  className = '',
+}: AnalyticsDashboardProps) {
+  const { stateConfig, stateCode, isDemo } = useStateContext();
+  const {
+    state: urlState,
+    setTab,
+    setChamber,
+    setDistrict,
+    setState: setUrlState,
+  } = useAnalyticsUrl();
+
+  // Local UI state
+  const [hoveredDistrict, setHoveredDistrict] = useState<number | null>(null);
+  const [showMobilePanel, setShowMobilePanel] = useState(false);
+
+  // Derived state
+  const activeTab = urlState.tab;
+  const chamber = urlState.chamber as Chamber;
+  const selectedDistrict = urlState.district ?? null;
+
+  // District counts
+  const houseCount = stateConfig.chambers.house.count;
+  const senateCount = stateConfig.chambers.senate.count;
+  const chamberLabel = chamber === 'house'
+    ? stateConfig.chambers.house.name
+    : stateConfig.chambers.senate.name;
+  const totalSeats = chamber === 'house' ? houseCount : senateCount;
+  const majorityThreshold = Math.floor(totalSeats / 2) + 1;
+
+  // Handle district selection
+  const handleDistrictSelect = useCallback((district: number | null) => {
+    setDistrict(district ?? undefined);
+  }, [setDistrict]);
+
+  // Handle district click from panel
+  const handlePanelDistrictClick = useCallback((district: number) => {
+    setDistrict(district);
+    // On mobile, also hide panel to show map
+    if (window.innerWidth < 1024) {
+      setShowMobilePanel(false);
+    }
+  }, [setDistrict]);
+
+  // Get current tab info
+  const currentTabInfo = useMemo(() => {
+    return ANALYTICS_TABS.find(t => t.id === activeTab)!;
+  }, [activeTab]);
+
+  // Get layer config for current tab
+  const layerConfig = useMemo(() => {
+    return getDefaultLayerConfig(activeTab);
+  }, [activeTab]);
+
+  // Render the active panel content
+  const renderPanelContent = () => {
+    const commonProps = {
+      stateCode,
+      chamber,
+      candidatesData,
+      electionsData,
+      chamberLabel,
+    };
+
+    switch (activeTab) {
+      case 'scenario':
+        return (
+          <ScenarioSimulator
+            {...commonProps}
+            totalSeats={totalSeats}
+            majorityThreshold={majorityThreshold}
+          />
+        );
+
+      case 'historical':
+        return (
+          <HistoricalComparison
+            {...commonProps}
+          />
+        );
+
+      case 'recruitment':
+        return (
+          <RecruitmentRadar
+            {...commonProps}
+            minScore={urlState.minScore ?? 50}
+            maxTargets={15}
+            onTargetClick={handlePanelDistrictClick}
+          />
+        );
+
+      case 'resources':
+        return (
+          <ResourceHeatmap
+            {...commonProps}
+            onDistrictClick={handlePanelDistrictClick}
+          />
+        );
+
+      case 'demographics':
+        return (
+          <DemographicOverlay
+            stateCode={stateCode}
+            chamber={chamber}
+            activeLayer={urlState.layer}
+            onLayerChange={(layer) => setUrlState({ layer })}
+            onDistrictClick={handlePanelDistrictClick}
+          />
+        );
+
+      case 'comparison':
+        return (
+          <CrossStateComparison
+            currentState={stateCode}
+            chamber={chamber}
+            selectedStates={urlState.states?.split(',') || ['sc', 'nc', 'ga']}
+            onStatesChange={(states) => setUrlState({ states: states.join(',') })}
+          />
+        );
+
+      case 'endorsements':
+        return (
+          <EndorsementNetwork
+            stateCode={stateCode}
+            chamber={chamber}
+            activeTypes={urlState.endorsementType?.split(',') || []}
+            onTypesChange={(types) => setUrlState({ endorsementType: types.join(',') })}
+            onDistrictClick={handlePanelDistrictClick}
+          />
+        );
+
+      default:
+        return (
+          <div className="glass-surface rounded-xl p-4 text-center">
+            <p style={{ color: 'var(--text-muted)' }}>
+              Select an analytics feature from the tabs above
+            </p>
+          </div>
+        );
+    }
+  };
+
+  return (
+    <div className={`analytics-dashboard flex flex-col h-full ${className}`}>
+      {/* Header */}
+      <header
+        className="glass-surface border-b px-4 py-3 sticky top-0 z-40"
+        style={{ borderColor: 'var(--class-purple-light)' }}
+      >
+        <div className="flex flex-col gap-3">
+          {/* Title row */}
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-3">
+              <div>
+                <h1 className="text-lg sm:text-xl font-bold font-display" style={{ color: 'var(--text-color)' }}>
+                  {stateConfig.name} Analytics
+                </h1>
+                <p className="text-xs sm:text-sm" style={{ color: 'var(--text-muted)' }}>
+                  {currentTabInfo.icon} {currentTabInfo.label}
+                  {isDemo('candidates') && (
+                    <span className="ml-2">
+                      <DemoBadge />
+                    </span>
+                  )}
+                </p>
+              </div>
+            </div>
+
+            <div className="flex items-center gap-2">
+              <ChamberToggle chamber={chamber} onChange={setChamber} />
+            </div>
+          </div>
+
+          {/* Tab bar (desktop) */}
+          <div className="hidden md:block">
+            <AnalyticsTabBar
+              activeTab={activeTab}
+              onTabChange={setTab}
+              compact={false}
+            />
+          </div>
+
+          {/* Tab bar (mobile) - hidden here, shown in fixed bottom nav */}
+          {/* Mobile tabs are rendered in the fixed bottom nav below */}
+        </div>
+      </header>
+
+      {/* Main content */}
+      <div className="flex-1 flex flex-col lg:flex-row overflow-hidden">
+        {/* Map area */}
+        <div
+          className={`
+            flex-1 relative min-h-[300px] lg:min-h-0
+            ${showMobilePanel ? 'hidden lg:block' : ''}
+          `}
+        >
+          <AnalyticsMap
+            stateCode={stateCode}
+            activeTab={activeTab}
+            chamber={chamber}
+            candidatesData={candidatesData}
+            electionsData={electionsData}
+            selectedDistrict={selectedDistrict}
+            hoveredDistrict={hoveredDistrict}
+            onDistrictSelect={handleDistrictSelect}
+            onDistrictHover={setHoveredDistrict}
+            layerConfig={layerConfig}
+            className="h-full"
+          />
+          <Legend />
+
+          {/* Hover tooltip */}
+          {hoveredDistrict && (
+            <div
+              className="absolute bottom-4 left-4 glass-surface rounded-lg p-3 shadow-lg z-10"
+              style={{ borderColor: 'var(--class-purple-light)' }}
+            >
+              <span className="font-medium font-display" style={{ color: 'var(--text-color)' }}>
+                {chamberLabel} District {hoveredDistrict}
+              </span>
+            </div>
+          )}
+        </div>
+
+        {/* Panel area */}
+        <aside
+          className={`
+            w-full lg:w-[420px] xl:w-[480px] glass-surface border-l overflow-y-auto
+            ${showMobilePanel ? '' : 'hidden lg:block'}
+          `}
+          style={{ borderColor: 'var(--class-purple-light)' }}
+        >
+          <div className="p-4">
+            <PanelErrorBoundary>
+              <Suspense fallback={<PanelSkeleton />}>
+                {renderPanelContent()}
+              </Suspense>
+            </PanelErrorBoundary>
+          </div>
+        </aside>
+      </div>
+
+      {/* Mobile Bottom Navigation */}
+      <div className="md:hidden sticky bottom-0 z-50">
+        {/* View toggle (Map/Panel) */}
+        <div
+          className="flex gap-1 px-2 py-1.5 border-b"
+          style={{
+            background: 'rgba(255, 255, 255, 0.9)',
+            borderColor: 'var(--border-subtle)',
+          }}
+        >
+          <button
+            onClick={() => setShowMobilePanel(false)}
+            className={`flex-1 py-1.5 px-3 rounded-lg text-xs font-medium transition-all min-h-[36px] ${
+              !showMobilePanel ? 'shadow-sm' : ''
+            }`}
+            style={{
+              background: !showMobilePanel
+                ? 'linear-gradient(135deg, var(--class-purple-bg) 0%, var(--dem-tint) 100%)'
+                : 'transparent',
+              color: !showMobilePanel ? 'var(--class-purple)' : 'var(--text-muted)',
+              border: `1px solid ${!showMobilePanel ? 'var(--class-purple-light)' : 'transparent'}`,
+            }}
+          >
+            🗺️ Map
+          </button>
+          <button
+            onClick={() => setShowMobilePanel(true)}
+            className={`flex-1 py-1.5 px-3 rounded-lg text-xs font-medium transition-all min-h-[36px] ${
+              showMobilePanel ? 'shadow-sm' : ''
+            }`}
+            style={{
+              background: showMobilePanel
+                ? 'linear-gradient(135deg, var(--class-purple-bg) 0%, var(--dem-tint) 100%)'
+                : 'transparent',
+              color: showMobilePanel ? 'var(--class-purple)' : 'var(--text-muted)',
+              border: `1px solid ${showMobilePanel ? 'var(--class-purple-light)' : 'transparent'}`,
+            }}
+          >
+            📊 Panel
+          </button>
+        </div>
+
+        {/* 7-tab bottom navigation */}
+        <MobileAnalyticsTabBar
+          activeTab={activeTab}
+          onTabChange={setTab}
+        />
+      </div>
+    </div>
+  );
+}
