@@ -1,10 +1,8 @@
 'use client';
 
 import { useState, useEffect, useRef, useCallback, useMemo } from 'react';
-import Link from 'next/link';
 import NavigableDistrictMap from '@/components/Map/NavigableDistrictMap';
 import Legend from '@/components/Map/Legend';
-import ChamberToggle from '@/components/Map/ChamberToggle';
 import ShareButton from '@/components/Map/ShareButton';
 import ZoomLevelContent, { useZoomLevel, ZOOM_THRESHOLDS } from '@/components/Map/ZoomLevelContent';
 import SidePanel from '@/components/Dashboard/SidePanel';
@@ -22,7 +20,7 @@ import { KPICardSkeleton, MapSkeleton, CandidateCardSkeleton } from '@/component
 import { useStateContext } from '@/context/StateContext';
 import { useMapState } from '@/hooks/useMapState';
 import { useLens } from '@/hooks/useLens';
-import { LensToggleBar, getLensKpis } from '@/components/Lens';
+import { getLensKpis } from '@/components/Lens';
 import { PartyFilingSummary } from '@/components/Dashboard/PartyFilingSummary';
 // Note: BASE_PATH not needed - data fetching uses window.location detection, navigation uses Next.js auto basePath
 import { getDistrictCenter } from '@/lib/districtLookup';
@@ -43,6 +41,7 @@ export default function StateDashboard() {
   const [showShortcuts, setShowShortcuts] = useState(false);
   const [showMobileSheet, setShowMobileSheet] = useState(false);
   const [showAddressSearch, setShowAddressSearch] = useState(false);
+  const [gapsOnly, setGapsOnly] = useState(false);
   const mapContainerRef = useRef<HTMLDivElement>(null);
   const { showToast } = useToast();
 
@@ -108,29 +107,17 @@ export default function StateDashboard() {
     if (typeof window === 'undefined') return;
 
     const params = new URLSearchParams(window.location.search);
-    const urlChamber = params.get('chamber');
     const urlDistrict = params.get('district');
     const urlParty = params.get('party');
     const urlHasCandidate = params.get('hasCandidate');
-    const urlContested = params.get('contested');
-    const urlOpportunity = params.get('opportunity');
-    const urlShowRepublican = params.get('showRepublican');
-    const urlRepublicanMode = params.get('republicanMode');
 
-    if (urlChamber === 'senate') setChamber('senate');
     if (urlDistrict) setSelectedDistrict(parseInt(urlDistrict, 10));
 
     const parsedFilters: FilterState = {
       party: urlParty ? urlParty.split(',').filter(Boolean) : [],
       hasCandidate: (urlHasCandidate === 'yes' || urlHasCandidate === 'no') ? urlHasCandidate : 'all',
-      contested: (urlContested === 'yes' || urlContested === 'no') ? urlContested : 'all',
-      opportunity: urlOpportunity ? urlOpportunity.split(',').filter(Boolean) : [],
-      showRepublicanData: urlShowRepublican === 'true',
-      republicanDataMode: (urlRepublicanMode === 'incumbents' || urlRepublicanMode === 'challengers' || urlRepublicanMode === 'all')
-        ? urlRepublicanMode
-        : 'none',
     };
-    if (urlParty || urlHasCandidate || urlContested || urlOpportunity || urlShowRepublican || urlRepublicanMode) {
+    if (urlParty || urlHasCandidate) {
       setFilters(parsedFilters);
     }
   }, []);
@@ -144,10 +131,6 @@ export default function StateDashboard() {
     if (selectedDistrict !== null) params.set('district', String(selectedDistrict));
     if (filters.party.length > 0) params.set('party', filters.party.join(','));
     if (filters.hasCandidate !== 'all') params.set('hasCandidate', filters.hasCandidate);
-    if (filters.contested !== 'all') params.set('contested', filters.contested);
-    if (filters.opportunity.length > 0) params.set('opportunity', filters.opportunity.join(','));
-    if (filters.showRepublicanData) params.set('showRepublican', 'true');
-    if (filters.republicanDataMode !== 'none') params.set('republicanMode', filters.republicanDataMode);
 
     const newUrl = `${window.location.pathname}?${params.toString()}`;
     window.history.replaceState({}, '', newUrl);
@@ -166,17 +149,14 @@ export default function StateDashboard() {
     const prev = prevFiltersRef.current;
     const hasActiveFilters =
       filters.party.length > 0 ||
-      filters.hasCandidate !== 'all' ||
-      filters.contested !== 'all';
+      filters.hasCandidate !== 'all';
     const hadActiveFilters =
       prev.party.length > 0 ||
-      prev.hasCandidate !== 'all' ||
-      prev.contested !== 'all';
+      prev.hasCandidate !== 'all';
 
     if (
       prev.party.join(',') !== filters.party.join(',') ||
-      prev.hasCandidate !== filters.hasCandidate ||
-      prev.contested !== filters.contested
+      prev.hasCandidate !== filters.hasCandidate
     ) {
       if (hadActiveFilters || hasActiveFilters) {
         if (!hasActiveFilters && hadActiveFilters) {
@@ -185,7 +165,6 @@ export default function StateDashboard() {
           const filterCount = [
             filters.party.length > 0 ? 1 : 0,
             filters.hasCandidate !== 'all' ? 1 : 0,
-            filters.contested !== 'all' ? 1 : 0,
           ].reduce((a, b) => a + b, 0);
           showToast(`${filterCount} filter${filterCount > 1 ? 's' : ''} applied`, 'success', 2500);
         }
@@ -285,7 +264,7 @@ export default function StateDashboard() {
   }, []);
 
   useKeyboardShortcuts({
-    onToggleChamber: () => setChamber((c) => (c === 'house' ? 'senate' : 'house')),
+    onToggleChamber: () => {},
     onFocusSearch: () => {
       const searchInput = document.getElementById('search-input');
       if (searchInput) searchInput.focus();
@@ -319,12 +298,6 @@ export default function StateDashboard() {
       if (filters.hasCandidate === 'yes' && !hasCandidates) continue;
       if (filters.hasCandidate === 'no' && hasCandidates) continue;
 
-      if (hasCandidates) {
-        const isContested = hasDem && hasRep;
-        if (filters.contested === 'yes' && !isContested) continue;
-        if (filters.contested === 'no' && isContested) continue;
-      }
-
       if (filters.party.length > 0 && hasCandidates) {
         const matchesParty = filters.party.some((filterParty) => {
           if (filterParty === 'unknown') {
@@ -335,29 +308,6 @@ export default function StateDashboard() {
           );
         });
         if (!matchesParty) continue;
-      }
-
-      if (filters.opportunity.length > 0) {
-        const electionHistory = elections[districtNum];
-        const lastElection = electionHistory?.elections?.['2024']
-          || electionHistory?.elections?.['2022']
-          || electionHistory?.elections?.['2020'];
-        const margin = lastElection?.margin ?? 100;
-
-        const matchesFilter = filters.opportunity.some((filterOpp) => {
-          switch (filterOpp) {
-            case 'needsCandidate':
-              return !hasDem && !isDemIncumbent && margin <= 15;
-            case 'DEFENSIVE':
-              return isDemIncumbent;
-            case 'HIGH_OPPORTUNITY':
-            case 'EMERGING':
-              return hasDem && !isDemIncumbent;
-            default:
-              return false;
-          }
-        });
-        if (!matchesFilter) continue;
       }
 
       filtered.add(num);
@@ -401,10 +351,9 @@ export default function StateDashboard() {
     let demFiled = 0;
     let demIncumbents = 0;
     let contested = 0;
-    let closeOpportunities = 0;
     const totalDistricts = Object.keys(districts).length;
 
-    for (const [districtNum, district] of Object.entries(districts)) {
+    for (const [, district] of Object.entries(districts)) {
       const hasDem = district.candidates.some(c => c.party?.toLowerCase() === 'democratic');
       const hasRep = district.candidates.some(c => c.party?.toLowerCase() === 'republican');
       const isDemIncumbent = district.incumbent?.party === 'Democratic';
@@ -412,23 +361,10 @@ export default function StateDashboard() {
       if (hasDem || isDemIncumbent) demFiled++;
       if (isDemIncumbent) demIncumbents++;
       if (hasDem && hasRep) contested++;
-
-      if (!hasDem && !isDemIncumbent) {
-        const electionHistory = elections[districtNum];
-        const lastElection = electionHistory?.elections?.['2024']
-          || electionHistory?.elections?.['2022']
-          || electionHistory?.elections?.['2020'];
-        if (lastElection && lastElection.margin <= 15) {
-          closeOpportunities++;
-        }
-      }
     }
 
-    return { demFiled, demIncumbents, contested, closeOpportunities, totalDistricts };
+    return { demFiled, demIncumbents, contested, totalDistricts };
   }, [candidatesData, electionsData, chamber]);
-
-  // Note: Don't include BASE_PATH - Next.js Link automatically handles basePath
-  const stateUrl = (path: string) => `/${stateCode.toLowerCase()}${path}`;
 
   if (isLoading) {
     return (
@@ -489,7 +425,7 @@ export default function StateDashboard() {
           <p className="text-sm mt-2" style={{ color: 'var(--text-muted)' }}>
             {isDemo('candidates') ? 'Check back soon!' : 'Please refresh the page to try again.'}
           </p>
-          <Link
+          <a
             href="/sc"
             className="inline-block mt-4 px-4 py-2 rounded-lg text-sm font-medium"
             style={{
@@ -498,7 +434,7 @@ export default function StateDashboard() {
             }}
           >
             Back to SC Dashboard
-          </Link>
+          </a>
         </div>
       </div>
     );
@@ -561,53 +497,7 @@ export default function StateDashboard() {
                 </div>
               </div>
 
-              <div className="hidden md:flex items-center gap-2">
-                <Link
-                  href={stateUrl(`/table?chamber=${chamber}`)}
-                  className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium transition-all hover:opacity-70 focus-ring"
-                  style={{
-                    background: 'var(--card-bg)',
-                    border: '1px solid var(--class-purple-light)',
-                    color: 'var(--text-color)',
-                  }}
-                >
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h18M3 14h18m-9-4v8m-7 0h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
-                  </svg>
-                  <span>Table</span>
-                </Link>
-                <Link
-                  href={stateUrl('/opportunities')}
-                  className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium transition-all hover:opacity-70 focus-ring"
-                  style={{
-                    background: 'var(--card-bg)',
-                    border: '1px solid var(--class-purple-light)',
-                    color: 'var(--text-color)',
-                  }}
-                >
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
-                  </svg>
-                  <span>Opportunities</span>
-                </Link>
-                <Link
-                  href="/voter-guide"
-                  className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium transition-all hover:opacity-70 focus-ring"
-                  style={{
-                    background: 'linear-gradient(135deg, var(--class-purple-bg) 0%, #E0E7FF 100%)',
-                    color: 'var(--class-purple)',
-                    border: '1px solid var(--class-purple-light)',
-                  }}
-                >
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                  </svg>
-                  <span>Voter Guide</span>
-                </Link>
-              </div>
-
               <div className="flex items-center gap-2">
-                <ChamberToggle chamber={chamber} onChange={setChamber} />
                 <ShareButton
                   mapState={{
                     chamber,
@@ -654,20 +544,10 @@ export default function StateDashboard() {
         </div>
       </header>
 
-      {/* Unified Map Controls Bar - Consolidated Filter + Lens */}
+      {/* Map Controls Bar */}
       <div className="border-b animate-entrance stagger-2 map-controls-bar" style={{ background: 'var(--surface)', borderColor: 'var(--border-subtle-solid)' }}>
         <div className="max-w-7xl mx-auto px-4 py-2">
-          <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-3">
-            {/* Lens Pills - Primary Map View Selection */}
-            <div className="flex-1">
-              <LensToggleBar activeLens={activeLens} onLensChange={setLens} />
-            </div>
-
-            {/* Filters - Secondary Refinement */}
-            <div className="lg:border-l lg:pl-4" style={{ borderColor: 'var(--border-subtle-solid)' }}>
-              <FilterPanel filters={filters} onFilterChange={setFilters} variant="horizontal" />
-            </div>
-          </div>
+          <FilterPanel filters={filters} onFilterChange={setFilters} variant="horizontal" />
         </div>
       </div>
 
@@ -701,6 +581,21 @@ export default function StateDashboard() {
                         )}
                       </div>
                     ))}
+                  </div>
+                  <div className="mt-2 flex items-center gap-2">
+                    <button
+                      type="button"
+                      onClick={() => setGapsOnly(!gapsOnly)}
+                      className="px-3 py-1.5 text-xs font-medium rounded-lg border transition-colors"
+                      style={{
+                        background: gapsOnly ? '#EA580C' : 'var(--card-bg)',
+                        color: gapsOnly ? '#FFFFFF' : 'var(--text-muted)',
+                        borderColor: gapsOnly ? '#EA580C' : 'var(--border-subtle-solid)',
+                      }}
+                      aria-pressed={gapsOnly}
+                    >
+                      {gapsOnly ? 'Showing Gaps Only' : 'Gaps Only'}
+                    </button>
                   </div>
                   {activeLens === 'dem-filing' && candidatesData && (
                     <PartyFilingSummary
@@ -830,6 +725,7 @@ export default function StateDashboard() {
                 showModeToggle={true}
                 activeLens={activeLens}
                 opportunityData={chamberOpportunityData}
+                gapsOnly={gapsOnly}
               />
             </div>
             <Legend activeLens={activeLens} />
@@ -892,7 +788,7 @@ export default function StateDashboard() {
         </div>
 
         <div
-          className={`hidden lg:flex animate-entrance stagger-5 ${isResizing ? 'pointer-events-none-children' : ''}`}
+          className={`hidden lg:flex animate-entrance stagger-5 sticky top-0 h-screen overflow-y-auto ${isResizing ? 'pointer-events-none-children' : ''}`}
           style={{ width: panelWidth, flexShrink: 0 }}
         >
           <div
@@ -918,12 +814,7 @@ export default function StateDashboard() {
             <SidePanel
               chamber={chamber}
               district={selectedDistrictData}
-              electionHistory={selectedDistrictElections}
               onClose={() => setSelectedDistrict(null)}
-              showRepublicanData={filters.showRepublicanData}
-              republicanDataMode={filters.republicanDataMode}
-              filters={filters}
-              opportunityData={selectedDistrict && chamberOpportunityData ? chamberOpportunityData[String(selectedDistrict)] : undefined}
             />
           </div>
         </div>
@@ -934,12 +825,7 @@ export default function StateDashboard() {
           <SidePanel
             chamber={chamber}
             district={selectedDistrictData}
-            electionHistory={selectedDistrictElections}
             onClose={() => setSelectedDistrict(null)}
-            showRepublicanData={filters.showRepublicanData}
-            republicanDataMode={filters.republicanDataMode}
-            filters={filters}
-            opportunityData={selectedDistrict && chamberOpportunityData ? chamberOpportunityData[String(selectedDistrict)] : undefined}
           />
         </div>
       </div>

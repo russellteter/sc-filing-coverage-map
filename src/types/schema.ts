@@ -33,6 +33,10 @@ export interface Candidate {
   source: string;
   /** Whether this candidate is the current incumbent for the district */
   isIncumbent?: boolean;
+  /** Contact email from VREMS filing data */
+  contactEmail?: string;
+  /** Contact phone from VREMS filing data */
+  contactPhone?: string;
 }
 
 /**
