@@ -20,8 +20,8 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "State Election Intel Hub | South Carolina",
-  description: "South Carolina election intelligence - voter guide, candidate tracking, opportunity scoring, and mobilization tools for state legislative races",
+  title: "SC House Filing Coverage Map",
+  description: "South Carolina House of Representatives candidate filing coverage map",
 };
 
 // Viewport configuration for mobile optimization

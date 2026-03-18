@@ -181,22 +181,11 @@ export function getDistrictCategory(
 ): DistrictCategory {
   // No district data
   if (!district) {
-    switch (lensId) {
-      case 'incumbents':
-        return 'UNKNOWN';
-      case 'dem-filing':
-        return 'UNFILED';
-      case 'opportunity':
-        return 'LONG_SHOT';
-      case 'battleground':
-        return 'NONE_FILED';
-    }
+    return 'UNFILED';
   }
 
   const incumbentParty = district.incumbent?.party;
   const isDemIncumbent = incumbentParty === 'Democratic';
-  const isRepIncumbent = incumbentParty === 'Republican';
-  const hasIncumbent = !!district.incumbent?.name;
 
   const hasDemCandidate = district.candidates.some(
     (c) => c.party?.toLowerCase() === 'democratic'
@@ -205,49 +194,15 @@ export function getDistrictCategory(
     (c) => c.party?.toLowerCase() === 'republican'
   );
 
-  // Get margin from election history
-  const lastElection = electionHistory?.elections?.['2024']
-    || electionHistory?.elections?.['2022']
-    || electionHistory?.elections?.['2020'];
-  const margin = lastElection?.margin ?? 100;
+  const demCandidateCount = district.candidates.filter(
+    (c) => c.party?.toLowerCase() === 'democratic'
+  ).length;
 
-  switch (lensId) {
-    case 'incumbents':
-      if (isDemIncumbent) return 'DEM_INCUMBENT';
-      if (isRepIncumbent) return 'REP_INCUMBENT';
-      if (!hasIncumbent) return 'OPEN_SEAT';
-      return 'UNKNOWN';
-
-    case 'dem-filing': {
-      const demCandidateCount = district.candidates.filter(
-        (c) => c.party?.toLowerCase() === 'democratic'
-      ).length;
-
-      if (hasDemCandidate && hasRepCandidate) return 'BOTH_PARTIES';
-      if (demCandidateCount >= 2) return 'DEM_PRIMARY';
-      if (hasDemCandidate || isDemIncumbent) return 'DEM_FILED';
-      if (hasRepCandidate) return 'REP_ONLY';
-      return 'UNFILED';
-    }
-
-    case 'opportunity':
-      // Use opportunity.json data if available
-      if (opportunityData) {
-        return opportunityData.tier;
-      }
-      // Fallback calculation
-      if (isDemIncumbent) return 'DEFENSIVE';
-      if (margin <= 5) return 'HOT';
-      if (margin <= 10) return 'WARM';
-      if (margin <= 15) return 'POSSIBLE';
-      return 'LONG_SHOT';
-
-    case 'battleground':
-      if (hasDemCandidate && hasRepCandidate) return 'CONTESTED';
-      if (hasDemCandidate) return 'DEM_ONLY';
-      if (hasRepCandidate) return 'REP_ONLY';
-      return 'NONE_FILED';
-  }
+  if (hasDemCandidate && hasRepCandidate) return 'BOTH_PARTIES';
+  if (demCandidateCount >= 2) return 'DEM_PRIMARY';
+  if (hasDemCandidate || isDemIncumbent) return 'DEM_FILED';
+  if (hasRepCandidate) return 'REP_ONLY';
+  return 'UNFILED';
 }
 
 /**
@@ -265,25 +220,12 @@ export function getDistrictFillColorWithLens(
   district: District | undefined,
   electionHistory: DistrictElectionHistory | undefined,
   opportunityData: OpportunityData | undefined,
-  lensId: LensId = 'incumbents',
+  lensId: LensId = 'dem-filing',
   useSolidColors = false
 ): string {
   const category = getDistrictCategory(district, electionHistory, opportunityData, lensId);
 
-  // Get color from the appropriate lens palette
-  switch (lensId) {
-    case 'incumbents':
-      return LENS_COLORS.incumbents[category as IncumbentCategory] ?? LENS_COLORS.incumbents.UNKNOWN;
-
-    case 'dem-filing':
-      return LENS_COLORS['dem-filing'][category as DemFilingCategory] ?? LENS_COLORS['dem-filing'].UNFILED;
-
-    case 'opportunity':
-      return LENS_COLORS.opportunity[category as OpportunityCategory] ?? LENS_COLORS.opportunity.LONG_SHOT;
-
-    case 'battleground':
-      return LENS_COLORS.battleground[category as BattlegroundCategory] ?? LENS_COLORS.battleground.NONE_FILED;
-  }
+  return LENS_COLORS['dem-filing'][category as DemFilingCategory] ?? LENS_COLORS['dem-filing'].UNFILED;
 }
 
 /**
@@ -291,31 +233,12 @@ export function getDistrictFillColorWithLens(
  */
 export function getCategoryLabel(category: DistrictCategory, lensId: LensId): string {
   const labels: Record<LensId, Record<string, string>> = {
-    incumbents: {
-      DEM_INCUMBENT: 'Democratic incumbent',
-      REP_INCUMBENT: 'Republican incumbent',
-      OPEN_SEAT: 'Open seat',
-      UNKNOWN: 'Unknown',
-    },
     'dem-filing': {
       DEM_FILED: 'Democratic candidate filed',
       DEM_PRIMARY: 'Dem primary (2+ candidates)',
       REP_ONLY: 'Republican only (no Dem)',
       BOTH_PARTIES: 'Both parties filed',
       UNFILED: 'No filings',
-    },
-    opportunity: {
-      HOT: 'Hot zone (≤5pt margin)',
-      WARM: 'Warm zone (6-10pt margin)',
-      POSSIBLE: 'Possible (11-15pt margin)',
-      LONG_SHOT: 'Long shot (>15pt margin)',
-      DEFENSIVE: 'Defensive (Dem-held)',
-    },
-    battleground: {
-      CONTESTED: 'Contested (D & R filed)',
-      DEM_ONLY: 'Democrat only',
-      REP_ONLY: 'Republican only',
-      NONE_FILED: 'No candidates filed',
     },
   };
 

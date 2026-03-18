@@ -25,7 +25,7 @@ interface DistrictMapProps {
   republicanDataMode?: 'none' | 'incumbents' | 'challengers' | 'all';
   /** State code for multi-state support (default: 'sc') */
   stateCode?: string;
-  /** Active lens for multi-lens visualization (default: 'incumbents') */
+  /** Active lens for multi-lens visualization (default: 'dem-filing') */
   activeLens?: LensId;
   /** Opportunity data for opportunity lens */
   opportunityData?: Record<string, OpportunityData>;
@@ -163,10 +163,6 @@ export default function DistrictMap({
       }
       if (justSelected === districtNum) {
         classes.push('just-selected');
-      }
-      // Priority pulse for HOT opportunity districts (v3.4)
-      if (oppData?.tier === 'HOT' && activeLens === 'opportunity') {
-        classes.push('high-priority');
       }
 
       // Calculate ripple delay for lens transition choreography (v3.3)
