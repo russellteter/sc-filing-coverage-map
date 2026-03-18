@@ -41,6 +41,7 @@ export default function StateDashboard() {
   const [showShortcuts, setShowShortcuts] = useState(false);
   const [showMobileSheet, setShowMobileSheet] = useState(false);
   const [showAddressSearch, setShowAddressSearch] = useState(false);
+  const [gapsOnly, setGapsOnly] = useState(false);
   const mapContainerRef = useRef<HTMLDivElement>(null);
   const { showToast } = useToast();
 
@@ -581,6 +582,21 @@ export default function StateDashboard() {
                       </div>
                     ))}
                   </div>
+                  <div className="mt-2 flex items-center gap-2">
+                    <button
+                      type="button"
+                      onClick={() => setGapsOnly(!gapsOnly)}
+                      className="px-3 py-1.5 text-xs font-medium rounded-lg border transition-colors"
+                      style={{
+                        background: gapsOnly ? '#EA580C' : 'var(--card-bg)',
+                        color: gapsOnly ? '#FFFFFF' : 'var(--text-muted)',
+                        borderColor: gapsOnly ? '#EA580C' : 'var(--border-subtle-solid)',
+                      }}
+                      aria-pressed={gapsOnly}
+                    >
+                      {gapsOnly ? 'Showing Gaps Only' : 'Gaps Only'}
+                    </button>
+                  </div>
                   {activeLens === 'dem-filing' && candidatesData && (
                     <PartyFilingSummary
                       districts={Object.values(candidatesData[chamber])}
@@ -709,6 +725,7 @@ export default function StateDashboard() {
                 showModeToggle={true}
                 activeLens={activeLens}
                 opportunityData={chamberOpportunityData}
+                gapsOnly={gapsOnly}
               />
             </div>
             <Legend activeLens={activeLens} />
@@ -771,7 +788,7 @@ export default function StateDashboard() {
         </div>
 
         <div
-          className={`hidden lg:flex animate-entrance stagger-5 ${isResizing ? 'pointer-events-none-children' : ''}`}
+          className={`hidden lg:flex animate-entrance stagger-5 sticky top-0 h-screen overflow-y-auto ${isResizing ? 'pointer-events-none-children' : ''}`}
           style={{ width: panelWidth, flexShrink: 0 }}
         >
           <div
