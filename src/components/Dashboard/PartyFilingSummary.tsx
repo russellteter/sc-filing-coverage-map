@@ -71,28 +71,18 @@ export function PartyFilingSummary({ districts, className = '' }: PartyFilingSum
         }
       }
 
-      // Include Dem incumbents in district coverage
-      const isDemIncumbent = district.incumbent?.party === 'Democratic';
-      if (isDemIncumbent) {
-        demDistrictSet.add(district.districtNumber);
-      }
-
       if (dCount >= 2) {
         demPrimaryDistricts.add(district.districtNumber);
       }
 
-      // Determine status — count Dem incumbents as Dem coverage
-      // This aligns table status with map coloring logic
-      const hasDemCoverage = dCount > 0 || isDemIncumbent;
-
       let status: string;
-      if (dCount === 0 && rCount === 0 && oCount === 0 && !isDemIncumbent) {
+      if (dCount === 0 && rCount === 0 && oCount === 0) {
         status = 'Unfiled';
       } else if (dCount >= 2) {
         status = 'Dem Primary';
-      } else if (hasDemCoverage && rCount >= 1) {
+      } else if (dCount > 0 && rCount >= 1) {
         status = 'Both Parties';
-      } else if (hasDemCoverage) {
+      } else if (dCount > 0) {
         status = 'Dem Filed';
       } else if (rCount >= 1) {
         status = 'Rep Only';
