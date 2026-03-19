@@ -14,16 +14,26 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      - name: Fetch VREMS state.json from GitHub
+        env:
+          GH_TOKEN: ${{ secrets.VREMS_PAT }}
+        run: |
+          # Fetch state.json from the VREMS monitor repo
+          gh api repos/russellteter/sc-vrems-filing-monitor/contents/state.json \
+            --jq '.content' | base64 -d > /tmp/vrems-state.json
+          echo "Fetched VREMS state.json ($(wc -c < /tmp/vrems-state.json) bytes)"
+
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - run: pip install gspread google-auth
-      - run: python scripts/generate-vrems-data.py
-        env:
-          GOOGLE_SHEET_ID: ${{ secrets.GOOGLE_SHEET_ID }}
-          GOOGLE_SHEETS_CREDENTIALS: ${{ secrets.GOOGLE_SHEETS_CREDENTIALS }}
-      - run: |
+
+      - name: Generate candidates.json from VREMS data
+        run: python scripts/generate-from-vrems.py --vrems-state /tmp/vrems-state.json
+
+      - name: Commit and push
+        run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add public/data/
+          git add public/data/ src/data/
           git diff --staged --quiet || (git commit -m "Update filing data [skip ci]" && git push)
