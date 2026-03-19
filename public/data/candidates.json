@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-18T22:16:28.269519+00:00",
+  "lastUpdated": "2026-03-19T00:12:32.277062+00:00",
   "house": {
     "1": {
       "districtNumber": 1,
@@ -12,7 +12,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-1-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "whitmire5@yahoo.com",
+          "contactPhone": "(864) 6382970"
         }
       ],
       "incumbent": {
@@ -31,7 +33,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-2-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "AdamDuncan@schouse.gov",
+          "contactPhone": "(864) 7849676"
         }
       ],
       "incumbent": {
@@ -50,7 +54,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-3-0",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "joe@joeburgett.com",
+          "contactPhone": "(864) 5087153"
         }
       ],
       "incumbent": {
@@ -69,7 +75,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-4-0",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "claycounts21@yahoo.com",
+          "contactPhone": "(864) 8436862"
         }
       ],
       "incumbent": {
@@ -96,7 +104,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-6-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "acromer@cfsvending.com",
+          "contactPhone": "(864) 8441097"
         },
         {
           "name": "Kyle White",
@@ -106,7 +116,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-6-1",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "kyle@wdwlawfirm.com",
+          "contactPhone": "(864) 3142651"
         }
       ],
       "incumbent": {
@@ -125,7 +137,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-7-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "tleegilreath@gmail.com",
+          "contactPhone": "(864) 3141288"
         }
       ],
       "incumbent": {
@@ -144,7 +158,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-8-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "donald@chapmandesign.com",
+          "contactPhone": "(864) 9343406"
         },
         {
           "name": "Sherry Hodges",
@@ -154,7 +170,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-8-1",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "sherry@sherryhodges.com",
+          "contactPhone": "(864) 2091888"
         },
         {
           "name": "Patrick Shane Orr",
@@ -164,7 +182,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-8-2",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "patrick@patrickforsc.com",
+          "contactPhone": "(864) 4514595"
         }
       ],
       "incumbent": {
@@ -202,7 +222,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-10-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "thomas@beachforhouse.com",
+          "contactPhone": "(264) 4486336"
         }
       ],
       "incumbent": {
@@ -221,7 +243,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-11-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "cgagnon@wctel.net",
+          "contactPhone": "(864) 4463312"
         },
         {
           "name": "Jesse G Turner",
@@ -231,7 +255,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-11-1",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "TURNERGOFP@GMAIL.COM",
+          "contactPhone": "(636) 2834022"
         },
         {
           "name": "Earnie T Williams",
@@ -241,7 +267,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-11-2",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "etstone@gmail.com",
+          "contactPhone": "(864) 5597640"
         }
       ],
       "incumbent": {
@@ -260,7 +288,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-12-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "dgibson12@gmail.com",
+          "contactPhone": "(864) 3960245"
         }
       ],
       "incumbent": {
@@ -279,7 +309,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-13-0",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "johnmccravy@schouse.gov",
+          "contactPhone": "(864) 9428501"
         }
       ],
       "incumbent": {
@@ -298,7 +330,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-14-0",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "Joneshenry912@Gmail.com",
+          "contactPhone": "(864) 9279656"
         },
         {
           "name": "Luke Samuel Rankin",
@@ -308,7 +342,29 @@
           "ethicsUrl": null,
           "reportId": "vrems-14-1",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactPhone": "(864) 9915876"
+        },
+        {
+          "name": "Richard L Shealy",
+          "party": "Republican",
+          "status": "filed",
+          "filedDate": "2026-03-18",
+          "ethicsUrl": null,
+          "reportId": "vrems-14-2",
+          "source": "vrems",
+          "isIncumbent": false
+        },
+        {
+          "name": "Michanna T Tate",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-18",
+          "ethicsUrl": null,
+          "reportId": "vrems-14-3",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactPhone": "(864) 3631549"
         }
       ],
       "incumbent": {
@@ -327,7 +383,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-15-0",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "melissa4liberty@gmail.com",
+          "contactPhone": "(843) 6409674"
         },
         {
           "name": "Ja A Moore",
@@ -337,7 +395,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-15-1",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "ja@jamooreforsc.com",
+          "contactPhone": "(843) 6400130"
         }
       ],
       "incumbent": {
@@ -347,7 +407,20 @@
     },
     "16": {
       "districtNumber": 16,
-      "candidates": [],
+      "candidates": [
+        {
+          "name": "Mark N Willis",
+          "party": "Republican",
+          "status": "filed",
+          "filedDate": "2026-03-18",
+          "ethicsUrl": null,
+          "reportId": "vrems-16-0",
+          "source": "vrems",
+          "isIncumbent": true,
+          "contactEmail": "willisforhouse@gmail.com",
+          "contactPhone": "(864) 2300135"
+        }
+      ],
       "incumbent": {
         "name": "Mark N. Willis",
         "party": "Republican"
@@ -364,7 +437,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-17-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "mikeburns@schouse.gov",
+          "contactPhone": "(864) 9066949"
         }
       ],
       "incumbent": {
@@ -383,7 +458,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-18-0",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "maclurevirginia@yahoo.com",
+          "contactPhone": "(864) 4141054"
         }
       ],
       "incumbent": {
@@ -402,7 +479,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-19-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "patrick@patrickhaddon.com",
+          "contactPhone": "(864) 3201946"
         }
       ],
       "incumbent": {
@@ -429,7 +508,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-21-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "dianne.ktr@gmail.com",
+          "contactPhone": "(864) 2442717"
         }
       ],
       "incumbent": {
@@ -456,7 +537,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-23-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "info@chandradillard.com",
+          "contactPhone": "(864) 9151276"
         }
       ],
       "incumbent": {
@@ -475,7 +558,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-24-0",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "caroline@carolineavinger.com",
+          "contactPhone": "(864) 9791807"
         }
       ],
       "incumbent": {
@@ -494,7 +579,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-25-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "info@wendellkjones.com",
+          "contactPhone": "(864) 3615438"
         }
       ],
       "incumbent": {
@@ -513,7 +600,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-26-0",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "Elizabethjenns@Gmail.Com",
+          "contactPhone": "(803) 5177809"
         },
         {
           "name": "DAVID W MARTIN",
@@ -523,7 +612,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-26-1",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "davidmartinforhouse@gmail.com",
+          "contactPhone": "(803) 3363298"
         }
       ],
       "incumbent": {
@@ -542,7 +633,19 @@
           "ethicsUrl": null,
           "reportId": "vrems-27-0",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "johnmaccarthy4sc27@gmail.com",
+          "contactPhone": "(864) 3998477"
+        },
+        {
+          "name": "Marion David Vaughan",
+          "party": "Republican",
+          "status": "filed",
+          "filedDate": "2026-03-18",
+          "ethicsUrl": null,
+          "reportId": "vrems-27-1",
+          "source": "vrems",
+          "isIncumbent": true
         }
       ],
       "incumbent": {
@@ -561,7 +664,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-28-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "wchrishuff29@gmail.com",
+          "contactPhone": "(864) 3048994"
         }
       ],
       "incumbent": {
@@ -580,7 +685,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-29-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "dennismoss29@gmail.com",
+          "contactPhone": "(864) 7616353"
         }
       ],
       "incumbent": {
@@ -599,7 +706,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-30-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "blawsonsc30@gmail.com",
+          "contactPhone": "(864) 8093501"
         }
       ],
       "incumbent": {
@@ -618,7 +727,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-31-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "rozm2012@gmail.com",
+          "contactPhone": "(864) 7075384"
         },
         {
           "name": "JAMES A JONES",
@@ -628,7 +739,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-31-1",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "james@jamesajones.us",
+          "contactPhone": "(954) 6294055"
         }
       ],
       "incumbent": {
@@ -647,7 +760,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-32-0",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "scott@voteforscottmontgomery.com",
+          "contactPhone": "(864) 2374499"
         }
       ],
       "incumbent": {
@@ -666,7 +781,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-33-0",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "abeharrisforsc@gmail.com",
+          "contactPhone": "(864) 3817322"
         }
       ],
       "incumbent": {
@@ -685,7 +802,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-34-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "saritaforsc@gmail.com",
+          "contactPhone": "(864) 3818225"
         }
       ],
       "incumbent": {
@@ -704,7 +823,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-35-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "billchumley1@gmail.com",
+          "contactPhone": "(864) 3032726"
         }
       ],
       "incumbent": {
@@ -723,7 +844,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-36-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "rob@actionsc.org",
+          "contactPhone": "(610) 3927358"
         }
       ],
       "incumbent": {
@@ -742,7 +865,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-37-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "stevenlongsc@gmail.com",
+          "contactPhone": "(864) 9783104"
         },
         {
           "name": "Amul Ramesh Patel",
@@ -752,7 +877,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-37-1",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "amulashaautos@gmail.com",
+          "contactPhone": "(864) 7411776"
         }
       ],
       "incumbent": {
@@ -771,7 +898,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-38-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "rjosiahmagnuson@gmail.com",
+          "contactPhone": "(864) 4207933"
         }
       ],
       "incumbent": {
@@ -790,7 +919,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-39-0",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "HandHRanch13@gmail.com",
+          "contactPhone": "(864) 4012383"
         }
       ],
       "incumbent": {
@@ -809,7 +940,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-40-0",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "jp@ammonsforschouse40.com",
+          "contactPhone": "(803) 9444166"
         },
         {
           "name": "Joseph S White",
@@ -819,7 +952,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-40-1",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "thebump1945@gmail.com",
+          "contactPhone": "(803) 4299423"
         }
       ],
       "incumbent": {
@@ -838,7 +973,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-41-0",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "tibi@allprosolutions.com",
+          "contactPhone": "(803) 9846935"
         },
         {
           "name": "Annie E McDaniel",
@@ -848,7 +985,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-41-1",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "mcdanielae9@gmail.com",
+          "contactPhone": "(803) 9605782"
         }
       ],
       "incumbent": {
@@ -867,7 +1006,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-42-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "douggilliam@schouse.gov",
+          "contactPhone": "(864) 4260785"
         }
       ],
       "incumbent": {
@@ -886,7 +1027,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-43-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "randyligon@theligoncompany",
+          "contactPhone": "(803) 3238146"
         }
       ],
       "incumbent": {
@@ -905,7 +1048,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-44-0",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "Trippmccoysc@gmail.com",
+          "contactPhone": "(803) 3209115"
         },
         {
           "name": "James M Neese",
@@ -915,7 +1060,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-44-1",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "mikeneese.sc.house@gmail.com",
+          "contactPhone": "(704) 4977944"
         }
       ],
       "incumbent": {
@@ -934,7 +1081,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-45-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "brandon@newtonforhouse.com",
+          "contactPhone": "(803) 3209615"
         }
       ],
       "incumbent": {
@@ -953,7 +1102,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-46-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "heathsessions@gmail.com",
+          "contactPhone": "(704) 8071575"
         }
       ],
       "incumbent": {
@@ -972,7 +1123,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-47-0",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "martinezforsc@gmail.com",
+          "contactPhone": "(704) 3159544"
         },
         {
           "name": "Thomas E Pope",
@@ -982,7 +1135,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-47-1",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "tommy@tommypope.com",
+          "contactPhone": "(803) 7342701"
         }
       ],
       "incumbent": {
@@ -1001,7 +1156,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-48-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "brandon.guffey@gmail.com",
+          "contactPhone": "(803) 9841009"
         },
         {
           "name": "Rustin S Terry",
@@ -1011,7 +1168,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-48-1",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "rustinterry@gmail.com",
+          "contactPhone": "(859) 9577416"
         }
       ],
       "incumbent": {
@@ -1030,7 +1189,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-49-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "jrcking1976@gmail.com",
+          "contactPhone": "(803) 3729643"
         },
         {
           "name": "Perry L Sutton",
@@ -1040,7 +1201,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-49-1",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "perrybosco@aol.com",
+          "contactPhone": "(803) 3728929"
         }
       ],
       "incumbent": {
@@ -1059,7 +1222,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-50-0",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "william.oden65@gmail.com",
+          "contactPhone": "(803) 6694227"
         }
       ],
       "incumbent": {
@@ -1078,7 +1243,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-51-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "jdavid2453@yahoo.com",
+          "contactPhone": "(803) 9689409"
         }
       ],
       "incumbent": {
@@ -1097,7 +1264,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-52-0",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "info@patricktate.com",
+          "contactPhone": "(803) 2506888"
         },
         {
           "name": "Malcolm L Taylor",
@@ -1107,7 +1276,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-52-1",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "ablessedpreacher@hotmail.com",
+          "contactPhone": "(803) 8008638"
         }
       ],
       "incumbent": {
@@ -1126,7 +1297,8 @@
           "ethicsUrl": null,
           "reportId": "vrems-53-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactPhone": "(843) 6109362"
         },
         {
           "name": "Bruce M Wallace",
@@ -1155,7 +1327,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-54-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "jason@luckforsc.com",
+          "contactPhone": "(843) 4081812"
         },
         {
           "name": "Betty Jo Quick",
@@ -1165,7 +1339,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-54-1",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "Betty5joquicm@gmail.com",
+          "contactPhone": "(843) 8621634"
         }
       ],
       "incumbent": {
@@ -1175,7 +1351,19 @@
     },
     "55": {
       "districtNumber": 55,
-      "candidates": [],
+      "candidates": [
+        {
+          "name": "Jackie E Hayes",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-18",
+          "ethicsUrl": null,
+          "reportId": "vrems-55-0",
+          "source": "vrems",
+          "isIncumbent": true,
+          "contactEmail": "jackiehayes@schouse.govJackie"
+        }
+      ],
       "incumbent": {
         "name": "Jackie Hayes",
         "party": "Democratic"
@@ -1192,7 +1380,8 @@
           "ethicsUrl": null,
           "reportId": "vrems-56-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "timmcginnis@mac.com"
         }
       ],
       "incumbent": {
@@ -1210,7 +1399,20 @@
     },
     "58": {
       "districtNumber": 58,
-      "candidates": [],
+      "candidates": [
+        {
+          "name": "Jeffrey E Johnson",
+          "party": "Republican",
+          "status": "filed",
+          "filedDate": "2026-03-18",
+          "ethicsUrl": null,
+          "reportId": "vrems-58-0",
+          "source": "vrems",
+          "isIncumbent": true,
+          "contactEmail": "jeffjohnsondistrict58@gmail.com",
+          "contactPhone": "(843) 2839570"
+        }
+      ],
       "incumbent": {
         "name": "Jeff Johnson",
         "party": "Republican"
@@ -1227,7 +1429,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-59-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "scunited20@gmail.com",
+          "contactPhone": "(843) 2297413"
         }
       ],
       "incumbent": {
@@ -1237,7 +1441,20 @@
     },
     "60": {
       "districtNumber": 60,
-      "candidates": [],
+      "candidates": [
+        {
+          "name": "Phillip Lowe",
+          "party": "Republican",
+          "status": "filed",
+          "filedDate": "2026-03-18",
+          "ethicsUrl": null,
+          "reportId": "vrems-60-0",
+          "source": "vrems",
+          "isIncumbent": true,
+          "contactEmail": "Lowestherapy@cs.com",
+          "contactPhone": "(843) 6219999"
+        }
+      ],
       "incumbent": {
         "name": "Phillip D. Lowe",
         "party": "Republican"
@@ -1273,7 +1490,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-62-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "robertwilliams90@aol.com",
+          "contactPhone": "(843) 2290920"
         }
       ],
       "incumbent": {
@@ -1300,7 +1519,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-64-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "fpedalino@stssc.net",
+          "contactPhone": "(803) 4606119"
         }
       ],
       "incumbent": {
@@ -1319,7 +1540,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-65-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "ctmitchellsc@gmail.com",
+          "contactPhone": "(803) 4276487"
         }
       ],
       "incumbent": {
@@ -1338,7 +1561,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-66-0",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "hart.heather@hotmail.com",
+          "contactPhone": "(847) 9120961"
         },
         {
           "name": "Jackie R Terribile",
@@ -1348,7 +1573,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-66-1",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "jackieterribile@gmail.com",
+          "contactPhone": "(315) 5720452"
         }
       ],
       "incumbent": {
@@ -1367,7 +1594,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-67-0",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "daey4all@gmail.com",
+          "contactPhone": "(803) 6731428"
         }
       ],
       "incumbent": {
@@ -1386,7 +1615,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-68-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "heatherforhouse@yahoo.com",
+          "contactPhone": "(843) 4574852"
         }
       ],
       "incumbent": {
@@ -1405,7 +1636,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-69-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "Votechriswooten@gmail.com",
+          "contactPhone": "(803) 6091084"
         }
       ],
       "incumbent": {
@@ -1424,7 +1657,21 @@
           "ethicsUrl": null,
           "reportId": "vrems-70-0",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "Noah@NoahBarker.com",
+          "contactPhone": "(803) 7297503"
+        },
+        {
+          "name": "Robert T Reese",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-18",
+          "ethicsUrl": null,
+          "reportId": "vrems-70-1",
+          "source": "vrems",
+          "isIncumbent": true,
+          "contactEmail": "rreese4@bellsouth.net",
+          "contactPhone": "(803) 3123086"
         }
       ],
       "incumbent": {
@@ -1443,7 +1690,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-71-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "SCHOUSE71@aol.com",
+          "contactPhone": "(803) 8344613"
         }
       ],
       "incumbent": {
@@ -1462,7 +1711,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-72-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "sethcrose@gmail.com",
+          "contactPhone": "(803) 3612360"
         }
       ],
       "incumbent": {
@@ -1481,7 +1732,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-73-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "Chrishartlawsc@gmail.com",
+          "contactPhone": "(803) 7343061"
         }
       ],
       "incumbent": {
@@ -1508,7 +1761,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-75-0",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "tracyrentz3@gmail.com",
+          "contactPhone": "(803) 2406796"
         },
         {
           "name": "Heather Bauer",
@@ -1518,7 +1773,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-75-1",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "heather@voteheatherbauer.com",
+          "contactPhone": "(803) 9791024"
         }
       ],
       "incumbent": {
@@ -1537,7 +1794,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-76-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "Puffhowards@bellsouth.net",
+          "contactPhone": "(803) 2376119"
         }
       ],
       "incumbent": {
@@ -1556,7 +1815,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-77-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "Kambrellgarvin@gmail.com",
+          "contactPhone": "(803) 9004878"
         }
       ],
       "incumbent": {
@@ -1591,7 +1852,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-80-0",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "brownforsc80@gmail.com",
+          "contactPhone": "(740) 9737398"
         },
         {
           "name": "Katherine D Landing",
@@ -1601,7 +1864,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-80-1",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "kl@kathylanding.com",
+          "contactPhone": "(843) 3601561"
         }
       ],
       "incumbent": {
@@ -1620,7 +1885,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-81-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "kchartz1300@gmail.com",
+          "contactPhone": "(803) 3411210"
         }
       ],
       "incumbent": {
@@ -1639,7 +1906,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-82-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "repclyburn@aol.com",
+          "contactPhone": "(803) 6401102"
         }
       ],
       "incumbent": {
@@ -1658,7 +1927,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-83-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "bill@hixonco.com",
+          "contactPhone": "(803) 2798855"
         }
       ],
       "incumbent": {
@@ -1677,7 +1948,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-84-0",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "holston4sc@gmail.com",
+          "contactPhone": "(706) 2944407"
         },
         {
           "name": "Melissa J Lackey Oremus",
@@ -1687,7 +1960,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-84-1",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "melissa.oremus@gmail.com",
+          "contactPhone": "(803) 2709289"
         }
       ],
       "incumbent": {
@@ -1706,7 +1981,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-85-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "johnkilmartin@bellsouth.net",
+          "contactPhone": "(803) 8738967"
         }
       ],
       "incumbent": {
@@ -1716,7 +1993,20 @@
     },
     "86": {
       "districtNumber": 86,
-      "candidates": [],
+      "candidates": [
+        {
+          "name": "Stuart L Epting",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-18",
+          "ethicsUrl": null,
+          "reportId": "vrems-86-0",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "stuart.epting@gmail.com",
+          "contactPhone": "(803) 2017919"
+        }
+      ],
       "incumbent": {
         "name": "Bill Taylor",
         "party": "Republican"
@@ -1733,7 +2023,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-87-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "paulacalhoon@schouse.gov",
+          "contactPhone": "(803) 3185491"
         },
         {
           "name": "Carlton R Beaman",
@@ -1743,7 +2035,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-87-1",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "votesforbeaman@gmail.com",
+          "contactPhone": "(839) 2922280"
         }
       ],
       "incumbent": {
@@ -1762,7 +2056,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-88-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "Votejohnlastinger@gmail.com",
+          "contactPhone": "(803) 7102154"
         }
       ],
       "incumbent": {
@@ -1781,7 +2077,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-89-0",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "micah@micahcaskey.com",
+          "contactPhone": "(803) 2505834"
         }
       ],
       "incumbent": {
@@ -1800,7 +2098,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-90-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "jtbamberg@gmail.com",
+          "contactPhone": "(803) 6822860"
         }
       ],
       "incumbent": {
@@ -1819,7 +2119,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-91-0",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "hd91@danielralexander.com",
+          "contactPhone": "(803) 3004705"
         },
         {
           "name": "Lonnie Hosey",
@@ -1829,7 +2131,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-91-1",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "lonniehosey@bellsouth.net",
+          "contactPhone": "(803) 6711184"
         },
         {
           "name": "Tyler A Morgan",
@@ -1839,7 +2143,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-91-2",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "Tyler.A.morgan11@gmail.com",
+          "contactPhone": "(253) 5793457"
         }
       ],
       "incumbent": {
@@ -1858,7 +2164,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-92-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "brandoncoxsc@gmail.com",
+          "contactPhone": "(843) 8707946"
         }
       ],
       "incumbent": {
@@ -1877,7 +2185,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-93-0",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "alex@alexforsc.com",
+          "contactPhone": "(803) 3185491"
         },
         {
           "name": "Jerry N Govan",
@@ -1887,7 +2197,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-93-1",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "govanforsc@gmail.com",
+          "contactPhone": "(803) 3785484"
         }
       ],
       "incumbent": {
@@ -1906,7 +2218,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-94-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "gilgatch@gmail.com",
+          "contactPhone": "(843) 4991222"
         }
       ],
       "incumbent": {
@@ -1925,7 +2239,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-95-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "gildacobbhunter@schouse.gov",
+          "contactPhone": "(803) 5311257"
         }
       ],
       "incumbent": {
@@ -1944,7 +2260,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-96-0",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "PerryFinchHouse96@gmail.com",
+          "contactPhone": "(803) 7301245"
         }
       ],
       "incumbent": {
@@ -1963,7 +2281,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-97-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "robertrobbins@schouse.gov",
+          "contactPhone": "(843) 8302754"
         }
       ],
       "incumbent": {
@@ -1982,7 +2302,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-98-0",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "info@sonjaogletreesatani4sc98.org",
+          "contactPhone": "(843) 6967335"
         }
       ],
       "incumbent": null
@@ -1998,7 +2320,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-99-0",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "JarrodKBrooks@gmail.com",
+          "contactPhone": "(843) 8825155"
         },
         {
           "name": "David Herndon",
@@ -2008,7 +2332,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-99-1",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "herdongop@yahoo.com",
+          "contactPhone": "(803) 6095535"
         }
       ],
       "incumbent": {
@@ -2027,7 +2353,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-100-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "syllestedavis@gmail.com",
+          "contactPhone": "(843) 7299243"
         }
       ],
       "incumbent": {
@@ -2046,7 +2374,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-101-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "rogerkirby61@gmail.com",
+          "contactPhone": "(843) 5980775"
         }
       ],
       "incumbent": {
@@ -2065,7 +2395,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-102-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "HarrietAJackson@yahoo.com",
+          "contactPhone": "(678) 2700421"
         }
       ],
       "incumbent": {
@@ -2103,7 +2435,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-104-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "whbaileynmb@gmail.com",
+          "contactPhone": "(843) 4580844"
         }
       ],
       "incumbent": {
@@ -2122,7 +2456,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-105-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "kjhardee@sccoast.net",
+          "contactPhone": "(843) 4553567"
         }
       ],
       "incumbent": {
@@ -2132,7 +2468,20 @@
     },
     "106": {
       "districtNumber": 106,
-      "candidates": [],
+      "candidates": [
+        {
+          "name": "Thomas D Guest",
+          "party": "Republican",
+          "status": "filed",
+          "filedDate": "2026-03-18",
+          "ethicsUrl": null,
+          "reportId": "vrems-106-0",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "vguest@grandstrandattorneys.com",
+          "contactPhone": "(843) 2224131"
+        }
+      ],
       "incumbent": {
         "name": "Val Guest Jr.",
         "party": "Republican"
@@ -2149,7 +2498,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-107-0",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "case@brittainlawfirm.com",
+          "contactPhone": "(843) 9073191"
         }
       ],
       "incumbent": {
@@ -2168,7 +2519,8 @@
           "ethicsUrl": null,
           "reportId": "vrems-108-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactPhone": "(843) 6524236"
         },
         {
           "name": "KATHRYN KALIN REDWINE",
@@ -2178,7 +2530,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-108-1",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "Redwine4house@gmail.com",
+          "contactPhone": "(843) 2747604"
         }
       ],
       "incumbent": {
@@ -2205,7 +2559,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-110-0",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "tomhartnettjr@gmail.com",
+          "contactPhone": "(843) 2702915"
         }
       ],
       "incumbent": {
@@ -2224,7 +2580,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-111-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "wgilly@bellsouth.net",
+          "contactPhone": "(843) 2093123"
         }
       ],
       "incumbent": {
@@ -2243,7 +2601,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-112-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "jmbustos@comcast.net",
+          "contactPhone": "(843) 8226363"
         },
         {
           "name": "Paul W Sprouse",
@@ -2253,7 +2613,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-112-1",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "Woody.Sprouse@gmail.com",
+          "contactPhone": "(314) 4225509"
         },
         {
           "name": "Jenna P Arsenault",
@@ -2263,7 +2625,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-112-2",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "jenna@jennasc.com",
+          "contactPhone": "(843) 6061635"
         }
       ],
       "incumbent": {
@@ -2290,7 +2654,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-114-0",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "gary.brewer7@gmail.com",
+          "contactPhone": "(843) 2145174"
         }
       ],
       "incumbent": {
@@ -2309,7 +2675,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-115-0",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "nick@nickforschouse.com",
+          "contactPhone": "(843) 8149828"
         },
         {
           "name": "Lee C Walker",
@@ -2319,7 +2687,21 @@
           "ethicsUrl": null,
           "reportId": "vrems-115-1",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "lcarltonwalker@gmail.com",
+          "contactPhone": "(843) 4785980"
+        },
+        {
+          "name": "Johnnie B Garmon",
+          "party": "Republican",
+          "status": "filed",
+          "filedDate": "2026-03-18",
+          "ethicsUrl": null,
+          "reportId": "vrems-115-2",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "info@togetherwithgarmon.com",
+          "contactPhone": "(843) 4581620"
         }
       ],
       "incumbent": {
@@ -2338,7 +2720,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-116-0",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "radiabaxter@gmail.com",
+          "contactPhone": "(843) 9060933"
         },
         {
           "name": "David W Bell",
@@ -2348,7 +2732,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-116-1",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "david@davidbellsc116.com",
+          "contactPhone": "(843) 5091555"
         },
         {
           "name": "Clay N Middleton",
@@ -2358,7 +2744,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-116-2",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "claynmiddleton@gmail.com",
+          "contactPhone": "(843) 4252338"
         },
         {
           "name": "James E Teeple",
@@ -2368,7 +2756,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-116-3",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "james@palmettoadmin.com",
+          "contactPhone": "(843) 5407103"
         }
       ],
       "incumbent": {
@@ -2387,7 +2777,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-117-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "jordanpaceforhouse@gmail.com",
+          "contactPhone": "(843) 3007193"
         },
         {
           "name": "Ashley Painter",
@@ -2397,7 +2789,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-117-1",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "ashleypainterhousrep117@gmail.com",
+          "contactPhone": "(843) 4710276"
         }
       ],
       "incumbent": {
@@ -2416,7 +2810,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-118-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "MFDUSA@AOL.COM",
+          "contactPhone": "(843) 3017900"
         }
       ],
       "incumbent": {
@@ -2443,7 +2839,21 @@
           "ethicsUrl": null,
           "reportId": "vrems-120-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "wnewton@jsplaw.net",
+          "contactPhone": "(843) 6836111"
+        },
+        {
+          "name": "Robert H Weinfeld",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-18",
+          "ethicsUrl": null,
+          "reportId": "vrems-120-1",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "medlegalobgyn@aol.com",
+          "contactPhone": "(706) 7997045"
         }
       ],
       "incumbent": {
@@ -2462,7 +2872,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-121-0",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "mfriverssr@gmail.com",
+          "contactPhone": "(843) 2638467"
         },
         {
           "name": "Shelley G Yuhas",
@@ -2472,7 +2884,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-121-1",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "shelleyyuhas@gmail.com",
+          "contactPhone": "(843) 2708145"
         },
         {
           "name": "Shannon N DeLoach",
@@ -2482,7 +2896,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-121-2",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "deloachforsc121@gmail.com",
+          "contactPhone": "(843) 3242384"
         }
       ],
       "incumbent": {
@@ -2501,7 +2917,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-122-0",
           "source": "vrems",
-          "isIncumbent": false
+          "isIncumbent": false,
+          "contactEmail": "koreyw01@aol.com",
+          "contactPhone": "(803) 9141028"
         }
       ],
       "incumbent": {
@@ -2511,7 +2929,20 @@
     },
     "123": {
       "districtNumber": 123,
-      "candidates": [],
+      "candidates": [
+        {
+          "name": "Jeffrey Alan Bradley",
+          "party": "Republican",
+          "status": "filed",
+          "filedDate": "2026-03-18",
+          "ethicsUrl": null,
+          "reportId": "vrems-123-0",
+          "source": "vrems",
+          "isIncumbent": true,
+          "contactEmail": "jeffbradley@schouse.gov",
+          "contactPhone": "(843) 3426918"
+        }
+      ],
       "incumbent": {
         "name": "Jeff Bradley",
         "party": "Republican"
@@ -2528,7 +2959,9 @@
           "ethicsUrl": null,
           "reportId": "vrems-124-0",
           "source": "vrems",
-          "isIncumbent": true
+          "isIncumbent": true,
+          "contactEmail": "repshannonerickson@gmail.com",
+          "contactPhone": "(843) 2631867"
         }
       ],
       "incumbent": {
