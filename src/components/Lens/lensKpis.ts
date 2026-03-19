@@ -30,8 +30,8 @@ function getDemFilingKpis(districts: District[]): KpiItem[] {
 
   return [
     { label: 'Dem Candidates', value: demCandidates, color: 'var(--party-dem)' },
-    { label: 'Coverage', value: `${coverage}%` },
-    { label: 'Gaps', value: gaps, color: 'var(--status-attention)' },
+    { label: 'Dem Coverage', value: `${coverage}%` },
+    { label: 'Dem Gaps', value: gaps, color: 'var(--status-attention)' },
   ];
 }
 
