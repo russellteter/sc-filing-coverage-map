@@ -184,9 +184,6 @@ export function getDistrictCategory(
     return 'UNFILED';
   }
 
-  const incumbentParty = district.incumbent?.party;
-  const isDemIncumbent = incumbentParty === 'Democratic';
-
   const hasDemCandidate = district.candidates.some(
     (c) => c.party?.toLowerCase() === 'democratic'
   );
@@ -200,7 +197,7 @@ export function getDistrictCategory(
 
   if (hasDemCandidate && hasRepCandidate) return 'BOTH_PARTIES';
   if (demCandidateCount >= 2) return 'DEM_PRIMARY';
-  if (hasDemCandidate || isDemIncumbent) return 'DEM_FILED';
+  if (hasDemCandidate) return 'DEM_FILED';
   if (hasRepCandidate) return 'REP_ONLY';
   return 'UNFILED';
 }

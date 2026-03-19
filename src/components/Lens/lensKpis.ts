@@ -19,7 +19,7 @@ function getDemFilingKpis(districts: District[]): KpiItem[] {
   for (const district of districts) {
     const demCands = district.candidates.filter(c => c.party?.toLowerCase() === 'democratic');
     demCandidates += demCands.length;
-    if (demCands.length > 0 || district.incumbent?.party === 'Democratic') {
+    if (demCands.length > 0) {
       demDistrictSet.add(district.districtNumber);
     }
   }
