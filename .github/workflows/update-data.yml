@@ -2,9 +2,9 @@ name: Update Filing Data
 
 on:
   schedule:
-    # Run daily at 6:10 PM EDT (22:10 UTC) — 20 min BEFORE VREMS email
-    # Map must be fresh when email recipients click the link
-    - cron: '10 22 * * *'
+    # Run daily at 6:30 PM EDT (22:30 UTC) — 20 min AFTER VREMS scrape
+    # VREMS scrapes at 6:10 PM EDT, then map picks up fresh data
+    - cron: '30 22 * * *'
   workflow_dispatch: {}
 
 permissions:
@@ -37,4 +37,4 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add public/data/ src/data/
-          git diff --staged --quiet || (git commit -m "Update filing data [skip ci]" && git push)
+          git diff --staged --quiet || (git commit -m "Update filing data" && git push)
