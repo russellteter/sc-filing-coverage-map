@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-19T22:43:28.285343+00:00",
+  "lastUpdated": "2026-03-20T00:10:31.468975+00:00",
   "house": {
     "1": {
       "districtNumber": 1,
@@ -511,6 +511,18 @@
           "isIncumbent": true,
           "contactEmail": "dianne.ktr@gmail.com",
           "contactPhone": "(864) 2442717"
+        },
+        {
+          "name": "Dexter L Reaves",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-19",
+          "ethicsUrl": null,
+          "reportId": "vrems-21-1",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "dexterlreaves@gmail.com",
+          "contactPhone": "(864) 5050291"
         }
       ],
       "incumbent": {
@@ -922,6 +934,18 @@
           "isIncumbent": false,
           "contactEmail": "HandHRanch13@gmail.com",
           "contactPhone": "(864) 4012383"
+        },
+        {
+          "name": "Cally R Forrest",
+          "party": "Republican",
+          "status": "filed",
+          "filedDate": "2026-03-19",
+          "ethicsUrl": null,
+          "reportId": "vrems-39-1",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "calforrest@gmail.com",
+          "contactPhone": "(803) 3496741"
         }
       ],
       "incumbent": {
@@ -955,6 +979,18 @@
           "isIncumbent": true,
           "contactEmail": "thebump1945@gmail.com",
           "contactPhone": "(803) 4299423"
+        },
+        {
+          "name": "ENGLE L THOMPSON",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-19",
+          "ethicsUrl": null,
+          "reportId": "vrems-40-2",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "englethompson@yahoo.com",
+          "contactPhone": "(803) 2713214"
         }
       ],
       "incumbent": {
@@ -1502,7 +1538,20 @@
     },
     "63": {
       "districtNumber": 63,
-      "candidates": [],
+      "candidates": [
+        {
+          "name": "Wallace Jordan",
+          "party": "Republican",
+          "status": "filed",
+          "filedDate": "2026-03-19",
+          "ethicsUrl": null,
+          "reportId": "vrems-63-0",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "wallacejordan2@gmail.com",
+          "contactPhone": "(843) 2291874"
+        }
+      ],
       "incumbent": {
         "name": "Jay Jordan Jr.",
         "party": "Republican"
@@ -1543,6 +1592,17 @@
           "isIncumbent": true,
           "contactEmail": "ctmitchellsc@gmail.com",
           "contactPhone": "(803) 4276487"
+        },
+        {
+          "name": "Tanisha Baskin",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-19",
+          "ethicsUrl": null,
+          "reportId": "vrems-65-1",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactPhone": "(843) 6800914"
         }
       ],
       "incumbent": {
@@ -1557,13 +1617,13 @@
           "name": "Heather L Hart",
           "party": "Democratic",
           "status": "filed",
-          "filedDate": "2026-03-16",
+          "filedDate": "2026-03-19",
           "ethicsUrl": null,
           "reportId": "vrems-66-0",
           "source": "vrems",
           "isIncumbent": false,
-          "contactEmail": "hart.heather@hotmail.com",
-          "contactPhone": "(847) 9120961"
+          "contactEmail": "heather@hartforsc.com",
+          "contactPhone": "(803) 8877333"
         },
         {
           "name": "Jackie R Terribile",
@@ -1693,6 +1753,18 @@
           "isIncumbent": true,
           "contactEmail": "SCHOUSE71@aol.com",
           "contactPhone": "(803) 8344613"
+        },
+        {
+          "name": "Amanda Juliette Zimmerman",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-19",
+          "ethicsUrl": null,
+          "reportId": "vrems-71-1",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "julieforSC@gmail.com",
+          "contactPhone": "(803) 5533981"
         }
       ],
       "incumbent": {
@@ -1827,7 +1899,20 @@
     },
     "78": {
       "districtNumber": 78,
-      "candidates": [],
+      "candidates": [
+        {
+          "name": "Beth E Bernstein",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-19",
+          "ethicsUrl": null,
+          "reportId": "vrems-78-0",
+          "source": "vrems",
+          "isIncumbent": true,
+          "contactEmail": "beth@bblawsc.com",
+          "contactPhone": "(803) 7997900"
+        }
+      ],
       "incumbent": {
         "name": "Beth E. Bernstein",
         "party": "Democratic"
@@ -1835,7 +1920,20 @@
     },
     "79": {
       "districtNumber": 79,
-      "candidates": [],
+      "candidates": [
+        {
+          "name": "Hamilton R Grant",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-19",
+          "ethicsUrl": null,
+          "reportId": "vrems-79-0",
+          "source": "vrems",
+          "isIncumbent": true,
+          "contactEmail": "info@grantforsc.com",
+          "contactPhone": "(803) 3861055"
+        }
+      ],
       "incumbent": {
         "name": "Hamilton R. Grant",
         "party": "Democratic"
@@ -2005,6 +2103,30 @@
           "isIncumbent": false,
           "contactEmail": "stuart.epting@gmail.com",
           "contactPhone": "(803) 2017919"
+        },
+        {
+          "name": "Thomas L Paradise",
+          "party": "Republican",
+          "status": "filed",
+          "filedDate": "2026-03-19",
+          "ethicsUrl": null,
+          "reportId": "vrems-86-1",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "tparadise.tp@gmail.com",
+          "contactPhone": "(803) 6467965"
+        },
+        {
+          "name": "Kimberlie Ellen Ray",
+          "party": "Republican",
+          "status": "filed",
+          "filedDate": "2026-03-19",
+          "ethicsUrl": null,
+          "reportId": "vrems-86-2",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "kimjacksonray@gmail.com",
+          "contactPhone": "(803) 6452900"
         }
       ],
       "incumbent": {
@@ -2542,7 +2664,20 @@
     },
     "109": {
       "districtNumber": 109,
-      "candidates": [],
+      "candidates": [
+        {
+          "name": "Tiffany R Spann-Wilder",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-19",
+          "ethicsUrl": null,
+          "reportId": "vrems-109-0",
+          "source": "vrems",
+          "isIncumbent": true,
+          "contactEmail": "spannwilder4sc109@gmail.com",
+          "contactPhone": "(843) 2667792"
+        }
+      ],
       "incumbent": {
         "name": "Tiffany Spann-Wilder",
         "party": "Democratic"
