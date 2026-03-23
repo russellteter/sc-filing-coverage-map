@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-22T22:54:24.006624+00:00",
+  "lastUpdated": "2026-03-23T23:01:52.125948+00:00",
   "house": {
     "1": {
       "districtNumber": 1,
@@ -575,6 +575,18 @@
           "source": "vrems",
           "isIncumbent": false,
           "contactEmail": "pollyforschousedistrict20@gmail.com"
+        },
+        {
+          "name": "Stephen D Frank",
+          "party": "Republican",
+          "status": "filed",
+          "filedDate": "2026-03-23",
+          "ethicsUrl": null,
+          "reportId": "vrems-20-1",
+          "source": "vrems",
+          "isIncumbent": true,
+          "contactEmail": "stephen@votestephenfrank.com",
+          "contactPhone": "(864) 3607784"
         }
       ],
       "incumbent": {
@@ -617,7 +629,20 @@
     },
     "22": {
       "districtNumber": 22,
-      "candidates": [],
+      "candidates": [
+        {
+          "name": "Paul B Wickensimer",
+          "party": "Republican",
+          "status": "filed",
+          "filedDate": "2026-03-23",
+          "ethicsUrl": null,
+          "reportId": "vrems-22-0",
+          "source": "vrems",
+          "isIncumbent": true,
+          "contactEmail": "pbwick@gmail.com",
+          "contactPhone": "(864) 3467559"
+        }
+      ],
       "incumbent": {
         "name": "Paul B. Wickensimer",
         "party": "Republican"
@@ -658,6 +683,18 @@
           "isIncumbent": false,
           "contactEmail": "caroline@carolineavinger.com",
           "contactPhone": "(864) 9791807"
+        },
+        {
+          "name": "Bruce W Bannister",
+          "party": "Republican",
+          "status": "filed",
+          "filedDate": "2026-03-23",
+          "ethicsUrl": null,
+          "reportId": "vrems-24-1",
+          "source": "vrems",
+          "isIncumbent": true,
+          "contactEmail": "bruceb@bannisterwyatt.com",
+          "contactPhone": "(864) 5679521"
         }
       ],
       "incumbent": {
@@ -818,6 +855,18 @@
           "isIncumbent": true,
           "contactEmail": "blawsonsc30@gmail.com",
           "contactPhone": "(864) 8093501"
+        },
+        {
+          "name": "Stephanie A Holstein",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-23",
+          "ethicsUrl": null,
+          "reportId": "vrems-30-1",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "holsteinforhouse30@gmail.com",
+          "contactPhone": "(859) 6533247"
         }
       ],
       "incumbent": {
@@ -905,6 +954,18 @@
           "isIncumbent": false,
           "contactEmail": "clemson@clemsontsc.com",
           "contactPhone": "(336) 9290629"
+        },
+        {
+          "name": "Travis A Moore",
+          "party": "Republican",
+          "status": "filed",
+          "filedDate": "2026-03-23",
+          "ethicsUrl": null,
+          "reportId": "vrems-33-2",
+          "source": "vrems",
+          "isIncumbent": true,
+          "contactEmail": "TAMoore2002@gmail.com",
+          "contactPhone": "(864) 6800441"
         }
       ],
       "incumbent": {
@@ -1232,6 +1293,18 @@
           "isIncumbent": true,
           "contactEmail": "mikeneese.sc.house@gmail.com",
           "contactPhone": "(704) 4977944"
+        },
+        {
+          "name": "Katie W Crosby",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-23",
+          "ethicsUrl": null,
+          "reportId": "vrems-44-2",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "info@crosbyforsc.com",
+          "contactPhone": "(704) 7437961"
         }
       ],
       "incumbent": {
@@ -1285,6 +1358,18 @@
           "isIncumbent": true,
           "contactEmail": "heathsessions@gmail.com",
           "contactPhone": "(704) 8071575"
+        },
+        {
+          "name": "Omar Lajuan McCrorey",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-23",
+          "ethicsUrl": null,
+          "reportId": "vrems-46-1",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "omccrorey@gmail.com",
+          "contactPhone": "(803) 5549557"
         }
       ],
       "incumbent": {
@@ -2541,6 +2626,18 @@
           "isIncumbent": true,
           "contactEmail": "brandoncoxsc@gmail.com",
           "contactPhone": "(843) 8707946"
+        },
+        {
+          "name": "Byron D Walters",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-23",
+          "ethicsUrl": null,
+          "reportId": "vrems-92-1",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "byronwaltersforschd92@gmail.com",
+          "contactPhone": "(540) 4493031"
         }
       ],
       "incumbent": {
@@ -2733,6 +2830,18 @@
           "isIncumbent": false,
           "contactEmail": "herdongop@yahoo.com",
           "contactPhone": "(803) 6095535"
+        },
+        {
+          "name": "Kristy Gore",
+          "party": "Republican",
+          "status": "filed",
+          "filedDate": "2026-03-23",
+          "ethicsUrl": null,
+          "reportId": "vrems-99-2",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "kristylyngore@gmailcom",
+          "contactPhone": "(843) 9988250"
         }
       ],
       "incumbent": {
@@ -3084,7 +3193,20 @@
     },
     "113": {
       "districtNumber": 113,
-      "candidates": [],
+      "candidates": [
+        {
+          "name": "Courtney S Waters",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-23",
+          "ethicsUrl": null,
+          "reportId": "vrems-113-0",
+          "source": "vrems",
+          "isIncumbent": true,
+          "contactEmail": "cswaters11@gmail.com",
+          "contactPhone": "(843) 8346415"
+        }
+      ],
       "incumbent": {
         "name": "Courtney S. Waters",
         "party": "Democratic"
@@ -3104,6 +3226,18 @@
           "isIncumbent": false,
           "contactEmail": "gary.brewer7@gmail.com",
           "contactPhone": "(843) 2145174"
+        },
+        {
+          "name": "KELLY E HOUGH",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-23",
+          "ethicsUrl": null,
+          "reportId": "vrems-114-1",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "kellyehough@gmail.com",
+          "contactPhone": "(803) 2604590"
         }
       ],
       "incumbent": {
@@ -3187,7 +3321,7 @@
           "name": "Clay N Middleton",
           "party": "Democratic",
           "status": "filed",
-          "filedDate": "2026-03-16",
+          "filedDate": "2026-03-23",
           "ethicsUrl": null,
           "reportId": "vrems-116-2",
           "source": "vrems",
