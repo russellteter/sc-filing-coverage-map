@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-23T23:01:52.125948+00:00",
+  "lastUpdated": "2026-03-24T23:00:38.630274+00:00",
   "house": {
     "1": {
       "districtNumber": 1,
@@ -36,6 +36,18 @@
           "isIncumbent": true,
           "contactEmail": "AdamDuncan@schouse.gov",
           "contactPhone": "(864) 7849676"
+        },
+        {
+          "name": "CANDACE M SCHUTT",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-24",
+          "ethicsUrl": null,
+          "reportId": "vrems-2-1",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "womengetschuttdone@gmail.com",
+          "contactPhone": "(864) 7101320"
         }
       ],
       "incumbent": {
@@ -340,6 +352,17 @@
           "isIncumbent": true,
           "contactEmail": "dgibson12@gmail.com",
           "contactPhone": "(864) 3960245"
+        },
+        {
+          "name": "Jumelle T Brooks",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-24",
+          "ethicsUrl": null,
+          "reportId": "vrems-12-1",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "jumelle@jumelleforsc.com"
         }
       ],
       "incumbent": {
@@ -468,6 +491,18 @@
           "isIncumbent": true,
           "contactEmail": "willisforhouse@gmail.com",
           "contactPhone": "(864) 2300135"
+        },
+        {
+          "name": "Lynn J Ramirez",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-24",
+          "ethicsUrl": null,
+          "reportId": "vrems-16-1",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "lynnramirez@gmail.com",
+          "contactPhone": "(864) 5312281"
         }
       ],
       "incumbent": {
@@ -620,6 +655,18 @@
           "isIncumbent": false,
           "contactEmail": "dexterlreaves@gmail.com",
           "contactPhone": "(864) 5050291"
+        },
+        {
+          "name": "Heather S Currie",
+          "party": "Republican",
+          "status": "filed",
+          "filedDate": "2026-03-24",
+          "ethicsUrl": null,
+          "reportId": "vrems-21-2",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "heathercurrie@currieforhouse21.com",
+          "contactPhone": "(864) 2387021"
         }
       ],
       "incumbent": {
@@ -1140,6 +1187,18 @@
           "isIncumbent": false,
           "contactEmail": "calforrest@gmail.com",
           "contactPhone": "(803) 3496741"
+        },
+        {
+          "name": "Frederick Jacob Taylor",
+          "party": "Republican",
+          "status": "filed",
+          "filedDate": "2026-03-24",
+          "ethicsUrl": null,
+          "reportId": "vrems-39-2",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "fredlouise@comporium.net",
+          "contactPhone": "(803) 8925257"
         }
       ],
       "incumbent": {
@@ -1943,6 +2002,18 @@
           "isIncumbent": true,
           "contactEmail": "heatherforhouse@yahoo.com",
           "contactPhone": "(843) 4574852"
+        },
+        {
+          "name": "JUDITH S DAVIES",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-24",
+          "ethicsUrl": null,
+          "reportId": "vrems-68-1",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "judy227a@mail.com",
+          "contactPhone": "(843) 9577096"
         }
       ],
       "incumbent": {
@@ -2746,6 +2817,18 @@
           "isIncumbent": false,
           "contactEmail": "HUNTER.HACKETT2@GMAIL.COM",
           "contactPhone": "(803) 6294259"
+        },
+        {
+          "name": "Scotty R Whetstone",
+          "party": "Republican",
+          "status": "filed",
+          "filedDate": "2026-03-24",
+          "ethicsUrl": null,
+          "reportId": "vrems-96-2",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "scottwhetstone1972@gmail.com",
+          "contactPhone": "(803) 7190634"
         }
       ],
       "incumbent": {
@@ -2884,6 +2967,18 @@
           "isIncumbent": true,
           "contactEmail": "rogerkirby61@gmail.com",
           "contactPhone": "(843) 5980775"
+        },
+        {
+          "name": "Arnold L Borowsky",
+          "party": "Republican",
+          "status": "filed",
+          "filedDate": "2026-03-24",
+          "ethicsUrl": null,
+          "reportId": "vrems-101-1",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "arnieborowsky@yahoo.com",
+          "contactPhone": "(843) 8134528"
         }
       ],
       "incumbent": {
@@ -3011,6 +3106,18 @@
           "isIncumbent": false,
           "contactEmail": "vguest@grandstrandattorneys.com",
           "contactPhone": "(843) 2224131"
+        },
+        {
+          "name": "Marisa L McCann",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-24",
+          "ethicsUrl": null,
+          "reportId": "vrems-106-1",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "Mccannmarisa@Gmail.Com",
+          "contactPhone": "(618) 5671688"
         }
       ],
       "incumbent": {
