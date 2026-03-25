@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-24T23:00:38.630274+00:00",
+  "lastUpdated": "2026-03-25T23:04:54.795558+00:00",
   "house": {
     "1": {
       "districtNumber": 1,
@@ -47,7 +47,7 @@
           "source": "vrems",
           "isIncumbent": false,
           "contactEmail": "womengetschuttdone@gmail.com",
-          "contactPhone": "(864) 7101320"
+          "contactPhone": "(864) 9853748"
         }
       ],
       "incumbent": {
@@ -168,6 +168,17 @@
           "isIncumbent": false,
           "contactEmail": "kyle@wdwlawfirm.com",
           "contactPhone": "(864) 3142651"
+        },
+        {
+          "name": "Jennifer A Bachner",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-25",
+          "ethicsUrl": null,
+          "reportId": "vrems-6-2",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactPhone": "(864) 3611934"
         }
       ],
       "incumbent": {
@@ -286,6 +297,30 @@
           "isIncumbent": true,
           "contactEmail": "thomas@beachforhouse.com",
           "contactPhone": "(264) 4486336"
+        },
+        {
+          "name": "Thomas Stewart Watson",
+          "party": "Republican",
+          "status": "filed",
+          "filedDate": "2026-03-25",
+          "ethicsUrl": null,
+          "reportId": "vrems-10-1",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "steuartwatson@gmail.com",
+          "contactPhone": "(513) 5038212"
+        },
+        {
+          "name": "Camron T Stewart",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-25",
+          "ethicsUrl": null,
+          "reportId": "vrems-10-2",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "CitizenPalmetto@gmail.com",
+          "contactPhone": "(864) 4371360"
         }
       ],
       "incumbent": {
@@ -808,6 +843,17 @@
           "isIncumbent": false,
           "contactEmail": "kiraltelvanni@gmail.com",
           "contactPhone": "(839) 5003186"
+        },
+        {
+          "name": "Jenny E Desch",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-25",
+          "ethicsUrl": null,
+          "reportId": "vrems-26-3",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "jenny@deschforhouse.com"
         }
       ],
       "incumbent": {
@@ -1055,6 +1101,17 @@
           "isIncumbent": true,
           "contactEmail": "billchumley1@gmail.com",
           "contactPhone": "(864) 3032726"
+        },
+        {
+          "name": "Tatiana M Skipper",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-25",
+          "ethicsUrl": null,
+          "reportId": "vrems-35-1",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactPhone": "(864) 9865558"
         }
       ],
       "incumbent": {
@@ -1076,6 +1133,18 @@
           "isIncumbent": true,
           "contactEmail": "rob@actionsc.org",
           "contactPhone": "(610) 3927358"
+        },
+        {
+          "name": "VIRGINIA L MCLEAN",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-25",
+          "ethicsUrl": null,
+          "reportId": "vrems-36-1",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "mcleanforsc@gmail.com",
+          "contactPhone": "(267) 8095666"
         }
       ],
       "incumbent": {
@@ -1627,6 +1696,18 @@
           "isIncumbent": false,
           "contactEmail": "ablessedpreacher@hotmail.com",
           "contactPhone": "(803) 8008638"
+        },
+        {
+          "name": "Lawrence D Moore",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-25",
+          "ethicsUrl": null,
+          "reportId": "vrems-52-2",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "lawmoore74@gmail.com",
+          "contactPhone": "(803) 2380331"
         }
       ],
       "incumbent": {
@@ -1730,6 +1811,18 @@
           "source": "vrems",
           "isIncumbent": true,
           "contactEmail": "timmcginnis@mac.com"
+        },
+        {
+          "name": "Jacqualyn Meadow",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-25",
+          "ethicsUrl": null,
+          "reportId": "vrems-56-1",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "activejacs12@gmail.com",
+          "contactPhone": "(917) 9927558"
         }
       ],
       "incumbent": {
@@ -2412,6 +2505,18 @@
           "isIncumbent": true,
           "contactEmail": "bill@hixonco.com",
           "contactPhone": "(803) 2798855"
+        },
+        {
+          "name": "Jason M Payne",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-25",
+          "ethicsUrl": null,
+          "reportId": "vrems-83-1",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "jason.payne1@gmail.com",
+          "contactPhone": "(504) 4444712"
         }
       ],
       "incumbent": {
@@ -3510,7 +3615,19 @@
     },
     "119": {
       "districtNumber": 119,
-      "candidates": [],
+      "candidates": [
+        {
+          "name": "Leonidas E Stavrinakis",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-25",
+          "ethicsUrl": null,
+          "reportId": "vrems-119-0",
+          "source": "vrems",
+          "isIncumbent": true,
+          "contactPhone": "(843) 7241060"
+        }
+      ],
       "incumbent": {
         "name": "Leon Stavrinakis",
         "party": "Democratic"
