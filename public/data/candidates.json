@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-29T23:00:52.203305+00:00",
+  "lastUpdated": "2026-03-30T23:05:39.245536+00:00",
   "house": {
     "1": {
       "districtNumber": 1,
@@ -39,6 +39,18 @@
           "isIncumbent": false,
           "contactEmail": "junidistrict1@gmail.com",
           "contactPhone": "(864) 3865667"
+        },
+        {
+          "name": "Jasmine R Williams",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-30",
+          "ethicsUrl": null,
+          "reportId": "vrems-1-3",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "jasminehayler@gmail.com",
+          "contactPhone": "(864) 7235810"
         }
       ],
       "incumbent": {
@@ -149,7 +161,19 @@
           "source": "vrems",
           "isIncumbent": false,
           "contactEmail": "claycounts21@yahoo.com",
-          "contactPhone": "(864) 8436862"
+          "contactPhone": "(864) 6305739"
+        },
+        {
+          "name": "Derrick A Kruse",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-30",
+          "ethicsUrl": null,
+          "reportId": "vrems-4-1",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "derrick.kruse@gmail.com",
+          "contactPhone": "(864) 8979893"
         }
       ],
       "incumbent": {
@@ -194,6 +218,18 @@
           "source": "vrems",
           "isIncumbent": false,
           "contactEmail": "voteformeeder@gmail.com"
+        },
+        {
+          "name": "David F Jones",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-30",
+          "ethicsUrl": null,
+          "reportId": "vrems-5-3",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "davidfjones01@gmail.com",
+          "contactPhone": "(401) 6490310"
         }
       ],
       "incumbent": {
@@ -316,6 +352,18 @@
           "isIncumbent": false,
           "contactEmail": "patrick@patrickforsc.com",
           "contactPhone": "(864) 4514595"
+        },
+        {
+          "name": "Demetrius R Carson",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-30",
+          "ethicsUrl": null,
+          "reportId": "vrems-8-3",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "carsonservices@msn.com",
+          "contactPhone": "(864) 3532273"
         }
       ],
       "incumbent": {
@@ -621,6 +669,18 @@
           "isIncumbent": true,
           "contactEmail": "ja@jamooreforsc.com",
           "contactPhone": "(843) 6400130"
+        },
+        {
+          "name": "Heather B Hickman",
+          "party": "Republican",
+          "status": "filed",
+          "filedDate": "2026-03-30",
+          "ethicsUrl": null,
+          "reportId": "vrems-15-2",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "mom_and_alex@yahoo.com",
+          "contactPhone": "(843) 2867903"
         }
       ],
       "incumbent": {
@@ -675,6 +735,18 @@
           "isIncumbent": true,
           "contactEmail": "mikeburns@schouse.gov",
           "contactPhone": "(864) 9066949"
+        },
+        {
+          "name": "Richard L Nicoloff",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-30",
+          "ethicsUrl": null,
+          "reportId": "vrems-17-1",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "richnicoloff4schouse17@gmail.com",
+          "contactPhone": "(864) 3828871"
         }
       ],
       "incumbent": {
@@ -917,6 +989,18 @@
           "isIncumbent": true,
           "contactEmail": "bruceb@bannisterwyatt.com",
           "contactPhone": "(864) 5679521"
+        },
+        {
+          "name": "Justin D Sanders",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-30",
+          "ethicsUrl": null,
+          "reportId": "vrems-24-2",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "jd1sanders@gmail.com",
+          "contactPhone": "(803) 7600054"
         }
       ],
       "incumbent": {
@@ -938,6 +1022,18 @@
           "isIncumbent": true,
           "contactEmail": "info@wendellkjones.com",
           "contactPhone": "(864) 3615438"
+        },
+        {
+          "name": "Derrick L Quarles",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-30",
+          "ethicsUrl": null,
+          "reportId": "vrems-25-1",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "derrickforsc@gmail.com",
+          "contactPhone": "(864) 9182799"
         }
       ],
       "incumbent": {
@@ -1046,6 +1142,18 @@
           "isIncumbent": true,
           "contactEmail": "wchrishuff29@gmail.com",
           "contactPhone": "(864) 3048994"
+        },
+        {
+          "name": "Alan G Buckalew",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-30",
+          "ethicsUrl": null,
+          "reportId": "vrems-28-1",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "alan.buckalew@yahoo.com",
+          "contactPhone": "(864) 9057235"
         }
       ],
       "incumbent": {
@@ -1067,6 +1175,18 @@
           "isIncumbent": true,
           "contactEmail": "dennismoss29@gmail.com",
           "contactPhone": "(864) 7616353"
+        },
+        {
+          "name": "Marina Franco Martinez",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-30",
+          "ethicsUrl": null,
+          "reportId": "vrems-29-1",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "marinita_abi@hotmail.com",
+          "contactPhone": "(786) 6606391"
         }
       ],
       "incumbent": {
@@ -1320,6 +1440,18 @@
           "isIncumbent": false,
           "contactEmail": "mcleanforsc@gmail.com",
           "contactPhone": "(267) 8095666"
+        },
+        {
+          "name": "Adam Crisp",
+          "party": "Republican",
+          "status": "filed",
+          "filedDate": "2026-03-30",
+          "ethicsUrl": null,
+          "reportId": "vrems-36-2",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "adamcrisp17@gmail.com",
+          "contactPhone": "(864) 5048194"
         }
       ],
       "incumbent": {
@@ -1599,6 +1731,18 @@
           "isIncumbent": true,
           "contactEmail": "randyligon@theligoncompany",
           "contactPhone": "(803) 3238146"
+        },
+        {
+          "name": "Alexander L Clark",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-30",
+          "ethicsUrl": null,
+          "reportId": "vrems-43-1",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "alexclarkforh43@gmail.com",
+          "contactPhone": "(803) 4878490"
         }
       ],
       "incumbent": {
@@ -1886,6 +2030,18 @@
           "isIncumbent": true,
           "contactEmail": "jdavid2453@yahoo.com",
           "contactPhone": "(803) 9689409"
+        },
+        {
+          "name": "Melissa J Weeks-Richardson",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-30",
+          "ethicsUrl": null,
+          "reportId": "vrems-51-1",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "mjw_tl@yahoo.com",
+          "contactPhone": "(803) 4064716"
         }
       ],
       "incumbent": {
@@ -2100,6 +2256,18 @@
           "isIncumbent": true,
           "contactEmail": "jeffjohnsondistrict58@gmail.com",
           "contactPhone": "(843) 2839570"
+        },
+        {
+          "name": "Sha Ron E Jones",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-30",
+          "ethicsUrl": null,
+          "reportId": "vrems-58-1",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "sejones542002@yahoo.com",
+          "contactPhone": "(404) 3450716"
         }
       ],
       "incumbent": {
@@ -2142,6 +2310,30 @@
           "isIncumbent": true,
           "contactEmail": "Lowestherapy@cs.com",
           "contactPhone": "(843) 6219999"
+        },
+        {
+          "name": "Adrian Peguese Carter",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-30",
+          "ethicsUrl": null,
+          "reportId": "vrems-60-1",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "arpeguese@gmail.com",
+          "contactPhone": "(843) 9925298"
+        },
+        {
+          "name": "Melissa OShea",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-30",
+          "ethicsUrl": null,
+          "reportId": "vrems-60-2",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "moshea0503@yahoo.com",
+          "contactPhone": "(843) 4969525"
         }
       ],
       "incumbent": {
@@ -2284,6 +2476,18 @@
           "isIncumbent": true,
           "contactEmail": "fpedalino@stssc.net",
           "contactPhone": "(803) 4606119"
+        },
+        {
+          "name": "David Epperson",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-30",
+          "ethicsUrl": null,
+          "reportId": "vrems-64-1",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "dwepperson@rocketmail.com",
+          "contactPhone": "(803) 4102771"
         }
       ],
       "incumbent": {
@@ -2316,6 +2520,18 @@
           "source": "vrems",
           "isIncumbent": false,
           "contactPhone": "(843) 6800914"
+        },
+        {
+          "name": "Barbara R Arthur",
+          "party": "Republican",
+          "status": "filed",
+          "filedDate": "2026-03-30",
+          "ethicsUrl": null,
+          "reportId": "vrems-65-2",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "barbaraarthurforsc@gmail.com",
+          "contactPhone": "(843) 6213003"
         }
       ],
       "incumbent": {
@@ -2436,6 +2652,42 @@
           "isIncumbent": true,
           "contactEmail": "Votechriswooten@gmail.com",
           "contactPhone": "(803) 6091084"
+        },
+        {
+          "name": "John Anton Allen",
+          "party": "Republican",
+          "status": "filed",
+          "filedDate": "2026-03-30",
+          "ethicsUrl": null,
+          "reportId": "vrems-69-1",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "jallenforamerica@gmail.com",
+          "contactPhone": "(803) 3312909"
+        },
+        {
+          "name": "Allen J Broadus",
+          "party": "Libertarian",
+          "status": "filed",
+          "filedDate": "2026-03-30",
+          "ethicsUrl": null,
+          "reportId": "vrems-69-2",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "allenjbroadus.libertarian@gmail.com",
+          "contactPhone": "(843) 6971990"
+        },
+        {
+          "name": "Emery K Chaplin",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-30",
+          "ethicsUrl": null,
+          "reportId": "vrems-69-3",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "echapmail@yahoo.com",
+          "contactPhone": "(626) 6385775"
         }
       ],
       "incumbent": {
@@ -2612,6 +2864,18 @@
           "isIncumbent": true,
           "contactEmail": "todd@rutherford.law",
           "contactPhone": "(803) 2563003"
+        },
+        {
+          "name": "Collin Shelton",
+          "party": "Republican",
+          "status": "filed",
+          "filedDate": "2026-03-30",
+          "ethicsUrl": null,
+          "reportId": "vrems-74-1",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "collindistrict74@gmail.com",
+          "contactPhone": "(336) 4303972"
         }
       ],
       "incumbent": {
@@ -2732,6 +2996,30 @@
           "isIncumbent": true,
           "contactEmail": "beth@bblawsc.com",
           "contactPhone": "(803) 7997900"
+        },
+        {
+          "name": "Angelo Joyner",
+          "party": "Libertarian",
+          "status": "filed",
+          "filedDate": "2026-03-30",
+          "ethicsUrl": null,
+          "reportId": "vrems-78-1",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "ajoyner1602@gmail.com",
+          "contactPhone": "(803) 2011551"
+        },
+        {
+          "name": "Auriol Sonia Pollard",
+          "party": "Republican",
+          "status": "filed",
+          "filedDate": "2026-03-30",
+          "ethicsUrl": null,
+          "reportId": "vrems-78-2",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "Aurialsoniapollard@Gmail.Com",
+          "contactPhone": "(803) 9820262"
         }
       ],
       "incumbent": {
@@ -2753,6 +3041,18 @@
           "isIncumbent": true,
           "contactEmail": "info@grantforsc.com",
           "contactPhone": "(803) 3861055"
+        },
+        {
+          "name": "Anthony M Stovall",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-30",
+          "ethicsUrl": null,
+          "reportId": "vrems-79-1",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "anthonystovall@yahoo.com",
+          "contactPhone": "(803) 4676236"
         }
       ],
       "incumbent": {
@@ -2970,8 +3270,7 @@
           "reportId": "vrems-86-0",
           "source": "vrems",
           "isIncumbent": false,
-          "contactEmail": "stuart.epting@gmail.com",
-          "contactPhone": "(803) 2017919"
+          "contactEmail": "stuart.epting@gmail.com"
         },
         {
           "name": "Thomas L Paradise",
@@ -2996,6 +3295,18 @@
           "isIncumbent": false,
           "contactEmail": "kimjacksonray@gmail.com",
           "contactPhone": "(803) 6452900"
+        },
+        {
+          "name": "Malcolm A\u2019kem Green",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-30",
+          "ethicsUrl": null,
+          "reportId": "vrems-86-3",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "malcolmgreenforsc@gmail.com",
+          "contactPhone": "(803) 5522010"
         }
       ],
       "incumbent": {
@@ -3062,6 +3373,18 @@
           "isIncumbent": false,
           "contactEmail": "jonesajeremy93@gmail.com",
           "contactPhone": "(803) 3617520"
+        },
+        {
+          "name": "Brian T Duncan",
+          "party": "Republican",
+          "status": "filed",
+          "filedDate": "2026-03-30",
+          "ethicsUrl": null,
+          "reportId": "vrems-88-2",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "brian@securityprosc.com",
+          "contactPhone": "(803) 5307186"
         }
       ],
       "incumbent": {
@@ -3272,6 +3595,18 @@
           "isIncumbent": false,
           "contactEmail": "sallyhebert@gmail.com",
           "contactPhone": "(843) 8309738"
+        },
+        {
+          "name": "Collin S Holloway",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-30",
+          "ethicsUrl": null,
+          "reportId": "vrems-94-3",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "thefish54501@gmail.com",
+          "contactPhone": "(843) 8708143"
         }
       ],
       "incumbent": {
@@ -3371,6 +3706,18 @@
           "isIncumbent": true,
           "contactEmail": "robertrobbins@schouse.gov",
           "contactPhone": "(843) 8302754"
+        },
+        {
+          "name": "Cathy A Jaggars",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-30",
+          "ethicsUrl": null,
+          "reportId": "vrems-97-1",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "cjaggers@charter.net",
+          "contactPhone": "(843) 8303840"
         }
       ],
       "incumbent": {
@@ -3458,6 +3805,30 @@
           "isIncumbent": false,
           "contactEmail": "shawn@shawnpinkston.com",
           "contactPhone": "(843) 8145472"
+        },
+        {
+          "name": "Jacob S Goddard",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-30",
+          "ethicsUrl": null,
+          "reportId": "vrems-99-4",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "info@jacobforsc.com",
+          "contactPhone": "(843) 4762717"
+        },
+        {
+          "name": "Samuel Ethan Price",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-30",
+          "ethicsUrl": null,
+          "reportId": "vrems-99-5",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "price.23.se@gmail.com",
+          "contactPhone": "(803) 6296868"
         }
       ],
       "incumbent": {
@@ -3479,6 +3850,18 @@
           "isIncumbent": true,
           "contactEmail": "syllestedavis@gmail.com",
           "contactPhone": "(843) 7299243"
+        },
+        {
+          "name": "Crystal Yvette Campbell",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-30",
+          "ethicsUrl": null,
+          "reportId": "vrems-100-1",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "sugarmama77@gmail.com",
+          "contactPhone": "(803) 7608278"
         }
       ],
       "incumbent": {
@@ -3524,6 +3907,17 @@
           "isIncumbent": false,
           "contactEmail": "lanecheryl@gmail.com",
           "contactPhone": "(843) 3725769"
+        },
+        {
+          "name": "Martin T Cunningham",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-30",
+          "ethicsUrl": null,
+          "reportId": "vrems-101-3",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactPhone": "(843) 3564510"
         }
       ],
       "incumbent": {
@@ -3588,6 +3982,18 @@
           "reportId": "vrems-103-0",
           "source": "vrems",
           "isIncumbent": true
+        },
+        {
+          "name": "Wendell M Padgett",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-30",
+          "ethicsUrl": null,
+          "reportId": "vrems-103-1",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "Wendellpadgett77@gmail.com",
+          "contactPhone": "(843) 7080057"
         }
       ],
       "incumbent": {
@@ -3983,6 +4389,18 @@
           "isIncumbent": false,
           "contactEmail": "info@togetherwithgarmon.com",
           "contactPhone": "(843) 4581620"
+        },
+        {
+          "name": "Alicia Mullen Gregory",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-30",
+          "ethicsUrl": null,
+          "reportId": "vrems-115-3",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "alicia@wgregoryfamily.com",
+          "contactPhone": "(843) 6079990"
         }
       ],
       "incumbent": {
@@ -4138,6 +4556,18 @@
           "isIncumbent": false,
           "contactEmail": "davmack4@gmail.com",
           "contactPhone": "(267) 4560434"
+        },
+        {
+          "name": "Donald L Edwards",
+          "party": "Republican",
+          "status": "filed",
+          "filedDate": "2026-03-30",
+          "ethicsUrl": null,
+          "reportId": "vrems-119-2",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "leeforsc@gmail.com",
+          "contactPhone": "(843) 4124484"
         }
       ],
       "incumbent": {
@@ -4261,6 +4691,18 @@
           "isIncumbent": true,
           "contactEmail": "hagercitadel82@gmail.com",
           "contactPhone": "(803) 3469576"
+        },
+        {
+          "name": "Maja Tamara Moore",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-30",
+          "ethicsUrl": null,
+          "reportId": "vrems-122-2",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "maja_moore@yahoo.com",
+          "contactPhone": "(803) 3810581"
         }
       ],
       "incumbent": {
@@ -4294,6 +4736,18 @@
           "isIncumbent": false,
           "contactEmail": "adshippy@gmail.com",
           "contactPhone": "(719) 6511268"
+        },
+        {
+          "name": "Willie P Aiken",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-03-30",
+          "ethicsUrl": null,
+          "reportId": "vrems-123-2",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "aikenbondsinsurance@gmail.com",
+          "contactPhone": "(843) 2952744"
         }
       ],
       "incumbent": {
