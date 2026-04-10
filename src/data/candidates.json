@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-09T23:11:28.589922+00:00",
+  "lastUpdated": "2026-04-10T23:05:41.485736+00:00",
   "house": {
     "1": {
       "districtNumber": 1,
@@ -2488,6 +2488,42 @@
           "isIncumbent": false,
           "contactEmail": "dwepperson@rocketmail.com",
           "contactPhone": "(803) 4102771"
+        },
+        {
+          "name": "Adrian A Coard",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-04-10",
+          "ethicsUrl": null,
+          "reportId": "vrems-64-2",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "adrian.coard@gmail.com",
+          "contactPhone": "(803) 8259800"
+        },
+        {
+          "name": "Michele J Demery",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-04-10",
+          "ethicsUrl": null,
+          "reportId": "vrems-64-3",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "mjdemery75@gmail.com",
+          "contactPhone": "(803) 3165442"
+        },
+        {
+          "name": "Jackie K Spann",
+          "party": "Democratic",
+          "status": "filed",
+          "filedDate": "2026-04-10",
+          "ethicsUrl": null,
+          "reportId": "vrems-64-4",
+          "source": "vrems",
+          "isIncumbent": false,
+          "contactEmail": "jsckque1f85@live.com",
+          "contactPhone": "(803) 4047674"
         }
       ],
       "incumbent": {
