@@ -15,24 +15,51 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.VREMS_PAT }}
 
-      - name: Fetch VREMS state.json from GitHub
-        env:
-          GH_TOKEN: ${{ secrets.VREMS_PAT }}
+      - name: Check out the private VREMS monitor repo (read-only deploy key)
+        uses: actions/checkout@v4
+        with:
+          repository: russellteter/sc-vrems-filing-monitor
+          path: vrems-sibling
+          ref: main
+          ssh-key: ${{ secrets.VREMS_DEPLOY_KEY }}
+
+      - name: Confirm VREMS state.json is present and valid JSON
         run: |
-          # Fetch state.json from the VREMS monitor repo
-          gh api repos/russellteter/sc-vrems-filing-monitor/contents/state.json \
-            --jq '.content' | base64 -d > /tmp/vrems-state.json
-          echo "Fetched VREMS state.json ($(wc -c < /tmp/vrems-state.json) bytes)"
+          test -s vrems-sibling/state.json || { echo "::error::vrems-sibling/state.json missing or empty"; exit 1; }
+          python3 -c "import json; json.load(open('vrems-sibling/state.json'))" || { echo "::error::state.json is not valid JSON"; exit 1; }
+          echo "VREMS state.json: $(wc -c < vrems-sibling/state.json) bytes"
 
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
       - name: Generate candidates.json from VREMS data
-        run: python scripts/generate-from-vrems.py --vrems-state /tmp/vrems-state.json
+        run: python scripts/generate-from-vrems.py --vrems-state vrems-sibling/state.json
+
+      - name: Gate on a diff against the last committed data
+        run: |
+          python3 - <<'PY2'
+          import json, subprocess, sys
+          def count(d):
+              n = 0
+              for chamber in ("house", "senate"):
+                  for dist in (d.get(chamber) or {}).values():
+                      n += len(dist.get("candidates", []))
+              return n
+          new = json.load(open("src/data/candidates.json"))
+          try:
+              old = json.loads(subprocess.check_output(["git", "show", "HEAD:src/data/candidates.json"]))
+          except Exception as exc:
+              print(f"::error::could not read last committed candidates.json: {exc}")
+              sys.exit(2)
+          n_new, n_old = count(new), count(old)
+          dist_new, dist_old = len(new.get("house", {})), len(old.get("house", {}))
+          print(f"candidates old={n_old} new={n_new}; house districts old={dist_old} new={dist_new}")
+          if n_new == 0 or n_new < 0.8 * n_old or dist_new < dist_old:
+              print("::error::new candidates.json is empty or shrank by more than 20%; refusing to commit")
+              sys.exit(1)
+          PY2
 
       - name: Commit and push
         run: |
