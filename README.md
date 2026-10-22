@@ -1,5 +1,7 @@
 # Blue Intelligence
 
+> **RETIRED 2026-10-22: the "Update Filing Data" feed.** The owner retired this data feed. The scheduled workflow (`.github/workflows/update-data.yml`) is disabled, the read-only deploy key it used to read the private VREMS repository was removed, and the VREMS_DEPLOY_KEY secret was deleted. The data already in this repository (the candidate list copied from the private VREMS Filing Monitor repository) is kept as it was on 2026-10-22 and will no longer refresh. To bring the feed back: create a new read-only deploy key on `sc-vrems-filing-monitor`, store the private half as a repository secret named VREMS_DEPLOY_KEY, and re-enable the workflow.
+
 National 50-state election intelligence demo platform for Democratic campaigns.
 
 ![Districts](https://img.shields.io/badge/Districts-876_total-4739E7?style=for-the-badge) ![States](https://img.shields.io/badge/States-5_live-059669?style=for-the-badge) ![Lighthouse](https://img.shields.io/badge/Lighthouse-100%2F94%2F96%2F100-4739E7?style=for-the-badge)
